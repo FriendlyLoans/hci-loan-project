@@ -38,18 +38,17 @@ const App = () => {
             alignContent="center"
             justifyContent="space-between"
             height="20"
+            px="2rem"
           >
             <Heading color="yellow" bg="blue" my="auto">
               Friendly Loans
             </Heading>
             <Button
-              outlineColor="lightpurple"
+              outline='1px solid black'
               textColor="black"
-              w="24%"
               my="auto"
-              height="10"
               bg="cyan"
-              _hover={{ bg: 'lightpurple' }}
+              _hover={{ bg: 'yellow' }}
             >
               Login/Create Account
             </Button>

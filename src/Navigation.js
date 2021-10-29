@@ -1,4 +1,4 @@
-import { Flex, Link, Button } from '@chakra-ui/react'
+import { Flex, Link, Button, Box } from '@chakra-ui/react'
 import { Link as RouteLink } from 'react-router-dom'
 import React from 'react'
 
@@ -8,33 +8,29 @@ export const Navigation = () => {
       flexDirection="row"
       bg="blue"
       color="darkpurple"
-      justifyContent="space-evenly"
     >
-      <Button as={RouteLink} to="/" ml="3rem" borderBottomRadius="0" bg="cyan">
+      <Button borderRadius='1em' _hover={{ background: 'yellow' }} border='1px solid black' flex='1' as={RouteLink} to="/"  borderBottomRadius="0" bg="cyan">
         Home
       </Button>
-      <Button
+      <Button borderRadius='1rem' _hover={{ background: 'yellow' }} border='1px solid black' flex='1'
         as={RouteLink}
         to="/account"
-        ml="3rem"
         borderBottomRadius="0"
         bg="cyan"
       >
         Account
       </Button>
-      <Button
+      <Button borderRadius='1rem' _hover={{ background: 'yellow' }} border='1px solid black' flex='1'
         as={RouteLink}
         to="/contact"
-        ml="3rem"
         borderBottomRadius="0"
         bg="cyan"
       >
         Contact
       </Button>
-      <Button
+      <Button borderRadius='1rem' _hover={{ background: 'yellow' }} border='1px solid black' flex='1'
         as={RouteLink}
         to="/faq"
-        ml="3rem"
         borderBottomRadius="0"
         bg="cyan"
       >
