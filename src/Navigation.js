@@ -40,15 +40,6 @@ export const Navigation = () => {
       >
         FAQ
       </Button>
-      <Button
-        as={RouteLink}
-        to="/about"
-        ml="3rem"
-        borderBottomRadius="0"
-        bg="cyan"
-      >
-        About
-      </Button>
     </Flex>
   )
 }

@@ -58,13 +58,12 @@ const App = () => {
 
           <Divider orientation="horizontal" />
 
-          <Box mx="auto">
+          <Box mx="auto" id="main">
             <Switch>
-              <Route path="/account">Account</Route>
-              <Route path="/contact">Contact</Route>
-              <Route path="/faq">FAQ</Route>
-              <Route path="/">Home</Route>
-              <Route path="/about">About</Route>
+              <Route path="/account" component="" />
+              <Route path="/contact" component="" />
+              <Route path="/faq" component="" />
+              <Route path="/" component="" />
             </Switch>
           </Box>
         </Flex>
