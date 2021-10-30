@@ -20,7 +20,7 @@ import {
 import React from 'react'
 import { Link as RouteLink } from 'react-router-dom'
 import { Trans } from '@lingui/macro'
-import { History } from './History'
+import { History } from './AccHistory'
 
 export const AccountPage = () => {
   return (
@@ -41,6 +41,10 @@ export const AccountPage = () => {
         </StatLabel>
         <StatNumber>$14503.60</StatNumber>
         <StatHelpText>2018-2019</StatHelpText>
+        <Text>
+          <Trans>Next payment of (amount) due (date)</Trans>
+        </Text>
+
         {History}
       </Stat>
     </Flex>

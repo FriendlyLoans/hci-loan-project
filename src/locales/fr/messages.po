@@ -70,6 +70,10 @@ msgstr "Je ne sais pas, copyright 1990 ou quelque chose comme ça."
 msgid "Login/Create Account"
 msgstr "Connexion/Création de compte"
 
+#: src/AccountPage.js:45
+msgid "Next payment of (amount) due (date)"
+msgstr "Prochain paiement de (montant) dû (date)"
+
 #: src/AccountPage.js:32
 msgid "Pay Here"
 msgstr "Payez ici"
@@ -82,11 +86,11 @@ msgstr "Payer avec les informations existantes"
 msgid "Payment Page"
 msgstr "Page des paiements"
 
-#: src/History.js:42
+#: src/AccHistory.js:42
 msgid "Payment of $10,000 made"
 msgstr "Paiement de 10 000 $ effectué"
 
-#: src/History.js:29
+#: src/AccHistory.js:29
 msgid "Payment of $5,000 made"
 msgstr "Paiement de 5 000 $ effectué"
 
