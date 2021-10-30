@@ -21,6 +21,10 @@ msgstr ""
 msgid "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
 msgstr ""
 
+#: src/FaqPage.js:21
+msgid "<0>Question 1</0>"
+msgstr ""
+
 #: src/Navigation.js:31
 msgid "Account"
 msgstr "Compte"
@@ -45,10 +49,13 @@ msgstr "Confirmer"
 #~ msgid "Contact Page"
 #~ msgstr "Page de contact"
 
-#: src/FaqPage.js:9
 #: src/Navigation.js:43
 msgid "FAQ"
 msgstr "FAQ"
+
+#: src/FaqPage.js:9
+msgid "Frequently Asked Questions"
+msgstr "Foire aux questions"
 
 #: src/Header.js:25
 msgid "Friendly Loans"
@@ -103,8 +110,8 @@ msgstr "Paiement de 5 000 $ effectué"
 #~ msgstr ""
 
 #: src/FaqPage.js:12
-msgid "This is some fresshhhhhh stuff FAQ"
-msgstr ""
+#~ msgid "This is some fresshhhhhh stuff FAQ"
+#~ msgstr ""
 
 #: src/HomePage.js:12
 msgid "This is some fresshhhhhh stuff HOME PAGE"
@@ -121,3 +128,5 @@ msgstr "Bienvenue à Friendly Loans !"
 #: src/Footer.js:15
 msgid "example@example.ca"
 msgstr ""
+
+
