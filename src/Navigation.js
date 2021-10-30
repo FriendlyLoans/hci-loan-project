@@ -36,18 +36,6 @@ export const Navigation = () => {
         border="1px solid black"
         flex="1"
         as={RouteLink}
-        to="/contact"
-        borderBottomRadius="0"
-        bg="cyan"
-      >
-        <Trans>Contact</Trans>
-      </Button>
-      <Button
-        borderRadius="1rem"
-        _hover={{ background: 'yellow' }}
-        border="1px solid black"
-        flex="1"
-        as={RouteLink}
         to="/faq"
         borderBottomRadius="0"
         bg="cyan"

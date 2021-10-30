@@ -40,11 +40,9 @@ const App = () => {
 
             <Switch>
               <Route path="/account" component={AccountPage} />
-              <Route path="/contact" component={ContactPage} />
               <Route path="/faq" component={FaqPage} />
               <Route path="/" component={HomePage} />
             </Switch>
-
             <Footer />
           </Flex>
         </Router>

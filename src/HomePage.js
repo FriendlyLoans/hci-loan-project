@@ -5,7 +5,7 @@ import { Trans } from '@lingui/macro'
 export const HomePage = () => {
   return (
     <Flex minH="30rem" width="100%" flexDirection="column">
-      <Heading>
+      <Heading mx="auto" my="2rem">
         <Trans>Welcome to Friendly Loans!</Trans>
       </Heading>
       <Text m="auto" display="block">
