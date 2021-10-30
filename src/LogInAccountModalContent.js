@@ -29,7 +29,10 @@ export const LogInAccountModalContent = ({
       .string()
       .required(t`Email is required.`)
       .email(t`Must enter a valid email.`),
-    password: yup.string().required(t`Password is required.`),
+    password: yup
+      .string()
+      .required(t`Password is required.`)
+      .min(8, t`Password must be at least 8 characters long.`),
   })
 
   const {
