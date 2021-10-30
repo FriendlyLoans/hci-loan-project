@@ -20,11 +20,10 @@ import { useForm } from 'react-hook-form'
 import { useUser } from './UserContext'
 import * as yup from 'yup'
 import { yupResolver } from '@hookform/resolvers/yup'
-import { t } from '@lingui/macro'
 
 export const LoginButton = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const { login } = useUser()
+  const { login, logout, isLoggedIn } = useUser()
 
   const schema = yup.object({
     email: yup
@@ -62,9 +61,20 @@ export const LoginButton = () => {
         ml="auto"
         bg="themeCyan"
         _hover={{ bg: 'themeYellow' }}
-        onClick={onOpen}
+        onClick={
+          isLoggedIn()
+            ? logout
+            : () => {
+                reset()
+                onOpen()
+              }
+        }
       >
-        <Trans>Login/Create Account</Trans>
+        {isLoggedIn() ? (
+          <Trans>Log out</Trans>
+        ) : (
+          <Trans>Login/Create Account</Trans>
+        )}
       </Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>

@@ -7,24 +7,20 @@ const userReducer = (state, action) => {
   switch (action.type) {
     case 'login': {
       return {
-        user: {
           email: action.email,
           firstName: action.firstName,
           lastName: action.lastName,
           loanNumber: action.loanNumber,
           dateOfBirth: action.dateOfBirth,
-        },
       }
     }
     case 'logout': {
       return {
-        user: {
-          email: null,
-          firstName: null,
-          lastName: null,
-          loanNumber: null,
-          dateOfBirth: null,
-        },
+          email: undefined,
+          firstName: undefined,
+          lastName: undefined,
+          loanNumber: undefined,
+          dateOfBirth: undefined,
       }
     }
     default: {
@@ -35,11 +31,11 @@ const userReducer = (state, action) => {
 
 const UserProvider = ({ children }) => {
   const [state, dispatch] = useReducer(userReducer, {
-    email: null,
-    firstName: null,
-    lastName: null,
-    loanNumber: null,
-    dateOfBirth: null,
+    email: undefined,
+    firstName: undefined,
+    lastName: undefined,
+    loanNumber: undefined,
+    dateOfBirth: undefined,
   })
 
   const value = { state, dispatch }
@@ -53,12 +49,15 @@ const useUser = () => {
   }
 
   const login = (userDetails) => {
-    dispatch({ type: 'login', userDetails })
+    dispatch({ type: 'login', ...userDetails  })
   }
   const logout = () => {
     dispatch({ type: 'logout' })
   }
-  return { userState: state, login, logout }
+  const isLoggedIn = () => {
+    return !!state?.email
+  }
+  return { userState: state, login, logout, isLoggedIn }
 }
 
 export { UserProvider, useUser }

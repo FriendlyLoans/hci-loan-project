@@ -5,8 +5,13 @@ import { LoginButton } from './LoginButton'
 import { Navigation } from './Navigation'
 import { Trans } from '@lingui/macro'
 import { LocaleSwitcher } from './LocaleSwitcher'
+import { useUser } from './UserContext'
 
 export const Header = () => {
+  const {userState, isLoggedIn} = useUser()
+
+  const welcomeString = `Hi, ${userState?.firstName} ${userState?.lastName}`
+
   return (
     <>
       <Flex
@@ -27,6 +32,8 @@ export const Header = () => {
 
           <LoginButton />
         </Flex>
+
+        {isLoggedIn() && <Text ml='auto' mt='1rem' color='themeYellow'>{welcomeString}</Text>}
       </Flex>
 
       <Navigation />
