@@ -22,19 +22,19 @@ msgid "Account Page"
 msgstr "Account Page"
 
 #: src/Navigation.js:43
-msgid "Contact"
-msgstr "Contact"
+#~ msgid "Contact"
+#~ msgstr "Contact"
 
 #: src/ContactPage.js:9
-msgid "Contact Page"
-msgstr "Contact Page"
+#~ msgid "Contact Page"
+#~ msgstr "Contact Page"
 
 #: src/FaqPage.js:9
-#: src/Navigation.js:55
+#: src/Navigation.js:43
 msgid "FAQ"
 msgstr "FAQ"
 
-#: src/Header.js:26
+#: src/Header.js:25
 msgid "Friendly Loans"
 msgstr "Friendly Loans"
 
@@ -42,17 +42,29 @@ msgstr "Friendly Loans"
 msgid "Home"
 msgstr "Home"
 
+#: src/Footer.js:9
+msgid "I dont know copyright 1990 or something"
+msgstr "I dont know copyright 1990 or something"
+
 #: src/LoginButton.js:15
 msgid "Login/Create Account"
 msgstr "Login/Create Account"
+
+#: src/PaymentPage.js:9
+msgid "Payment Page"
+msgstr "Payment Page"
+
+#: src/PaymentPage.js:12
+msgid "This is is some sad stuff, now pay up"
+msgstr "This is is some sad stuff, now pay up"
 
 #: src/AccountPage.js:12
 msgid "This is some fresshhhhhh stuff"
 msgstr "This is some fresshhhhhh stuff"
 
 #: src/ContactPage.js:12
-msgid "This is some fresshhhhhh stuff CONTACT PAGE"
-msgstr "This is some fresshhhhhh stuff CONTACT PAGE"
+#~ msgid "This is some fresshhhhhh stuff CONTACT PAGE"
+#~ msgstr "This is some fresshhhhhh stuff CONTACT PAGE"
 
 #: src/FaqPage.js:12
 msgid "This is some fresshhhhhh stuff FAQ"
@@ -65,7 +77,3 @@ msgstr "This is some fresshhhhhh stuff HOME PAGE"
 #: src/HomePage.js:9
 msgid "Welcome to Friendly Loans!"
 msgstr "Welcome to Friendly Loans!"
-
-#: src/Footer.js:9
-msgid "blabla bla idk copyright 1990 or somthing"
-msgstr "blabla bla idk copyright 1990 or somthing"

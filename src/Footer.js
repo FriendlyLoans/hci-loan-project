@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <Flex w="100%" bg="blue" minH="5vh" textColor="yellow" mt="auto">
       <Text m="auto">
-        <Trans>blabla bla idk copyright 1990 or somthing</Trans>
+        <Trans>I dont know copyright 1990 or something</Trans>
       </Text>
     </Flex>
   )
