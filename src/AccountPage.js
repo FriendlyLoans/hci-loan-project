@@ -1,7 +1,20 @@
-import { Flex, Text, Heading, Button } from '@chakra-ui/react'
+import {
+  Flex,
+  Text,
+  Heading,
+  Button,
+  Divider,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+  Box,
+} from '@chakra-ui/react'
 import React from 'react'
 import { Link as RouteLink } from 'react-router-dom'
 import { Trans } from '@lingui/macro'
+import { History } from './History'
 
 export const AccountPage = () => {
   return (
@@ -12,9 +25,11 @@ export const AccountPage = () => {
       <Button mx="10rem" as={RouteLink} to="/payment">
         <Trans>Pay Here</Trans>
       </Button>
-      <Text m="auto" display="block">
-        <Trans>This is some fresshhhhhh stuff</Trans>
+      <Text mx="auto" display="block" my="1rem">
+        <Trans>History</Trans>
       </Text>
+      <Divider />
+      {History}
     </Flex>
   )
 }

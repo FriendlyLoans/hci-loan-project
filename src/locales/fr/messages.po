@@ -13,11 +13,19 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/Footer.js:12
+msgid "1800-IDK-SOME"
+msgstr ""
+
+#: src/LoginButton.js:77
+msgid "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
+msgstr ""
+
 #: src/Navigation.js:31
 msgid "Account"
 msgstr "Compte"
 
-#: src/AccountPage.js:9
+#: src/AccountPage.js:23
 msgid "Account Page"
 msgstr "Page du compte"
 
@@ -38,6 +46,10 @@ msgstr ""
 msgid "Friendly Loans"
 msgstr ""
 
+#: src/AccountPage.js:29
+msgid "History"
+msgstr "Histoire"
+
 #: src/Navigation.js:19
 msgid "Home"
 msgstr "Accueil"
@@ -46,11 +58,11 @@ msgstr "Accueil"
 msgid "I dont know copyright 1990 or something"
 msgstr "Je ne sais pas, copyright 1990 ou quelque chose comme ça."
 
-#: src/LoginButton.js:15
+#: src/LoginButton.js:67
 msgid "Login/Create Account"
 msgstr "Connexion/Création de compte"
 
-#: src/AccountPage.js:12
+#: src/AccountPage.js:26
 msgid "Pay Here"
 msgstr "Payez ici"
 
@@ -58,13 +70,18 @@ msgstr "Payez ici"
 msgid "Payment Page"
 msgstr "Page des paiements"
 
-#: src/PaymentPage.js:12
-msgid "This is is some sad stuff, now pay up"
-msgstr ""
+#: src/History.js:42
+msgid "Payment of $10,000 made"
+msgstr "Paiement de 10 000 $ effectué"
+
+#: src/History.js:29
+msgid "Payment of $5,000 made"
+msgstr "Paiement de 5 000 $ effectué"
+
 
 #: src/AccountPage.js:15
-msgid "This is some fresshhhhhh stuff"
-msgstr ""
+#~ msgid "This is some fresshhhhhh stuff"
+#~ msgstr ""
 
 #: src/ContactPage.js:12
 #~ msgid "This is some fresshhhhhh stuff CONTACT PAGE"
@@ -81,3 +98,7 @@ msgstr ""
 #: src/HomePage.js:9
 msgid "Welcome to Friendly Loans!"
 msgstr "Bienvenue à Friendly Loans !"
+
+#: src/Footer.js:15
+msgid "example@example.ca"
+msgstr ""
