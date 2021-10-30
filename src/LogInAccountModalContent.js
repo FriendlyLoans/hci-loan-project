@@ -27,8 +27,8 @@ export const LogInAccountModalContent = ({
   const schema = yup.object({
     email: yup
       .string()
-      .email(t`Must enter a valid email.`)
-      .required(t`Email is required.`),
+      .required(t`Email is required.`)
+      .email(t`Must enter a valid email.`),
     password: yup.string().required(t`Password is required.`),
   })
 
