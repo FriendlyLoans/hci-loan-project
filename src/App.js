@@ -7,7 +7,6 @@ import {
   Heading,
   Text,
   Box,
-  Link,
   Button,
 } from '@chakra-ui/react'
 
@@ -26,7 +25,7 @@ const App = () => {
     <ChakraProvider theme={theme}>
       <Router>
         <Flex
-          maxW={{ sm: 540, md: 768, lg: 960, xl: 1200 }}
+          maxW={{ sm: '100%', md: '48rem', lg: '62rem', xl: '80rem', '2xl': '96rem' }}
           mx="auto"
           w="100%"
           bg="white"
