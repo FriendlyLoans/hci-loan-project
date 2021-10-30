@@ -25,9 +25,17 @@ msgstr "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Passwo
 msgid "Account"
 msgstr "Account"
 
-#: src/AccountPage.js:23
+#: src/AccountPage.js:29
 msgid "Account Page"
 msgstr "Account Page"
+
+#: src/PaymentPage.js:32
+msgid "Add card/Bank inforamtion"
+msgstr "Add card/Bank inforamtion"
+
+#: src/PaymentConf.js:29
+msgid "Confirm"
+msgstr "Confirm"
 
 #: src/Navigation.js:43
 #~ msgid "Contact"
@@ -46,7 +54,7 @@ msgstr "FAQ"
 msgid "Friendly Loans"
 msgstr "Friendly Loans"
 
-#: src/AccountPage.js:29
+#: src/AccountPage.js:35
 msgid "History"
 msgstr "History"
 
@@ -62,11 +70,15 @@ msgstr "I dont know copyright 1990 or something"
 msgid "Login/Create Account"
 msgstr "Login/Create Account"
 
-#: src/AccountPage.js:26
+#: src/AccountPage.js:32
 msgid "Pay Here"
 msgstr "Pay Here"
 
-#: src/PaymentPage.js:9
+#: src/PaymentPage.js:25
+msgid "Pay with existing inforamtion"
+msgstr "Pay with existing inforamtion"
+
+#: src/PaymentPage.js:19
 msgid "Payment Page"
 msgstr "Payment Page"
 
@@ -79,8 +91,8 @@ msgid "Payment of $5,000 made"
 msgstr "Payment of $5,000 made"
 
 #: src/PaymentPage.js:12
-msgid "This is is some sad stuff, now pay up"
-msgstr "This is is some sad stuff, now pay up"
+#~ msgid "This is is some sad stuff, now pay up"
+#~ msgstr "This is is some sad stuff, now pay up"
 
 #: src/AccountPage.js:15
 #~ msgid "This is some fresshhhhhh stuff"
@@ -97,6 +109,10 @@ msgstr "This is some fresshhhhhh stuff FAQ"
 #: src/HomePage.js:12
 msgid "This is some fresshhhhhh stuff HOME PAGE"
 msgstr "This is some fresshhhhhh stuff HOME PAGE"
+
+#: src/AccountPage.js:40
+msgid "Total amount due"
+msgstr "Total amount due"
 
 #: src/HomePage.js:9
 msgid "Welcome to Friendly Loans!"

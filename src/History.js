@@ -20,7 +20,7 @@ export const History = (
       <h2>
         <AccordionButton>
           <Box flex="1" textAlign="left">
-            27-7-2018
+            27-12-2018
           </Box>
           <AccordionIcon />
         </AccordionButton>

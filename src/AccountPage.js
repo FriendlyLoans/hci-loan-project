@@ -10,6 +10,12 @@ import {
   AccordionPanel,
   AccordionIcon,
   Box,
+  Stat,
+  StatLabel,
+  StatNumber,
+  StatHelpText,
+  StatArrow,
+  StatGroup,
 } from '@chakra-ui/react'
 import React from 'react'
 import { Link as RouteLink } from 'react-router-dom'
@@ -29,7 +35,14 @@ export const AccountPage = () => {
         <Trans>History</Trans>
       </Text>
       <Divider />
-      {History}
+      <Stat>
+        <StatLabel>
+          <Trans>Total amount due</Trans>
+        </StatLabel>
+        <StatNumber>$14503.60</StatNumber>
+        <StatHelpText>2018-2019</StatHelpText>
+        {History}
+      </Stat>
     </Flex>
   )
 }
