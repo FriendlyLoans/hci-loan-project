@@ -8,6 +8,7 @@ import { HomePage } from './HomePage'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { theme } from './theme'
+import { PaymentPage } from './PaymentPage'
 
 import { i18n } from '@lingui/core'
 import { I18nProvider } from '@lingui/react'
@@ -41,6 +42,7 @@ const App = () => {
               <Route path="/account" component={AccountPage} />
               <Route path="/faq" component={FaqPage} />
               <Route path="/" component={HomePage} />
+              <Route path="/payment" component={PaymentPage} />
             </Switch>
             <Footer />
           </Flex>
