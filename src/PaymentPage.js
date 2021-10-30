@@ -39,6 +39,7 @@ export const PaymentPage = () => {
             setCurrentPaymentState={setCurrentPaymentState}
           />
           <PaymentSelect currentPaymentState={currentPaymentState} />
+          <Confirm />
         </Box>
       </Flex>
     </Flex>
