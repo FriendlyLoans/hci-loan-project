@@ -20,9 +20,9 @@ i18n.activate('en')
 
 const App = () => {
   return (
-    <I18nProvider i18n={i18n}>
+    <UserProvider>
       <ChakraProvider theme={theme}>
-        <UserProvider>
+        <I18nProvider i18n={i18n}>
           <Router>
             <Flex bg="gray.100">
               <Flex
@@ -45,15 +45,15 @@ const App = () => {
                   <Route path="/account" component={AccountPage} />
                   <Route path="/faq" component={FaqPage} />
                   <Route path="/payment" component={PaymentPage} />
-              <Route path="/" component={HomePage} />
+                  <Route path="/" component={HomePage} />
                 </Switch>
                 <Footer />
               </Flex>
             </Flex>
           </Router>
-        </UserProvider>
+        </I18nProvider>
       </ChakraProvider>
-    </I18nProvider>
+    </UserProvider>
   )
 }
 
