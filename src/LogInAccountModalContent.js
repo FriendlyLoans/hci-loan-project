@@ -52,7 +52,7 @@ export const LogInAccountModalContent = ({
   }
 
   return (
-    <ModalContent>
+    <>
       <ModalHeader>Sign In</ModalHeader>
       <ModalCloseButton />
       <form onSubmit={handleSubmit(loginSubmit)}>
@@ -107,6 +107,6 @@ export const LogInAccountModalContent = ({
           </Button>
         </ModalFooter>
       </form>
-    </ModalContent>
+    </>
   )
 }

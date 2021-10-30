@@ -70,7 +70,7 @@ export const RegisterAccountModalContent = ({
   }
 
   return (
-    <ModalContent>
+    <>
       <ModalHeader>Register</ModalHeader>
       <ModalCloseButton />
       <form onSubmit={handleSubmit(registerSubmit)}>
@@ -157,6 +157,6 @@ export const RegisterAccountModalContent = ({
           </Button>
         </ModalFooter>
       </form>
-    </ModalContent>
+    </>
   )
 }
