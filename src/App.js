@@ -1,29 +1,14 @@
 import React from 'react'
 
-import {
-  ChakraProvider,
-  Divider,
-  Flex,
-  Heading,
-  Text,
-  Box,
-  Button,
-} from '@chakra-ui/react'
+import { ChakraProvider, Flex } from '@chakra-ui/react'
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link as RouteLink,
-} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import { theme } from './theme'
-import { Navigation } from './Navigation'
 import { AccountPage } from './AccountPage'
 import { ContactPage } from './ContactPage'
 import { FaqPage } from './FaqPage'
 import { HomePage } from './HomePage'
-import { LoginButton } from './LoginButton'
 import { Header } from './Header'
 import { Footer } from './Footer'
 
