@@ -50,6 +50,10 @@ msgstr "Je ne sais pas, copyright 1990 ou quelque chose comme ça."
 msgid "Login/Create Account"
 msgstr "Connexion/Création de compte"
 
+#: src/AccountPage.js:12
+msgid "Pay Here"
+msgstr "Payez ici"
+
 #: src/PaymentPage.js:9
 msgid "Payment Page"
 msgstr "Page des paiements"
@@ -58,7 +62,7 @@ msgstr "Page des paiements"
 msgid "This is is some sad stuff, now pay up"
 msgstr ""
 
-#: src/AccountPage.js:12
+#: src/AccountPage.js:15
 msgid "This is some fresshhhhhh stuff"
 msgstr ""
 
