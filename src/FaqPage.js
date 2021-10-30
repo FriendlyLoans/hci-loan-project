@@ -5,7 +5,7 @@ import { Trans } from '@lingui/macro'
 export const FaqPage = () => {
   return (
     <Flex minH="30rem" width="100%" flexDirection="column">
-      <Heading>
+      <Heading mx="auto" my="2rem">
         <Trans>FAQ</Trans>
       </Heading>
       <Text m="auto" display="block">
