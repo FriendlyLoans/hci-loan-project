@@ -18,7 +18,7 @@ export const FaqPage = () => {
             <h2>
               <AccordionButton _expanded={{ bg: "#E0FBFC", color: "black" }}>
                 <Box flex="1" textAlign="left" padding="1.5rem">
-                  <Text fontSize="1.5rem">Question 1</Text>
+                  <Trans><Text fontSize="1.5rem">Question 1</Text></Trans>
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
