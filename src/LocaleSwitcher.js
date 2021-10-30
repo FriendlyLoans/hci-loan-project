@@ -1,6 +1,6 @@
 import React from 'react'
 import { i18n } from '@lingui/core'
-import { Button, Text } from '@chakra-ui/react'
+import { Text, useTheme } from '@chakra-ui/react'
 import { useLingui } from '@lingui/react'
 import { LanguageIcon } from './LanguageIcon'
 
@@ -17,6 +17,7 @@ const dynamicActivate = async (locale) => {
 
 export const LocaleSwitcher = ({ ...props }) => {
   const { i18n } = useLingui()
+  const theme = useTheme()
 
   const localeSwitcherText = i18n.locale === 'en' ? locales.fr : locales.en
 
@@ -34,7 +35,7 @@ export const LocaleSwitcher = ({ ...props }) => {
       borderRadius="md"
       padding="0.25rem"
       _hover={{
-        border: '1px solid themeYellow',
+        border: `1px solid ${theme.colors.themeYellow}`,
       }}
     >
       {localeSwitcherText} <LanguageIcon />
