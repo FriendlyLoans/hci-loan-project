@@ -1,4 +1,4 @@
-import { Flex, Text, Heading } from '@chakra-ui/react'
+import { Flex, Text, Heading, Box } from '@chakra-ui/react'
 import React from 'react'
 import { Trans } from '@lingui/macro'
 
@@ -8,8 +8,16 @@ export const HomePage = () => {
       <Heading mx="auto" my="2rem">
         <Trans>Welcome to Friendly Loans!</Trans>
       </Heading>
-      <Text m="auto" display="block">
-        <Trans>This is some fresshhhhhh stuff HOME PAGE</Trans>
+      <Text mx="auto" my="2rem" display="block" fontSize="25px">
+        <Trans>Why Friendly Loans?</Trans>
+      </Text>
+
+      <Text mx="auto" fontSize="1rem">
+      Friendly Loans is a service for all students to access their student loans in Nova Scotia.
+      </Text>
+
+      <Text mx="auto">
+        <Trans>Canada Students loans are managed by the  <Text as="u" _hover={{color:"teal"}}> <a href="https://www.csnpe-nslsc.canada.ca/en/home" >National Student Loans Service Centre (NSLSC). </a> </Text> </Trans>
       </Text>
     </Flex>
   )
