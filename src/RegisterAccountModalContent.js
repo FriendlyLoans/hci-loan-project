@@ -28,9 +28,26 @@ export const RegisterAccountModalContent = ({
   const schema = yup.object({
     email: yup
       .string()
-      .email(t`Must enter a valid email.`)
-      .required(t`Email is required.`),
-    password: yup.string().required(t`Password is required.`),
+      .required(t`Email is required.`)
+      .email(t`Must enter a valid email.`),
+    firstName: yup.string().required(t`First name is required.`),
+    lastName: yup.string().required(t`Last name is required.`),
+    accountNumber: yup
+      .string()
+      .required(t`Account number is required.`)
+      .matches(/^[0-9]{12}$/, {
+        message: t`Account numbers consist of exactly 12 numbers.`,
+        excludeEmptyString: true,
+      }),
+    password: yup
+      .string()
+      .required(t`Password is required.`)
+      .min(8, t`Passwords must be at least 8 characters long.`)
+      .max(24, t`Passwords can be at most 24 characters long.`)
+      .matches(/^[a-zA-Z0-9 !"#$%&'()*+,\-./:;<=>?@\[\\\]^_`{|}~]$/, {
+        message: t`Unacceptable characters used.`,
+        excludeEmptyString: true,
+      }),
   })
 
   const {
@@ -53,7 +70,7 @@ export const RegisterAccountModalContent = ({
   }
 
   return (
-    <ModalContent>
+    <>
       <ModalHeader>Register</ModalHeader>
       <ModalCloseButton />
       <form onSubmit={handleSubmit(registerSubmit)}>
@@ -140,6 +157,6 @@ export const RegisterAccountModalContent = ({
           </Button>
         </ModalFooter>
       </form>
-    </ModalContent>
+    </>
   )
 }

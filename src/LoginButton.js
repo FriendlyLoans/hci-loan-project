@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
-import { Button, Modal, ModalOverlay, useDisclosure } from '@chakra-ui/react'
+import {
+  Button,
+  Modal,
+  ModalContent,
+  ModalOverlay,
+  useDisclosure,
+} from '@chakra-ui/react'
 import { Trans, t } from '@lingui/macro'
 import { useUser } from './UserContext'
 import { RegisterAccountModalContent } from './RegisterAccountModalContent'
@@ -38,20 +44,23 @@ export const LoginButton = () => {
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        {currentModalState === 'login' ? (
-          <LogInAccountModalContent
-            switchToRegisterModal={() => {
-              setCurrentModalState('register')
-            }}
-          />
-        ) : (
-          <RegisterAccountModalContent
-            switchToLogInModal={() => {
-              setCurrentModalState('login')
-            }}
-            onClose={onClose}
-          />
-        )}
+        <ModalContent>
+          {currentModalState === 'login' ? (
+            <LogInAccountModalContent
+              switchToRegisterModal={() => {
+                setCurrentModalState('register')
+              }}
+              onClose={onClose}
+            />
+          ) : (
+            <RegisterAccountModalContent
+              switchToLogInModal={() => {
+                setCurrentModalState('login')
+              }}
+              onClose={onClose}
+            />
+          )}
+        </ModalContent>
       </Modal>
     </>
   )
