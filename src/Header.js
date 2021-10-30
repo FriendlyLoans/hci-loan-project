@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <>
       <Flex
-        bg="blue"
+        bg="themeBlue"
         alignContent="center"
         px="2rem"
         pb="2rem"
@@ -21,7 +21,7 @@ export const Header = () => {
         </Flex>
 
         <Flex flexDirection="row">
-          <Heading color="yellow" bg="blue" my="auto">
+          <Heading color="themeYellow" bg="themeBlue" my="auto">
             <Trans>Friendly Loans</Trans>
           </Heading>
 

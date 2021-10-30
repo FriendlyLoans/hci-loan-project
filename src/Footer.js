@@ -4,7 +4,7 @@ import { Trans } from '@lingui/macro'
 
 export const Footer = () => {
   return (
-    <Flex w="100%" bg="blue" minH="5vh" textColor="yellow" mt="auto">
+    <Flex w="100%" bg="themeBlue" minH="5vh" textColor="themeYellow" mt="auto">
       <Text m="auto">
         <Trans>blabla bla idk copyright 1990 or somthing</Trans>
       </Text>

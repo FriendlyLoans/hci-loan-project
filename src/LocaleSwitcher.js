@@ -20,12 +20,10 @@ export const LocaleSwitcher = ({ ...props }) => {
 
   const localeSwitcherText = i18n.locale === 'en' ? locales.fr : locales.en
 
-  console.log(props)
-
   return (
     <Text
       {...props}
-      color="yellow"
+      color="themeYellow"
       as="button"
       fontWeight="bold"
       my="1rem"
@@ -36,7 +34,7 @@ export const LocaleSwitcher = ({ ...props }) => {
       borderRadius="md"
       padding="0.25rem"
       _hover={{
-        border: '1px solid yellow',
+        border: '1px solid themeYellow',
       }}
     >
       {localeSwitcherText} <LanguageIcon />
