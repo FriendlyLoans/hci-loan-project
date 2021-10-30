@@ -1,13 +1,13 @@
-import { Flex, Link, Button } from '@chakra-ui/react'
-import { Link as RouteLink } from 'react-router-dom'
+import { Flex, Link, Button, Text, Heading } from '@chakra-ui/react'
 import React from 'react'
-;<Flex
-  flexDirection="row"
-  bg="blue"
-  color="darkpurple"
-  justifyContent="space-evenly"
->
-  <Button ml="3rem" bg="cyan">
-    payment
-  </Button>
-</Flex>
+
+export const AccountPage = () => {
+  return (
+    <Flex minH="30rem" width="100%" flexDirection="column">
+      <Heading>Account Page</Heading>
+      <Text m="auto" display="block">
+        This is some fresshhhhhh stuff
+      </Text>
+    </Flex>
+  )
+}

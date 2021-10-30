@@ -19,6 +19,10 @@ import {
 
 import { theme } from './theme'
 import { Navigation } from './Navigation'
+import { AccountPage } from './AccountPage'
+import { ContactPage } from './ContactPage'
+import { FaqPage } from './FaqPage'
+import { HomePage } from './HomePage'
 
 const App = () => {
   return (
@@ -38,13 +42,7 @@ const App = () => {
           minH="100vh"
           flexDirection="column"
         >
-          <Flex
-            bg="blue"
-            alignContent="center"
-            justifyContent="space-between"
-            height="20"
-            px="2rem"
-          >
+          <Flex bg="blue" alignContent="center" p="2rem">
             <Heading color="yellow" bg="blue" my="auto">
               Friendly Loans
             </Heading>
@@ -52,24 +50,25 @@ const App = () => {
               outline="1px solid black"
               textColor="black"
               my="auto"
+              ml="auto"
               bg="cyan"
               _hover={{ bg: 'yellow' }}
             >
               Login/Create Account
             </Button>
           </Flex>
+
           <Navigation />
 
           <Divider orientation="horizontal" />
 
-          <Box mx="auto" id="main">
-            <Switch>
-              <Route path="/account" component="" />
-              <Route path="/contact" component="" />
-              <Route path="/faq" component="" />
-              <Route path="/" component="" />
-            </Switch>
-          </Box>
+          <Switch>
+            <Route path="/account" component={AccountPage} />
+            <Route path="/contact" component={ContactPage} />
+            <Route path="/faq" component={FaqPage} />
+            <Route path="/" component={HomePage} />
+          </Switch>
+
           <Flex w="100%" bg="blue" minH="5vh" textColor="yellow" mt="auto">
             <Text m="auto">blabla bla idk copyright 1990 or somthing</Text>
           </Flex>
