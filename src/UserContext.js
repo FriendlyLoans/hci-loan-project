@@ -7,20 +7,20 @@ const userReducer = (state, action) => {
   switch (action.type) {
     case 'login': {
       return {
-          email: action.email,
-          firstName: action.firstName,
-          lastName: action.lastName,
-          loanNumber: action.loanNumber,
-          dateOfBirth: action.dateOfBirth,
+        email: action.email,
+        firstName: action.firstName,
+        lastName: action.lastName,
+        loanNumber: action.loanNumber,
+        dateOfBirth: action.dateOfBirth,
       }
     }
     case 'logout': {
       return {
-          email: undefined,
-          firstName: undefined,
-          lastName: undefined,
-          loanNumber: undefined,
-          dateOfBirth: undefined,
+        email: undefined,
+        firstName: undefined,
+        lastName: undefined,
+        loanNumber: undefined,
+        dateOfBirth: undefined,
       }
     }
     default: {
@@ -49,7 +49,7 @@ const useUser = () => {
   }
 
   const login = (userDetails) => {
-    dispatch({ type: 'login', ...userDetails  })
+    dispatch({ type: 'login', ...userDetails })
   }
   const logout = () => {
     dispatch({ type: 'logout' })

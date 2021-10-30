@@ -17,11 +17,11 @@ msgstr ""
 msgid "1800-IDK-SOME"
 msgstr "1800-IDK-SOME"
 
-#: src/LoginButton.js:77
+#: src/LoginButton.js:87
 msgid "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
 msgstr "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
 
-#: src/FaqPage.js:21
+#: src/FaqPage.js:27
 msgid "<0>Question 1</0>"
 msgstr "<0>Question 1</0>"
 
@@ -33,11 +33,27 @@ msgstr "Account"
 msgid "Account Page"
 msgstr "Account Page"
 
-#: src/PaymentPage.js:32
-msgid "Add card/Bank inforamtion"
-msgstr "Add card/Bank inforamtion"
+#: src/Payment.js:33
+msgid "Account number"
+msgstr "Account number"
 
-#: src/PaymentConf.js:29
+#: src/PaymentPage.js:35
+msgid "Add Credit/Bank information"
+msgstr "Add Credit/Bank information"
+
+#: src/PaymentPage.js:32
+#~ msgid "Add card/Bank inforamtion"
+#~ msgstr "Add card/Bank inforamtion"
+
+#: src/PickMethod.js:32
+msgid "Bank"
+msgstr "Bank"
+
+#: src/Payment.js:22
+msgid "Card number"
+msgstr "Card number"
+
+#: src/PaymentConf.js:8
 msgid "Confirm"
 msgstr "Confirm"
 
@@ -49,15 +65,19 @@ msgstr "Confirm"
 #~ msgid "Contact Page"
 #~ msgstr "Contact Page"
 
+#: src/PickMethod.js:29
+msgid "Credit/Debit"
+msgstr "Credit/Debit"
+
 #: src/Navigation.js:43
 msgid "FAQ"
 msgstr "FAQ"
 
-#: src/FaqPage.js:9
+#: src/FaqPage.js:19
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
 
-#: src/Header.js:25
+#: src/Header.js:30
 msgid "Friendly Loans"
 msgstr "Friendly Loans"
 
@@ -73,9 +93,21 @@ msgstr "Home"
 msgid "I dont know copyright 1990 or something"
 msgstr "I dont know copyright 1990 or something"
 
-#: src/LoginButton.js:67
+#: src/Payment.js:32
+msgid "Institution number"
+msgstr "Institution number"
+
+#: src/LoginButton.js:74
+msgid "Log out"
+msgstr "Log out"
+
+#: src/LoginButton.js:76
 msgid "Login/Create Account"
 msgstr "Login/Create Account"
+
+#: src/Payment.js:23
+msgid "Name on card"
+msgstr "Name on card"
 
 #: src/AccountPage.js:45
 msgid "Next payment of (amount) due (date)"
@@ -86,10 +118,14 @@ msgid "Pay Here"
 msgstr "Pay Here"
 
 #: src/PaymentPage.js:25
-msgid "Pay with existing inforamtion"
-msgstr "Pay with existing inforamtion"
+#~ msgid "Pay with existing inforamtion"
+#~ msgstr "Pay with existing inforamtion"
 
-#: src/PaymentPage.js:19
+#: src/PaymentPage.js:28
+msgid "Pay with existing information"
+msgstr "Pay with existing information"
+
+#: src/PaymentPage.js:23
 msgid "Payment Page"
 msgstr "Payment Page"
 
@@ -124,6 +160,10 @@ msgstr "This is some fresshhhhhh stuff HOME PAGE"
 #: src/AccountPage.js:40
 msgid "Total amount due"
 msgstr "Total amount due"
+
+#: src/Payment.js:31
+msgid "Transit number"
+msgstr "Transit number"
 
 #: src/HomePage.js:9
 msgid "Welcome to Friendly Loans!"
