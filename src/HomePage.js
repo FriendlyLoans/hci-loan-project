@@ -1,12 +1,15 @@
 import { Flex, Text, Heading } from '@chakra-ui/react'
 import React from 'react'
+import { Trans } from '@lingui/macro'
 
 export const HomePage = () => {
   return (
     <Flex minH="30rem" width="100%" flexDirection="column">
-      <Heading>Welcome to Friendly Loans!</Heading>
+      <Heading>
+        <Trans>Welcome to Friendly Loans!</Trans>
+      </Heading>
       <Text m="auto" display="block">
-        This is some fresshhhhhh stuff HOME PAGE
+        <Trans>This is some fresshhhhhh stuff HOME PAGE</Trans>
       </Text>
     </Flex>
   )

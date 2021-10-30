@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button } from '@chakra-ui/react'
+import { Trans } from '@lingui/macro'
 
-export function LoginButton() {
+export const LoginButton = () => {
   return (
     <Button
       outline="1px solid black"
@@ -11,7 +12,7 @@ export function LoginButton() {
       bg="cyan"
       _hover={{ bg: 'yellow' }}
     >
-      Login/Create Account
+      <Trans>Login/Create Account</Trans>
     </Button>
   )
 }

@@ -1,18 +1,32 @@
 import React from 'react'
 
-import { Flex, Heading } from '@chakra-ui/react'
+import { Button, Flex, Heading, Text } from '@chakra-ui/react'
 import { LoginButton } from './LoginButton'
 import { Navigation } from './Navigation'
+import { Trans } from '@lingui/macro'
+import { LocaleSwitcher } from './LocaleSwitcher'
 
-export function Header() {
+export const Header = () => {
   return (
     <>
-      <Flex bg="blue" alignContent="center" p="2rem">
-        <Heading color="yellow" bg="blue" my="auto">
-          Friendly Loans
-        </Heading>
+      <Flex
+        bg="blue"
+        alignContent="center"
+        px="2rem"
+        pb="2rem"
+        flexDirection="column"
+      >
+        <Flex w="100%">
+          <LocaleSwitcher ml="auto" />
+        </Flex>
 
-        <LoginButton />
+        <Flex flexDirection="row">
+          <Heading color="yellow" bg="blue" my="auto">
+            <Trans>Friendly Loans</Trans>
+          </Heading>
+
+          <LoginButton />
+        </Flex>
       </Flex>
 
       <Navigation />

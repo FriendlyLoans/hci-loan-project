@@ -1,6 +1,7 @@
 import { Flex, Button } from '@chakra-ui/react'
 import { Link as RouteLink } from 'react-router-dom'
 import React from 'react'
+import { Trans } from '@lingui/macro'
 
 export const Navigation = () => {
   return (
@@ -15,7 +16,7 @@ export const Navigation = () => {
         borderBottomRadius="0"
         bg="cyan"
       >
-        Home
+        <Trans>Home</Trans>
       </Button>
       <Button
         borderRadius="1rem"
@@ -27,7 +28,7 @@ export const Navigation = () => {
         borderBottomRadius="0"
         bg="cyan"
       >
-        Account
+        <Trans>Account</Trans>
       </Button>
       <Button
         borderRadius="1rem"
@@ -39,7 +40,7 @@ export const Navigation = () => {
         borderBottomRadius="0"
         bg="cyan"
       >
-        Contact
+        <Trans>Contact</Trans>
       </Button>
       <Button
         borderRadius="1rem"
@@ -51,7 +52,7 @@ export const Navigation = () => {
         borderBottomRadius="0"
         bg="cyan"
       >
-        FAQ
+        <Trans>FAQ</Trans>
       </Button>
     </Flex>
   )

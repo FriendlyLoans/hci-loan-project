@@ -1,12 +1,15 @@
 import { Flex, Text, Heading } from '@chakra-ui/react'
 import React from 'react'
+import { Trans } from '@lingui/macro'
 
 export const ContactPage = () => {
   return (
     <Flex minH="30rem" width="100%" flexDirection="column">
-      <Heading>Contact Page</Heading>
+      <Heading>
+        <Trans>Contact Page</Trans>
+      </Heading>
       <Text m="auto" display="block">
-        This is some fresshhhhhh stuff CONTACT PAGE
+        <Trans>This is some fresshhhhhh stuff CONTACT PAGE</Trans>
       </Text>
     </Flex>
   )
