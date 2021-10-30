@@ -25,11 +25,17 @@ const App = () => {
     <ChakraProvider theme={theme}>
       <Router>
         <Flex
-          maxW={{ sm: '100%', md: '48rem', lg: '62rem', xl: '80rem', '2xl': '96rem' }}
+          maxW={{
+            sm: '100%',
+            md: '48rem',
+            lg: '62rem',
+            xl: '80rem',
+            '2xl': '96rem',
+          }}
           mx="auto"
           w="100%"
           bg="white"
-          minH="95vh"
+          minH="100vh"
           flexDirection="column"
         >
           <Flex
@@ -43,7 +49,7 @@ const App = () => {
               Friendly Loans
             </Heading>
             <Button
-              outline='1px solid black'
+              outline="1px solid black"
               textColor="black"
               my="auto"
               bg="cyan"
@@ -64,17 +70,9 @@ const App = () => {
               <Route path="/" component="" />
             </Switch>
           </Box>
-        </Flex>
-        <Flex
-          maxW={{ sm: 540, md: 768, lg: 960, xl: 1200 }}
-          mx="auto"
-          w="100%"
-          bg="blue"
-          bg="blue"
-          minH="5vh"
-          textColor="yellow"
-        >
-          <Text m="auto">blabla bla idk copyright 1990 or somthing</Text>
+          <Flex w="100%" bg="blue" minH="5vh" textColor="yellow" mt="auto">
+            <Text m="auto">blabla bla idk copyright 1990 or somthing</Text>
+          </Flex>
         </Flex>
       </Router>
     </ChakraProvider>
