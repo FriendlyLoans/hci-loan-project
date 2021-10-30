@@ -8,6 +8,12 @@ export const Footer = () => {
       <Text m="auto">
         <Trans>I dont know copyright 1990 or something</Trans>
       </Text>
+      <Text m="auto">
+        <Trans>1800-IDK-SOME </Trans>
+      </Text>
+      <Text m="auto">
+        <Trans>example@example.ca </Trans>
+      </Text>
     </Flex>
   )
 }
