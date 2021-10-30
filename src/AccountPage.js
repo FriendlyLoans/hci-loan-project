@@ -36,12 +36,12 @@ export const AccountPage = () => {
       </Text>
       <Divider />
       <Stat>
-        <StatLabel>
+        <StatLabel px="1rem">
           <Trans>Total amount due</Trans>
         </StatLabel>
-        <StatNumber>$14503.60</StatNumber>
-        <StatHelpText>2018-2019</StatHelpText>
-        <Text>
+        <StatNumber px="1rem">$14503.60</StatNumber>
+        <StatHelpText px="1rem">2018-2019</StatHelpText>
+        <Text px="1rem">
           <Trans>Next payment of (amount) due (date)</Trans>
         </Text>
 
