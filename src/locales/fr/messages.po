@@ -17,8 +17,20 @@ msgstr ""
 msgid "1800-IDK-SOME"
 msgstr ""
 
+#: src/RegisterAccountModalContent.js:78
+msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
+msgstr ""
+
+#: src/LogInAccountModalContent.js:63
+msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
+msgstr ""
+
 #: src/LoginButton.js:87
-msgid "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
+#~ msgid "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
+#~ msgstr ""
+
+#: src/FaqPage.js:27
+msgid "<0>Question 1</0>"
 msgstr ""
 
 #: src/Navigation.js:31
@@ -30,8 +42,17 @@ msgid "Account Page"
 msgstr "Page du compte"
 
 #: src/Payment.js:33
+#: src/RegisterAccountModalContent.js:116
 msgid "Account number"
 msgstr "numéro de compte"
+
+#: src/RegisterAccountModalContent.js:37
+msgid "Account number is required."
+msgstr ""
+
+#: src/RegisterAccountModalContent.js:39
+msgid "Account numbers consist of exactly 12 numbers."
+msgstr ""
 
 #: src/PaymentPage.js:35
 msgid "Add Credit/Bank information"
@@ -41,9 +62,17 @@ msgstr "Ajouter des informations sur le crédit/la banque"
 #~ msgid "Add card/Bank inforamtion"
 #~ msgstr "Ajouter des informations sur la carte/la banque"
 
+#: src/RegisterAccountModalContent.js:136
+msgid "Already have an account? <0>Click here to log in.</0>"
+msgstr ""
+
 #: src/PickMethod.js:32
 msgid "Bank"
 msgstr "la banque"
+
+#: src/HomePage.js:24
+msgid "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
+msgstr "Les prêts aux étudiants canadiens sont gérés par le Centre de service national de prêts aux étudiants (CSNPE)."
 
 #: src/Payment.js:22
 msgid "Card number"
@@ -65,9 +94,31 @@ msgstr "Confirmer"
 msgid "Credit/Debit"
 msgstr "Crédit/débit"
 
+#: src/LogInAccountModalContent.js:89
+msgid "Don't have an account? <0>Click here to register.</0>"
+msgstr ""
+
+#: src/LogInAccountModalContent.js:71
+#: src/RegisterAccountModalContent.js:86
+msgid "Email"
+msgstr ""
+
+#: src/LogInAccountModalContent.js:30
+#: src/RegisterAccountModalContent.js:31
+msgid "Email is required."
+msgstr ""
+
 #: src/Navigation.js:43
 msgid "FAQ"
 msgstr "FAQ"
+
+#: src/RegisterAccountModalContent.js:96
+msgid "First name"
+msgstr ""
+
+#: src/RegisterAccountModalContent.js:33
+msgid "First name is required."
+msgstr ""
 
 #: src/FaqPage.js:19
 msgid "Frequently Asked Questions"
@@ -76,6 +127,10 @@ msgstr "Foire aux questions"
 #: src/Header.js:30
 msgid "Friendly Loans"
 msgstr "Friendly Loans"
+
+#: src/HomePage.js:17
+msgid "Friendly Loans is a service for all students to access their student loans in Nova Scotia."
+msgstr "Friendly Loans est un service permettant à tous les étudiants d'accéder à leur étudiants en Nouvelle-Écosse."
 
 #: src/AccountPage.js:35
 msgid "History"
@@ -93,13 +148,26 @@ msgstr "Je ne sais pas, copyright 1990 ou quelque chose comme ça."
 msgid "Institution number"
 msgstr "Numéro de l'institution"
 
-#: src/LoginButton.js:74
+#: src/RegisterAccountModalContent.js:106
+msgid "Last name"
+msgstr ""
+
+#: src/RegisterAccountModalContent.js:34
+msgid "Last name is required."
+msgstr ""
+
+#: src/LoginButton.js:39
 msgid "Log out"
 msgstr "Déconnexion"
 
-#: src/LoginButton.js:76
+#: src/LoginButton.js:41
 msgid "Login/Create Account"
 msgstr "Connexion/Création de compte"
+
+#: src/LogInAccountModalContent.js:31
+#: src/RegisterAccountModalContent.js:32
+msgid "Must enter a valid email."
+msgstr ""
 
 #: src/Payment.js:23
 msgid "Name on card"
@@ -108,6 +176,23 @@ msgstr "Nom sur la carte"
 #: src/AccountPage.js:45
 msgid "Next payment of (amount) due (date)"
 msgstr "Prochain paiement de (montant) dû (date)"
+
+#: src/LogInAccountModalContent.js:34
+#: src/RegisterAccountModalContent.js:44
+msgid "Password is required."
+msgstr ""
+
+#: src/LogInAccountModalContent.js:35
+msgid "Password must be at least 8 characters long."
+msgstr ""
+
+#: src/RegisterAccountModalContent.js:46
+msgid "Passwords can be at most 24 characters long."
+msgstr ""
+
+#: src/RegisterAccountModalContent.js:45
+msgid "Passwords must be at least 8 characters long."
+msgstr ""
 
 #: src/AccountPage.js:32
 msgid "Pay Here"
@@ -133,6 +218,14 @@ msgstr "Paiement de 10 000 $ effectué"
 msgid "Payment of $5,000 made"
 msgstr "Paiement de 5 000 $ effectué"
 
+#: src/LogInAccountModalContent.js:100
+msgid "Sign In"
+msgstr ""
+
+#: src/HomePage.js:37
+msgid "Student receiving their diploma"
+msgstr ""
+
 #: src/AccountPage.js:15
 #~ msgid "This is some fresshhhhhh stuff"
 #~ msgstr ""
@@ -146,8 +239,8 @@ msgstr "Paiement de 5 000 $ effectué"
 #~ msgstr ""
 
 #: src/HomePage.js:12
-msgid "This is some fresshhhhhh stuff HOME PAGE"
-msgstr ""
+#~ msgid "This is some fresshhhhhh stuff HOME PAGE"
+#~ msgstr ""
 
 #: src/AccountPage.js:40
 msgid "Total amount due"
@@ -157,9 +250,17 @@ msgstr "Montant total dû"
 msgid "Transit number"
 msgstr "Numéro de transit"
 
-#: src/HomePage.js:9
+#: src/RegisterAccountModalContent.js:48
+msgid "Unacceptable characters used."
+msgstr ""
+
+#: src/HomePage.js:10
 msgid "Welcome to Friendly Loans!"
 msgstr "Bienvenue à Friendly Loans !"
+
+#: src/HomePage.js:13
+msgid "Why Friendly Loans?"
+msgstr ""
 
 #: src/Footer.js:15
 msgid "example@example.ca"

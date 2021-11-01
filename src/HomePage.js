@@ -14,8 +14,10 @@ export const HomePage = () => {
       </Text>
 
       <Text mx="auto" fontSize="1rem">
+        <Trans>
         Friendly Loans is a service for all students to access their student
         loans in Nova Scotia.
+        </Trans>
       </Text>
 
       <Text mx="auto">
