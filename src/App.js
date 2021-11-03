@@ -8,6 +8,7 @@ import { HomePage } from './HomePage'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { theme } from './theme'
+import { useUser } from './UserContext'
 import { PaymentPage } from './PaymentPage'
 
 import { i18n } from '@lingui/core'
@@ -43,8 +44,8 @@ const App = () => {
 
                 <Switch>
                   <Route path="/account" component={AccountPage} />
-                  <Route path="/faq" component={FaqPage} />
                   <Route path="/payment" component={PaymentPage} />
+                  <Route path="/faq" component={FaqPage} />
                   <Route path="/" component={HomePage} />
                 </Switch>
                 <Footer />
