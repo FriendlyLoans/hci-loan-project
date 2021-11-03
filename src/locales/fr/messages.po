@@ -29,26 +29,6 @@ msgstr "(veuillez utiliser une adresse électronique sécurisée que vous utilis
 msgid "1800-IDK-SOME"
 msgstr ""
 
-#: src/RegisterAccountModalContent.js:78
-msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
-msgstr ""
-
-#: src/FaqPage.js:62
-#~ msgid "<0>I forgot my password. What now?</0>"
-#~ msgstr "J'ai oublié mon mot de passe. Que faire?"
-
-#: src/LogInAccountModalContent.js:63
-msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
-msgstr ""
-
-#: src/LoginButton.js:87
-#~ msgid "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
-#~ msgstr ""
-
-#: src/FaqPage.js:27
-#~ msgid "<0>Question 1</0>"
-#~ msgstr ""
-
 #: src/Navigation.js:35
 msgid "Account"
 msgstr "Compte"
@@ -82,21 +62,13 @@ msgstr "Ajouter des informations sur le crédit/la banque"
 #~ msgid "Add card/Bank inforamtion"
 #~ msgstr "Ajouter des informations sur la carte/la banque"
 
-#: src/RegisterAccountModalContent.js:136
-msgid "Already have an account? <0>Click here to log in.</0>"
-msgstr ""
-
 #: src/PickMethod.js:32
 msgid "Bank"
 msgstr "la banque"
 
-#: src/HomePage.js:24
-msgid "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
-msgstr "Les prêts aux étudiants canadiens sont gérés par le Centre de service national de prêts aux étudiants (CSNPE)."
-
 #: src/PaymentPage.js:49
 msgid "Card Select"
-msgstr ""
+msgstr "Sélection de la carte"
 
 #: src/Payment.js:22
 msgid "Card number"
@@ -118,9 +90,6 @@ msgstr "Confirmer"
 msgid "Credit/Debit"
 msgstr "Crédit/débit"
 
-#: src/LogInAccountModalContent.js:89
-msgid "Don't have an account? <0>Click here to register.</0>"
-msgstr ""
 
 #: src/LogInAccountModalContent.js:71
 #: src/RegisterAccountModalContent.js:86
@@ -219,11 +188,8 @@ msgstr "Nom sur la carte"
 
 #: src/AccountPage.js:45
 msgid "Next payment of $267 due 30/11/2021"
-msgstr ""
+msgstr "Prochain paiement de 267 $ dû le 30/11/2021"
 
-#: src/AccountPage.js:45
-#~ msgid "Next payment of (amount) due (date)"
-#~ msgstr "Prochain paiement de (montant) dû (date)"
 
 #: src/LogInAccountModalContent.js:34
 #: src/RegisterAccountModalContent.js:44
@@ -268,7 +234,7 @@ msgstr "Paiement de 5 000 $ effectué"
 
 #: src/PaymentConf.js:14
 msgid "Payment sent."
-msgstr ""
+msgstr "Paiement envoyé."
 
 #: src/LogInAccountModalContent.js:100
 msgid "Sign In"
@@ -277,22 +243,6 @@ msgstr ""
 #: src/HomePage.js:37
 msgid "Student receiving their diploma"
 msgstr ""
-
-#: src/AccountPage.js:15
-#~ msgid "This is some fresshhhhhh stuff"
-#~ msgstr ""
-
-#: src/ContactPage.js:12
-#~ msgid "This is some fresshhhhhh stuff CONTACT PAGE"
-#~ msgstr ""
-
-#: src/FaqPage.js:12
-#~ msgid "This is some fresshhhhhh stuff FAQ"
-#~ msgstr ""
-
-#: src/HomePage.js:12
-#~ msgid "This is some fresshhhhhh stuff HOME PAGE"
-#~ msgstr ""
 
 #: src/AccountPage.js:40
 msgid "Total amount due"
@@ -316,11 +266,11 @@ msgstr "De quelles informations ai-je besoin pour créer un compte?"
 
 #: src/HomePage.js:13
 msgid "Why Friendly Loans?"
-msgstr ""
+msgstr "Pourquoi Friendly Loans?"
 
 #: src/PrivateRoute.js:17
 msgid "You must be logged to access the {pageName} page."
-msgstr ""
+msgstr "Vous devez être connecté pour accéder à la page {pageName}."
 
 #: src/FaqPage.js:34
 msgid "You will need some basic information to use Friendly Loans:"
@@ -328,7 +278,7 @@ msgstr "Vous aurez besoin de quelques informations de base pour utiliser Friendl
 
 #: src/PaymentConf.js:15
 msgid "Your payment has been sent"
-msgstr ""
+msgstr "Votre paiement a été envoyé"
 
 #: src/Footer.js:15
 msgid "example@example.ca"
