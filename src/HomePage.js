@@ -40,7 +40,6 @@ export const HomePage = () => {
         m="auto"
         display="block"
       />
-        <Text textAlign="center">
     </Flex>
   )
 }
