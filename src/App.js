@@ -49,12 +49,12 @@ const App = () => {
                     component={AccountPage}
                     pageName="account"
                   />
-                  <Route path="/payment" component={PaymentPage} />
                   <PrivateRoute
-                    path="/faq"
-                    component={FaqPage}
+                    path="/payment"
+                    component={PaymentPage}
                     pageName="payment"
                   />
+                  <Route path="/faq" component={FaqPage} />
                   <Route path="/" component={HomePage} />
                 </Switch>
                 <Footer />

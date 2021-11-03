@@ -18,7 +18,7 @@ export const PrivateRoute = ({ path, component, pageName }) => {
     status: 'info',
     duration: 9000,
     isClosable: true,
-    position: 'top',
+    position: 'top-left',
   })
 
   return <Redirect to="/" />
