@@ -36,7 +36,7 @@ export const HomePage = () => {
         src={graduationImage}
         alt={t`Student receiving their diploma`}
         opacity="0.8"
-        maxW="calc(80%)"
+        maxW={{ base: '100%', sm: '90%', md: '80%', lg: '60%', xl: '50%' }}
         m="auto"
         display="block"
       />
