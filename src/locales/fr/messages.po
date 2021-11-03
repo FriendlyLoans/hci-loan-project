@@ -31,11 +31,11 @@ msgstr ""
 
 #: src/RegisterAccountModalContent.js:78
 msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
-msgstr ""
+msgstr "<0>Saisissez vos informations ci-dessous.</0><1><2>Courriel:</2><3/><4>{0}</4></1><5><6>Prénom:</6><7/><8>{1}</8></5><9><10>Nom de famille:</10><11/><12>{2}</12></9><13><14>Numéro de compte:</14><15/><16>{3}</16></13><17><18>Mot de passe :</18><19/><20>{4}</20></17>"
 
 #: src/LogInAccountModalContent.js:63
 msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
-msgstr ""
+msgstr "<0>Veuillez vous connecter ci-dessous.</0><1><2>Courriel:</2><3/><4>{0}</4></1><5><6>Mot de passe:</6><7/><8>{1}</8></5>"
 
 #: src/Navigation.js:35
 msgid "Account"
