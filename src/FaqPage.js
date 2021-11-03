@@ -80,11 +80,11 @@ export const FaqPage = () => {
                 (Available from 9:00 AM to 10:00 PM - Monday to Friday)
               </Text>
 
-              <Text my="0.75rem">
+              <Text>
                 Times listed are in Atlantic Daylight Time.
               </Text>
 
-              <Text>
+              <Text my="2rem">
                 Having any information related to your account will help us resolve your issue immediately. We will still guide you in the event you are unable to present them.
               </Text>
             </AccordionPanel>
@@ -102,7 +102,7 @@ export const FaqPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel>
-              It is also your responsibility to keep account credentials secure. Never share this information with anyone.
+              It is your responsibility to keep account information secure. Never share this information with anyone.
 
               <Text my="0.5rem">
               If you believe your Account Details were stolen, please contact <b><a href="tel: (+1) 800-YOU-LOST">Friendly Loans Identity Theft Report Center</a></b>and local law enforcement authorities.
@@ -124,34 +124,28 @@ export const FaqPage = () => {
             <h2>
               <AccordionButton _expanded={{ bg: '#E0FBFC', color: 'black' }}>
                 <Box flex="1" textAlign="left" padding="1.5rem">
-                  <Text fontSize="1.5rem"></Text>
+                  <Text fontSize="1.5rem">Should I be using Friendly Loans?</Text>
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-              voluptates architecto inventore soluta! Necessitatibus doloribus,
-              reprehenderit eos officiis labore soluta modi ad facilis non
-              consequatur quibusdam, ex quaerat optio ipsam.
+              Friendly Loans is a service only available to students attending a post-secondary institution (College / University) in Nova Scotia to access their student loans.
             </AccordionPanel>
           </AccordionItem>
 
-
+          {/* Question 5 */}
           <AccordionItem mx="auto" width="75%">
             <h2>
               <AccordionButton _expanded={{ bg: '#E0FBFC', color: 'black' }}>
                 <Box flex="1" textAlign="left" padding="1.5rem">
-                  <Text fontSize="1.5rem">Question 5</Text>
+                  <Text fontSize="1.5rem">Do you offer in person services?</Text>
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-              voluptates architecto inventore soluta! Necessitatibus doloribus,
-              reprehenderit eos officiis labore soluta modi ad facilis non
-              consequatur quibusdam, ex quaerat optio ipsam.
+              Unfortunately we do not offer services in person.
             </AccordionPanel>
           </AccordionItem>
 
