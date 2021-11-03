@@ -14,6 +14,7 @@ import { i18n } from '@lingui/core'
 import { I18nProvider } from '@lingui/react'
 import { messages } from './locales/en/messages'
 import { UserProvider } from './UserContext'
+import { PrivateRoute } from './PrivateRoute'
 
 i18n.load('en', messages)
 i18n.activate('en')
@@ -42,9 +43,17 @@ const App = () => {
                 <Header />
 
                 <Switch>
-                  <Route path="/account" component={AccountPage} />
+                  <PrivateRoute
+                    path="/account"
+                    component={AccountPage}
+                    pageName="account"
+                  />
                   <Route path="/faq" component={FaqPage} />
-                  <Route path="/payment" component={PaymentPage} />
+                  <PrivateRoute
+                    path="/payment"
+                    component={PaymentPage}
+                    pageName="payment"
+                  />
                   <Route path="/" component={HomePage} />
                 </Switch>
                 <Footer />
