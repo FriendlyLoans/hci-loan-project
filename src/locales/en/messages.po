@@ -13,6 +13,18 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/FaqPage.js:48
+msgid "(This should be at the top right corner of the loan statement you received in the mail.)"
+msgstr "(This should be at the top right corner of the loan statement you received in the mail.)"
+
+#: src/FaqPage.js:36
+msgid "(as it appears on your Identification Document)"
+msgstr "(as it appears on your Identification Document)"
+
+#: src/FaqPage.js:40
+msgid "(please use a secure email address you use frequently)"
+msgstr "(please use a secure email address you use frequently)"
+
 #: src/Footer.js:12
 msgid "1800-IDK-SOME"
 msgstr "1800-IDK-SOME"
@@ -20,6 +32,10 @@ msgstr "1800-IDK-SOME"
 #: src/RegisterAccountModalContent.js:78
 msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
 msgstr "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
+
+#: src/FaqPage.js:62
+msgid "<0>I forgot my password. What now?</0>"
+msgstr "<0>I forgot my password. What now?</0>"
 
 #: src/LogInAccountModalContent.js:63
 msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
@@ -30,12 +46,16 @@ msgstr "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Passw
 #~ msgstr "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
 
 #: src/FaqPage.js:27
-msgid "<0>Question 1</0>"
-msgstr "<0>Question 1</0>"
+#~ msgid "<0>Question 1</0>"
+#~ msgstr "<0>Question 1</0>"
 
-#: src/Navigation.js:31
+#: src/Navigation.js:35
 msgid "Account"
 msgstr "Account"
+
+#: src/FaqPage.js:44
+msgid "Account Number"
+msgstr "Account Number"
 
 #: src/AccountPage.js:29
 msgid "Account Page"
@@ -103,14 +123,22 @@ msgstr "Don't have an account? <0>Click here to register.</0>"
 msgid "Email"
 msgstr "Email"
 
+#: src/FaqPage.js:40
+msgid "Email Address"
+msgstr "Email Address"
+
 #: src/LogInAccountModalContent.js:30
 #: src/RegisterAccountModalContent.js:31
 msgid "Email is required."
 msgstr "Email is required."
 
-#: src/Navigation.js:43
+#: src/Navigation.js:48
 msgid "FAQ"
 msgstr "FAQ"
+
+#: src/FaqPage.js:36
+msgid "First and Last Names"
+msgstr "First and Last Names"
 
 #: src/RegisterAccountModalContent.js:96
 msgid "First name"
@@ -136,13 +164,17 @@ msgstr "Friendly Loans is a service for all students to access their student loa
 msgid "History"
 msgstr "History"
 
-#: src/Navigation.js:19
+#: src/Navigation.js:21
 msgid "Home"
 msgstr "Home"
 
 #: src/Footer.js:9
 msgid "I dont know copyright 1990 or something"
 msgstr "I dont know copyright 1990 or something"
+
+#: src/FaqPage.js:52
+msgid "If you have not received your loan statement, please contact"
+msgstr "If you have not received your loan statement, please contact"
 
 #: src/Payment.js:32
 msgid "Institution number"
@@ -163,6 +195,10 @@ msgstr "Log out"
 #: src/LoginButton.js:41
 msgid "Login/Create Account"
 msgstr "Login/Create Account"
+
+#: src/PrivateRoute.js:16
+msgid "Must be logged in."
+msgstr "Must be logged in."
 
 #: src/LogInAccountModalContent.js:31
 #: src/RegisterAccountModalContent.js:32
@@ -262,9 +298,21 @@ msgstr "Unacceptable characters used."
 msgid "Welcome to Friendly Loans!"
 msgstr "Welcome to Friendly Loans!"
 
+#: src/FaqPage.js:28
+msgid "What information do I need to create an account?"
+msgstr "What information do I need to create an account?"
+
 #: src/HomePage.js:13
 msgid "Why Friendly Loans?"
 msgstr "Why Friendly Loans?"
+
+#: src/PrivateRoute.js:17
+msgid "You must be logged to access the {pageName} page."
+msgstr "You must be logged to access the {pageName} page."
+
+#: src/FaqPage.js:34
+msgid "You will need some basic information to use Friendly Loans:"
+msgstr "You will need some basic information to use Friendly Loans:"
 
 #: src/Footer.js:15
 msgid "example@example.ca"

@@ -25,31 +25,31 @@ export const FaqPage = () => {
             <h2>
               <AccordionButton _expanded={{ bg: '#E0FBFC', color: 'black' }}>
                 <Box flex="1" textAlign="left" padding="1.5rem">
-                  <Text fontSize="1.5rem">What information do I need to create an account?</Text>
+                  <Text fontSize="1.5rem"><Trans>What information do I need to create an account?</Trans></Text>
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel>
-              You will need some basic information to use Friendly Loans:
+              <Trans>You will need some basic information to use Friendly Loans:</Trans>
               <Text my="2rem">
-              <b>First and Last Names</b> (as it appears on your Identification Document)
+              <b><Trans>First and Last Names</Trans></b> <Trans>(as it appears on your Identification Document)</Trans>
               </Text>
 
               <Text my="2rem">
-              <b>Email Address</b> (please use a secure email address you use frequently)
+              <b><Trans>Email Address</Trans></b> <Trans>(please use a secure email address you use frequently)</Trans>
               </Text>
 
               <Text fontWeight="bold">
-              Account Number
+              <Trans>Account Number</Trans>
               </Text>
 
               <Text>
-              (This should be at the top right corner of the loan statement you received in the mail.)
+              <Trans>(This should be at the top right corner of the loan statement you received in the mail.)</Trans>
               </Text>
 
               <Text>
-              If you have not received your loan statement, please contact <b><a href="tel: 1800-IDK-SOME">(+1) 800-IDK-SOME</a></b>
+              <Trans>If you have not received your loan statement, please contact</Trans> <b><a href="tel: 1800-IDK-SOME">(+1) 800-IDK-SOME</a></b>
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -59,9 +59,8 @@ export const FaqPage = () => {
             <h2>
               <AccordionButton _expanded={{ bg: '#E0FBFC', color: 'black' }}>
                 <Box flex="1" textAlign="left" padding="1.5rem">
-                  <Trans>
-                    <Text fontSize="1.5rem">I forgot my password. What now?</Text>
-                  </Trans>
+                  
+                    <Text fontSize="1.5rem"><Trans>I forgot my password. What now?</Trans></Text>
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
