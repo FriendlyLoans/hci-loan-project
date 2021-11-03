@@ -40,9 +40,9 @@ export const AccountPage = () => {
           <Trans>Total amount due</Trans>
         </StatLabel>
         <StatNumber px="1rem">$14503.60</StatNumber>
-        <StatHelpText px="1rem">2018-2019</StatHelpText>
+        <StatHelpText px="1rem">2018-2020</StatHelpText>
         <Text px="1rem">
-          <Trans>Next payment of (amount) due (date)</Trans>
+          <Trans>Next payment of $267 due 30/11/2021</Trans>
         </Text>
 
         {History}
