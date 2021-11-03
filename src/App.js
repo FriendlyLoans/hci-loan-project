@@ -8,6 +8,7 @@ import { HomePage } from './HomePage'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { theme } from './theme'
+import { useUser } from './UserContext'
 import { PaymentPage } from './PaymentPage'
 
 import { i18n } from '@lingui/core'
@@ -48,10 +49,10 @@ const App = () => {
                     component={AccountPage}
                     pageName="account"
                   />
-                  <Route path="/faq" component={FaqPage} />
+                  <Route path="/payment" component={PaymentPage} />
                   <PrivateRoute
-                    path="/payment"
-                    component={PaymentPage}
+                    path="/faq"
+                    component={FaqPage}
                     pageName="payment"
                   />
                   <Route path="/" component={HomePage} />
