@@ -66,7 +66,8 @@ export const FaqPage = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel>
-              Unfortunately, you will have to contact our customer support centre. Reach out at Customer Support Centre at:
+              <Trans>
+              Unfortunately, you will have to contact our customer support centre. Reach out at Customer Support Centre at: </Trans>
               <Text py="2em" fontWeight="bold">
               <a href="mailto: example@example.ca">example@example.ca</a>
               </Text>
@@ -76,15 +77,18 @@ export const FaqPage = () => {
               </Text>
 
               <Text>
-                (Available from 9:00 AM to 10:00 PM - Monday to Friday)
+                <Trans>
+                (Available from 9:00 AM to 10:00 PM - Monday to Friday)</Trans>
               </Text>
 
               <Text>
-                Times listed are in Atlantic Daylight Time.
+                <Trans>
+                Times listed are in Atlantic Daylight Time.</Trans>
               </Text>
 
               <Text my="2rem">
-                Having any information related to your account will help us resolve your issue immediately. We will still guide you in the event you are unable to present them.
+                <Trans>
+                Having any information related to your account will help us resolve your issue immediately. We will still guide you in the event you are unable to present them.</Trans>
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -95,20 +99,24 @@ export const FaqPage = () => {
             <h2>
               <AccordionButton _expanded={{ bg: '#E0FBFC', color: 'black' }}>
                 <Box flex="1" textAlign="left" padding="1.5rem">
-                  <Text fontSize="1.5rem">My credentials were stolen. What should I do?</Text>
+                  <Text fontSize="1.5rem"><Trans>My credentials were stolen. What should I do?</Trans></Text>
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel>
-              It is your responsibility to keep account information secure. Never share this information with anyone.
+              <Trans>
+              It is your responsibility to keep account information secure. Never share this information with anyone.</Trans>
 
               <Text my="0.5rem">
-              If you believe your Account Details were stolen, please contact <b><a href="tel: (+1) 800-YOU-LOST">Friendly Loans Identity Theft Report Center</a></b>and local law enforcement authorities.
+                <Trans>
+              If you believe your Account Details were stolen, please contact </Trans> <b><a href="tel: (+1) 800-YOU-LOST"><Trans>Friendly Loans Identity Theft Report Center</Trans></a></b><Trans>and local law enforcement authorities.</Trans>
               </Text>
 
               <Text>
+                <Trans>
                 Friendly Loans Customer Support
+                </Trans>
               </Text>
 
               <Text fontWeight="bolded">
