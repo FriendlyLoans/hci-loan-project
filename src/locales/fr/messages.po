@@ -29,6 +29,14 @@ msgstr "(veuillez utiliser une adresse électronique sécurisée que vous utilis
 msgid "1800-IDK-SOME"
 msgstr ""
 
+#: src/RegisterAccountModalContent.js:78
+msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
+msgstr ""
+
+#: src/LogInAccountModalContent.js:63
+msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
+msgstr ""
+
 #: src/Navigation.js:35
 msgid "Account"
 msgstr "Compte"
@@ -62,9 +70,17 @@ msgstr "Ajouter des informations sur le crédit/la banque"
 #~ msgid "Add card/Bank inforamtion"
 #~ msgstr "Ajouter des informations sur la carte/la banque"
 
+#: src/RegisterAccountModalContent.js:136
+msgid "Already have an account? <0>Click here to log in.</0>"
+msgstr "Vous avez déjà un compte ? <0>Cliquez ici pour vous connecter.</0>"
+
 #: src/PickMethod.js:32
 msgid "Bank"
 msgstr "la banque"
+
+#: src/HomePage.js:24
+msgid "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
+msgstr "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
 
 #: src/PaymentPage.js:49
 msgid "Card Select"
@@ -90,15 +106,18 @@ msgstr "Confirmer"
 msgid "Credit/Debit"
 msgstr "Crédit/débit"
 
+#: src/LogInAccountModalContent.js:89
+msgid "Don't have an account? <0>Click here to register.</0>"
+msgstr "Vous n'avez pas de compte ? <0>Cliquez ici pour vous inscrire.</0>"
 
 #: src/LogInAccountModalContent.js:71
 #: src/RegisterAccountModalContent.js:86
 msgid "Email"
-msgstr ""
+msgstr "Adresse électronique"
 
 #: src/FaqPage.js:40
 msgid "Email Address"
-msgstr ""
+msgstr "Adresse électronique"
 
 #: src/LogInAccountModalContent.js:30
 #: src/RegisterAccountModalContent.js:31
@@ -115,11 +134,11 @@ msgstr "Prénom et nom"
 
 #: src/RegisterAccountModalContent.js:96
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: src/RegisterAccountModalContent.js:33
 msgid "First name is required."
-msgstr ""
+msgstr "Le prénom est obligatoire."
 
 #: src/FaqPage.js:19
 msgid "Frequently Asked Questions"
@@ -159,11 +178,11 @@ msgstr "Numéro de l'institution"
 
 #: src/RegisterAccountModalContent.js:106
 msgid "Last name"
-msgstr ""
+msgstr "Nom de famille"
 
 #: src/RegisterAccountModalContent.js:34
 msgid "Last name is required."
-msgstr ""
+msgstr "Le nom de famille est obligatoire."
 
 #: src/LoginButton.js:39
 msgid "Log out"
@@ -175,12 +194,12 @@ msgstr "Connexion/Création de compte"
 
 #: src/PrivateRoute.js:16
 msgid "Must be logged in."
-msgstr ""
+msgstr "Vous devez être connecté."
 
 #: src/LogInAccountModalContent.js:31
 #: src/RegisterAccountModalContent.js:32
 msgid "Must enter a valid email."
-msgstr ""
+msgstr "Vous devez entrer une adresse électronique valide."
 
 #: src/Payment.js:23
 msgid "Name on card"
@@ -190,23 +209,22 @@ msgstr "Nom sur la carte"
 msgid "Next payment of $267 due 30/11/2021"
 msgstr "Prochain paiement de 267 $ dû le 30/11/2021"
 
-
 #: src/LogInAccountModalContent.js:34
 #: src/RegisterAccountModalContent.js:44
 msgid "Password is required."
-msgstr ""
+msgstr "Un mot de passe est requis."
 
 #: src/LogInAccountModalContent.js:35
 msgid "Password must be at least 8 characters long."
-msgstr ""
+msgstr "Le mot de passe doit comporter au moins 8 caractères."
 
 #: src/RegisterAccountModalContent.js:46
 msgid "Passwords can be at most 24 characters long."
-msgstr ""
+msgstr "Les mots de passe peuvent comporter au maximum 24 caractères."
 
 #: src/RegisterAccountModalContent.js:45
 msgid "Passwords must be at least 8 characters long."
-msgstr ""
+msgstr "Les mots de passe doivent comporter au moins 8 caractères."
 
 #: src/AccountPage.js:32
 msgid "Pay Here"
@@ -238,11 +256,11 @@ msgstr "Paiement envoyé."
 
 #: src/LogInAccountModalContent.js:100
 msgid "Sign In"
-msgstr ""
+msgstr "S'inscrire"
 
 #: src/HomePage.js:37
 msgid "Student receiving their diploma"
-msgstr ""
+msgstr "Élève recevant son diplôme"
 
 #: src/AccountPage.js:40
 msgid "Total amount due"
@@ -254,7 +272,7 @@ msgstr "Numéro de transit"
 
 #: src/RegisterAccountModalContent.js:48
 msgid "Unacceptable characters used."
-msgstr ""
+msgstr "Caractères inacceptables utilisés."
 
 #: src/HomePage.js:10
 msgid "Welcome to Friendly Loans!"
