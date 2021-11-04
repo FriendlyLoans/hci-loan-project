@@ -26,7 +26,7 @@ const App = () => {
       <ChakraProvider theme={theme}>
         <I18nProvider i18n={i18n}>
           <Router>
-            <Flex bg="gray.100">
+            <Flex bg="gray.100" paddingLeft="calc(100vw - 100%)">
               <Flex
                 maxW={{
                   sm: '100%',
@@ -38,7 +38,7 @@ const App = () => {
                 mx="auto"
                 w="100%"
                 bg="white"
-                minH="calc(100vh + 1px)"
+                minH="100vh"
                 flexDirection="column"
               >
                 <Header />
