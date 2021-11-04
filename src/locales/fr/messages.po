@@ -13,29 +13,45 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/FaqPage.js:81
+msgid "(Available from 9:00 AM to 10:00 PM - Monday to Friday)"
+msgstr "(Disponible de 9h00 à 22h00 - du lundi au vendredi)"
+
+#: src/FaqPage.js:48
+msgid "(This should be at the top right corner of the loan statement you received in the mail.)"
+msgstr "(Elle doit se trouver dans le coin supérieur droit du relevé de prêt que vous avez reçu par la poste)."
+
+#: src/FaqPage.js:36
+msgid "(as it appears on your Identification Document)"
+msgstr "(tel qu'il figure sur votre document d'identification)"
+
+#: src/FaqPage.js:40
+msgid "(please use a secure email address you use frequently)"
+msgstr "(veuillez utiliser une adresse électronique sécurisée que vous utilisez fréquemment)"
+
 #: src/Footer.js:12
 msgid "1800-IDK-SOME"
-msgstr ""
+msgstr "1800-IDK-SOME"
 
 #: src/RegisterAccountModalContent.js:78
 msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
-msgstr ""
+msgstr "<0>Saisissez vos informations ci-dessous.</0><1><2>Courriel:</2><3/><4>{0}</4></1><5><6>Prénom:</6><7/><8>{1}</8></5><9><10>Nom de famille:</10><11/><12>{2}</12></9><13><14>Numéro de compte:</14><15/><16>{3}</16></13><17><18>Mot de passe :</18><19/><20>{4}</20></17>"
 
 #: src/LogInAccountModalContent.js:63
 msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
-msgstr ""
+msgstr "<0>Veuillez vous connecter ci-dessous.</0><1><2>Courriel:</2><3/><4>{0}</4></1><5><6>Mot de passe:</6><7/><8>{1}</8></5>"
 
-#: src/LoginButton.js:87
-#~ msgid "<0>Please log in below.</0><1><2>Email</2><3/><4>{0}</4></1><5><6>Password</6><7/><8>{1}</8></5>"
-#~ msgstr ""
-
-#: src/FaqPage.js:27
-msgid "<0>Question 1</0>"
-msgstr ""
-
-#: src/Navigation.js:31
+#: src/Navigation.js:37
 msgid "Account"
 msgstr "Compte"
+
+#: src/AccHistory.js:23
+msgid "Account History"
+msgstr "Historique du compte"
+
+#: src/FaqPage.js:44
+msgid "Account Number"
+msgstr "Numéro de compte"
 
 #: src/AccountPage.js:29
 msgid "Account Page"
@@ -48,13 +64,13 @@ msgstr "numéro de compte"
 
 #: src/RegisterAccountModalContent.js:37
 msgid "Account number is required."
-msgstr ""
+msgstr "Le numéro de compte est requis."
 
 #: src/RegisterAccountModalContent.js:39
 msgid "Account numbers consist of exactly 12 numbers."
-msgstr ""
+msgstr "Les numéros de compte sont composés d'exactement 12 chiffres."
 
-#: src/PaymentPage.js:35
+#: src/PaymentPage.js:62
 msgid "Add Credit/Bank information"
 msgstr "Ajouter des informations sur le crédit/la banque"
 
@@ -64,7 +80,15 @@ msgstr "Ajouter des informations sur le crédit/la banque"
 
 #: src/RegisterAccountModalContent.js:136
 msgid "Already have an account? <0>Click here to log in.</0>"
-msgstr ""
+msgstr "Vous avez déjà un compte ? <0>Cliquez ici pour vous connecter.</0>"
+
+#: src/AccHistory.js:34
+msgid "Amount"
+msgstr "Montant"
+
+#: src/AccHistory.js:37
+msgid "Balance Remaing"
+msgstr "Remise de l'équilibre"
 
 #: src/PickMethod.js:32
 msgid "Bank"
@@ -72,13 +96,17 @@ msgstr "la banque"
 
 #: src/HomePage.js:24
 msgid "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
-msgstr "Les prêts aux étudiants canadiens sont gérés par le Centre de service national de prêts aux étudiants (CSNPE)."
+msgstr "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
+
+#: src/PaymentPage.js:50
+msgid "Card Select"
+msgstr "Sélection de la carte"
 
 #: src/Payment.js:22
 msgid "Card number"
 msgstr "numéro de carte"
 
-#: src/PaymentConf.js:8
+#: src/PaymentConf.js:22
 msgid "Confirm"
 msgstr "Confirmer"
 
@@ -94,31 +122,43 @@ msgstr "Confirmer"
 msgid "Credit/Debit"
 msgstr "Crédit/débit"
 
+#: src/FaqPage.js:151
+msgid "Do you offer in person services?"
+msgstr "Offrez-vous des services en personne?"
+
 #: src/LogInAccountModalContent.js:89
 msgid "Don't have an account? <0>Click here to register.</0>"
-msgstr ""
+msgstr "Vous n'avez pas de compte ? <0>Cliquez ici pour vous inscrire.</0>"
 
 #: src/LogInAccountModalContent.js:71
 #: src/RegisterAccountModalContent.js:86
 msgid "Email"
-msgstr ""
+msgstr "Adresse électronique"
+
+#: src/FaqPage.js:40
+msgid "Email Address"
+msgstr "Adresse électronique"
 
 #: src/LogInAccountModalContent.js:30
 #: src/RegisterAccountModalContent.js:31
 msgid "Email is required."
-msgstr ""
+msgstr "L'adresse électronique est obligatoire."
 
-#: src/Navigation.js:43
+#: src/Navigation.js:51
 msgid "FAQ"
 msgstr "FAQ"
 
+#: src/FaqPage.js:36
+msgid "First and Last Names"
+msgstr "Prénom et nom"
+
 #: src/RegisterAccountModalContent.js:96
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: src/RegisterAccountModalContent.js:33
 msgid "First name is required."
-msgstr ""
+msgstr "Le prénom est obligatoire."
 
 #: src/FaqPage.js:19
 msgid "Frequently Asked Questions"
@@ -128,15 +168,32 @@ msgstr "Foire aux questions"
 msgid "Friendly Loans"
 msgstr "Friendly Loans"
 
+#: src/FaqPage.js:117
+#~ msgid "Friendly Loans Customer Support"
+#~ msgstr "Une assistance clientèle Friendly Loans"
+
+#: src/FaqPage.js:114
+#: src/FaqPage.js:118
+msgid "Friendly Loans Identity Theft Report Center"
+msgstr "Centre de signalement des usurpations d'identité de Friendly Loans"
+
 #: src/HomePage.js:17
 msgid "Friendly Loans is a service for all students to access their student loans in Nova Scotia."
 msgstr "Friendly Loans est un service permettant à tous les étudiants d'accéder à leur étudiants en Nouvelle-Écosse."
+
+#: src/FaqPage.js:141
+msgid "Friendly Loans is a service only available to students attending a post-secondary institution (College / University) in Nova Scotia to access their student loans."
+msgstr "Friendly Loans est un service réservé aux étudiants qui fréquentent un établissement d'enseignement postsecondaire (collège ou université) en Nouvelle-Écosse pour accéder à leurs prêts étudiants."
+
+#: src/FaqPage.js:91
+msgid "Having any information related to your account will help us resolve your issue immediately. We will still guide you in the event you are unable to present them."
+msgstr "Le fait de disposer de toutes les informations relatives à votre compte nous aidera à résoudre votre problème immédiatement. Nous vous guiderons néanmoins dans le cas où vous ne seriez pas en mesure de les présenter."
 
 #: src/AccountPage.js:35
 msgid "History"
 msgstr "Histoire"
 
-#: src/Navigation.js:19
+#: src/Navigation.js:22
 msgid "Home"
 msgstr "Accueil"
 
@@ -144,55 +201,79 @@ msgstr "Accueil"
 msgid "I dont know copyright 1990 or something"
 msgstr "Je ne sais pas, copyright 1990 ou quelque chose comme ça."
 
+#: src/FaqPage.js:64
+msgid "I forgot my password. What now?"
+msgstr "J'ai oublié mon mot de passe. Que faire?"
+
+#: src/FaqPage.js:113
+msgid "If you believe your Account Details were stolen, please contact"
+msgstr "Si vous pensez que les détails de votre compte ont été volés, veuillez contacter"
+
+#: src/FaqPage.js:52
+msgid "If you have not received your loan statement, please contact"
+msgstr "Si vous n'avez pas reçu votre relevé de prêt, veuillez vous adresser à"
+
 #: src/Payment.js:32
 msgid "Institution number"
 msgstr "Numéro de l'institution"
 
+#: src/FaqPage.js:109
+msgid "It is your responsibility to keep account information secure. Never share this information with anyone."
+msgstr "Il est de votre responsabilité de préserver la sécurité des informations relatives à votre compte. Ne partagez jamais ces informations avec qui que ce soit."
+
 #: src/RegisterAccountModalContent.js:106
 msgid "Last name"
-msgstr ""
+msgstr "Nom de famille"
 
 #: src/RegisterAccountModalContent.js:34
 msgid "Last name is required."
-msgstr ""
+msgstr "Le nom de famille est obligatoire."
 
-#: src/LoginButton.js:39
+#: src/LoginButton.js:40
 msgid "Log out"
 msgstr "Déconnexion"
 
-#: src/LoginButton.js:41
+#: src/LoginButton.js:42
 msgid "Login/Create Account"
 msgstr "Connexion/Création de compte"
+
+#: src/PrivateRoute.js:16
+msgid "Must be logged in."
+msgstr "Vous devez être connecté."
 
 #: src/LogInAccountModalContent.js:31
 #: src/RegisterAccountModalContent.js:32
 msgid "Must enter a valid email."
-msgstr ""
+msgstr "Vous devez entrer une adresse électronique valide."
+
+#: src/FaqPage.js:103
+msgid "My credentials were stolen. What should I do?"
+msgstr "Mes informations d'identification ont été volées. Que dois-je faire ?"
 
 #: src/Payment.js:23
 msgid "Name on card"
 msgstr "Nom sur la carte"
 
 #: src/AccountPage.js:45
-msgid "Next payment of (amount) due (date)"
-msgstr "Prochain paiement de (montant) dû (date)"
+msgid "Next payment of $267 due 30/11/2021"
+msgstr "Prochain paiement de 267 $ dû le 30/11/2021"
 
 #: src/LogInAccountModalContent.js:34
 #: src/RegisterAccountModalContent.js:44
 msgid "Password is required."
-msgstr ""
+msgstr "Un mot de passe est requis."
 
 #: src/LogInAccountModalContent.js:35
 msgid "Password must be at least 8 characters long."
-msgstr ""
+msgstr "Le mot de passe doit comporter au moins 8 caractères."
 
 #: src/RegisterAccountModalContent.js:46
 msgid "Passwords can be at most 24 characters long."
-msgstr ""
+msgstr "Les mots de passe peuvent comporter au maximum 24 caractères."
 
 #: src/RegisterAccountModalContent.js:45
 msgid "Passwords must be at least 8 characters long."
-msgstr ""
+msgstr "Les mots de passe doivent comporter au moins 8 caractères."
 
 #: src/AccountPage.js:32
 msgid "Pay Here"
@@ -202,49 +283,59 @@ msgstr "Payez ici"
 #~ msgid "Pay with existing inforamtion"
 #~ msgstr "Payer avec les informations existantes"
 
-#: src/PaymentPage.js:28
+#: src/PaymentPage.js:38
 msgid "Pay with existing information"
 msgstr "Payer avec les informations existantes"
 
-#: src/PaymentPage.js:23
+#: src/AccHistory.js:45
+#: src/AccHistory.js:53
+#: src/AccHistory.js:61
+msgid "Payment"
+msgstr "Paiement"
+
+#: src/AccHistory.js:28
+msgid "Payment Date"
+msgstr "Date de paiement"
+
+#: src/PaymentPage.js:33
 msgid "Payment Page"
 msgstr "Page des paiements"
 
 #: src/AccHistory.js:42
-msgid "Payment of $10,000 made"
-msgstr "Paiement de 10 000 $ effectué"
+#~ msgid "Payment of $10,000 made"
+#~ msgstr "Paiement de 10 000 $ effectué"
 
 #: src/AccHistory.js:29
-msgid "Payment of $5,000 made"
-msgstr "Paiement de 5 000 $ effectué"
+#~ msgid "Payment of $5,000 made"
+#~ msgstr "Paiement de 5 000 $ effectué"
+
+#: src/PaymentConf.js:14
+msgid "Payment sent."
+msgstr "Paiement envoyé."
+
+#: src/FaqPage.js:135
+msgid "Should I be using Friendly Loans?"
+msgstr "Devrais-je utiliser les Friendly Loans ?"
 
 #: src/LogInAccountModalContent.js:100
 msgid "Sign In"
-msgstr ""
+msgstr "S'inscrire"
 
 #: src/HomePage.js:37
 msgid "Student receiving their diploma"
-msgstr ""
+msgstr "Élève recevant son diplôme"
 
-#: src/AccountPage.js:15
-#~ msgid "This is some fresshhhhhh stuff"
-#~ msgstr ""
-
-#: src/ContactPage.js:12
-#~ msgid "This is some fresshhhhhh stuff CONTACT PAGE"
-#~ msgstr ""
-
-#: src/FaqPage.js:12
-#~ msgid "This is some fresshhhhhh stuff FAQ"
-#~ msgstr ""
-
-#: src/HomePage.js:12
-#~ msgid "This is some fresshhhhhh stuff HOME PAGE"
-#~ msgstr ""
+#: src/FaqPage.js:86
+msgid "Times listed are in Atlantic Daylight Time."
+msgstr "Les heures indiquées sont en heure avancée de l'Atlantique."
 
 #: src/AccountPage.js:40
 msgid "Total amount due"
 msgstr "Montant total dû"
+
+#: src/AccHistory.js:31
+msgid "Transaction Type"
+msgstr "Type de transaction"
 
 #: src/Payment.js:31
 msgid "Transit number"
@@ -252,16 +343,44 @@ msgstr "Numéro de transit"
 
 #: src/RegisterAccountModalContent.js:48
 msgid "Unacceptable characters used."
-msgstr ""
+msgstr "Caractères inacceptables utilisés."
+
+#: src/FaqPage.js:157
+msgid "Unfortunately we do not offer services in person."
+msgstr "Malheureusement, nous ne proposons pas de services en personne."
+
+#: src/FaqPage.js:70
+msgid "Unfortunately, you will have to contact our customer support centre. Reach out to Customer Support Centre at:"
+msgstr "Malheureusement, vous devrez contacter notre centre de soutien à la clientèle. Contactez le centre de soutien à la clientèle au:"
 
 #: src/HomePage.js:10
 msgid "Welcome to Friendly Loans!"
 msgstr "Bienvenue à Friendly Loans !"
 
+#: src/FaqPage.js:28
+msgid "What information do I need to create an account?"
+msgstr "De quelles informations ai-je besoin pour créer un compte?"
+
 #: src/HomePage.js:13
 msgid "Why Friendly Loans?"
-msgstr ""
+msgstr "Pourquoi Friendly Loans?"
+
+#: src/PrivateRoute.js:17
+msgid "You must be logged to access the {pageName} page."
+msgstr "Vous devez être connecté pour accéder à la page {pageName}."
+
+#: src/FaqPage.js:34
+msgid "You will need some basic information to use Friendly Loans:"
+msgstr "Vous aurez besoin de quelques informations de base pour utiliser Friendly Loans:"
+
+#: src/PaymentConf.js:15
+msgid "Your payment has been sent"
+msgstr "Votre paiement a été envoyé"
+
+#: src/FaqPage.js:114
+msgid "and local law enforcement authorities."
+msgstr "et les autorités policières locales."
 
 #: src/Footer.js:15
 msgid "example@example.ca"
-msgstr ""
+msgstr "example@example.ca"

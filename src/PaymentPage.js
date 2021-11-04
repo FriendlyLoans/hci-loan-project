@@ -8,6 +8,16 @@ import {
   Textarea,
   Input,
   useToast,
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuIcon,
+  MenuCommand,
+  MenuDivider,
 } from '@chakra-ui/react'
 import React, { useState } from 'react'
 import { Trans, t } from '@lingui/macro'
@@ -27,6 +37,23 @@ export const PaymentPage = () => {
           <Text px="2rem">
             <Trans>Pay with existing information</Trans>
           </Text>
+          <Box px="2rem">
+            <Menu>
+              <MenuButton
+                p="0.2rem"
+                borderRadius="md"
+                borderWidth="1px"
+                borderColor="black.100"
+                _hover={{ bg: 'gray.100' }}
+                _focus={{ boxShadow: 'outline' }}
+              >
+                <Trans>Card Select</Trans>
+              </MenuButton>
+              <MenuList>
+                <MenuItem>MyCard</MenuItem>
+              </MenuList>
+            </Menu>
+          </Box>
           <Confirm />
         </Box>
         <Divider py="1rem" />

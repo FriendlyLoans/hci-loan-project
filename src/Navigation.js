@@ -11,6 +11,7 @@ export const Navigation = () => {
       <Button
         borderRadius="1em"
         _hover={{ background: 'themeYellow' }}
+        transition="0.25s"
         border="1px solid black"
         flex="1"
         as={RouteLink}
@@ -25,6 +26,7 @@ export const Navigation = () => {
         <Button
           borderRadius="1rem"
           _hover={{ background: 'themeYellow' }}
+          transition="0.25s"
           border="1px solid black"
           flex="1"
           as={RouteLink}
@@ -38,6 +40,7 @@ export const Navigation = () => {
       <Button
         borderRadius="1rem"
         _hover={{ background: 'themeYellow' }}
+        transition="0.25s"
         border="1px solid black"
         flex="1"
         as={RouteLink}

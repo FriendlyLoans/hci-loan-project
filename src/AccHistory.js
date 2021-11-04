@@ -4,43 +4,65 @@ import {
   Heading,
   Button,
   Divider,
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  AccordionPanel,
-  AccordionIcon,
+  Table,
+  Thead,
+  Tbody,
+  Tfoot,
+  Tr,
+  Th,
+  Td,
+  TableCaption,
   Box,
 } from '@chakra-ui/react'
 import React from 'react'
 import { Trans } from '@lingui/macro'
 
 export const History = (
-  <Accordion allowToggle>
-    <AccordionItem>
-      <h2>
-        <AccordionButton>
-          <Box flex="1" textAlign="left">
-            27-12-2018
-          </Box>
-          <AccordionIcon />
-        </AccordionButton>
-      </h2>
-      <AccordionPanel pb={4}>
-        <Trans>Payment of $5,000 made</Trans>
-      </AccordionPanel>
-    </AccordionItem>
-    <AccordionItem>
-      <h2>
-        <AccordionButton>
-          <Box flex="1" textAlign="left">
-            27-7-2019
-          </Box>
-          <AccordionIcon />
-        </AccordionButton>
-      </h2>
-      <AccordionPanel pb={4}>
-        <Trans>Payment of $10,000 made</Trans>
-      </AccordionPanel>
-    </AccordionItem>
-  </Accordion>
+  <Table variant="simple">
+    <TableCaption>
+      <Trans>Account History</Trans>
+    </TableCaption>
+    <Thead>
+      <Tr>
+        <Th>
+          <Trans>Payment Date</Trans>
+        </Th>
+        <Th>
+          <Trans>Transaction Type</Trans>
+        </Th>
+        <Th isNumeric>
+          <Trans>Amount</Trans>
+        </Th>
+        <Th isNumeric>
+          <Trans>Balance Remaing</Trans>
+        </Th>
+      </Tr>
+    </Thead>
+    <Tbody>
+      <Tr bg="gray.200">
+        <Td>10-10-2018</Td>
+        <Td>
+          <Trans>Payment</Trans>
+        </Td>
+        <Td isNumeric>10004.20</Td>
+        <Td isNumeric>23005.80</Td>
+      </Tr>
+      <Tr>
+        <Td>20-11-2019</Td>
+        <Td>
+          <Trans>Payment</Trans>
+        </Td>
+        <Td isNumeric>8502.20</Td>
+        <Td isNumeric>14503.60</Td>
+      </Tr>
+      <Tr bg="gray.200">
+        <Td>20-11-2019</Td>
+        <Td>
+          <Trans>Payment</Trans>
+        </Td>
+        <Td isNumeric>267.00</Td>
+        <Td isNumeric>14236.60</Td>
+      </Tr>
+    </Tbody>
+  </Table>
 )
