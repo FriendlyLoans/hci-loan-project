@@ -44,7 +44,7 @@ export const RegisterAccountModalContent = ({
       .required(t`Password is required.`)
       .min(8, t`Passwords must be at least 8 characters long.`)
       .max(24, t`Passwords can be at most 24 characters long.`)
-      .matches(/^[a-zA-Z0-9 !"#$%&'()*+,\-./:;<=>?@\[\\\]^_`{|}~]$/, {
+      .matches(/^[a-zA-Z0-9 !"#$%&'()*+,\-./:;<=>?@\[\\\]^_`{|}~]{8,24}$/, {
         message: t`Unacceptable characters used.`,
         excludeEmptyString: true,
       }),
