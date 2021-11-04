@@ -26,6 +26,7 @@ export const LoginButton = () => {
         ml="auto"
         bg="themeCyan"
         _hover={{ bg: 'themeYellow' }}
+        transition="0.25s"
         onClick={
           isLoggedIn()
             ? logout
