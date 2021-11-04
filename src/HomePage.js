@@ -20,18 +20,6 @@ export const HomePage = () => {
         </Trans>
       </Text>
 
-      <Text mx="auto">
-        <Trans>
-          Canada Students loans are managed by the{' '}
-          <Text as="u" _hover={{ color: 'teal' }}>
-            {' '}
-            <a href="https://www.csnpe-nslsc.canada.ca/en/home">
-              National Student Loans Service Centre (NSLSC).{' '}
-            </a>{' '}
-          </Text>{' '}
-        </Trans>
-      </Text>
-
       <Image
         src={graduationImage}
         alt={t`Student receiving their diploma`}
@@ -43,7 +31,7 @@ export const HomePage = () => {
 
       <Box padding="2rem" bg="#EDF6F9">
         <Text textAlign="center" fontSize="2rem">
-          KEEP IT SIMPLE. ALL IN
+          KEEP IT SIMPLE. ALL IN ONE PLACE.
         </Text>
 
         <Text textAlign="center">
@@ -59,13 +47,14 @@ export const HomePage = () => {
         </Text>
       </Box>
 
-      <Box width="50%" bg="#e9f5db" fontSize="1.2rem" py="2rem" my="2rem" borderRadius="10px 100px / 120px;" mx="auto">
-        <Text textAlign="center" my="2rem">No Bank Information, use your Debit / Credit Card</Text>
-        <Text textAlign="center" my="2rem">No Debit / Credit Card, use your Bank Information</Text>
+      <Box width="60%" bg="#e9f5db" fontSize="1.2rem" py="2rem" my="2rem" borderRadius="10px 100px / 120px;" mx="auto">
+        <Text textAlign="center" my="2rem">Flexibility at its best!</Text>
+        <Text textAlign="center" my="2rem" fontWeight="light">No Bank Information, use your Debit / Credit Card</Text>
+        <Text textAlign="center" my="2rem" fontWeight="light">No Debit / Credit Card, use your Bank Information</Text>
       </Box>
 
-      <Text>
-
+      <Text textAlign="center" fontSize="1.5rem" my="2rem">
+        AND NO... You will not be ridirected to another website.
       </Text>
     </Flex>
   )
