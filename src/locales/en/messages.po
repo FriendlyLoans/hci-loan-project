@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: src/FaqPage.js:81
+msgid "(Available from 9:00 AM to 10:00 PM - Monday to Friday)"
+msgstr "(Available from 9:00 AM to 10:00 PM - Monday to Friday)"
+
 #: src/FaqPage.js:48
 msgid "(This should be at the top right corner of the loan statement you received in the mail.)"
 msgstr "(This should be at the top right corner of the loan statement you received in the mail.)"
@@ -118,6 +122,10 @@ msgstr "Confirm"
 msgid "Credit/Debit"
 msgstr "Credit/Debit"
 
+#: src/FaqPage.js:151
+msgid "Do you offer in person services?"
+msgstr "Do you offer in person services?"
+
 #: src/LogInAccountModalContent.js:89
 msgid "Don't have an account? <0>Click here to register.</0>"
 msgstr "Don't have an account? <0>Click here to register.</0>"
@@ -160,9 +168,26 @@ msgstr "Frequently Asked Questions"
 msgid "Friendly Loans"
 msgstr "Friendly Loans"
 
+#: src/FaqPage.js:117
+#~ msgid "Friendly Loans Customer Support"
+#~ msgstr "Friendly Loans Customer Support"
+
+#: src/FaqPage.js:114
+#: src/FaqPage.js:118
+msgid "Friendly Loans Identity Theft Report Center"
+msgstr "Friendly Loans Identity Theft Report Center"
+
 #: src/HomePage.js:17
 msgid "Friendly Loans is a service for all students to access their student loans in Nova Scotia."
 msgstr "Friendly Loans is a service for all students to access their student loans in Nova Scotia."
+
+#: src/FaqPage.js:141
+msgid "Friendly Loans is a service only available to students attending a post-secondary institution (College / University) in Nova Scotia to access their student loans."
+msgstr "Friendly Loans is a service only available to students attending a post-secondary institution (College / University) in Nova Scotia to access their student loans."
+
+#: src/FaqPage.js:91
+msgid "Having any information related to your account will help us resolve your issue immediately. We will still guide you in the event you are unable to present them."
+msgstr "Having any information related to your account will help us resolve your issue immediately. We will still guide you in the event you are unable to present them."
 
 #: src/AccountPage.js:35
 msgid "History"
@@ -176,9 +201,13 @@ msgstr "Home"
 msgid "I dont know copyright 1990 or something"
 msgstr "I dont know copyright 1990 or something"
 
-#: src/FaqPage.js:63
+#: src/FaqPage.js:64
 msgid "I forgot my password. What now?"
 msgstr "I forgot my password. What now?"
+
+#: src/FaqPage.js:113
+msgid "If you believe your Account Details were stolen, please contact"
+msgstr "If you believe your Account Details were stolen, please contact"
 
 #: src/FaqPage.js:52
 msgid "If you have not received your loan statement, please contact"
@@ -187,6 +216,10 @@ msgstr "If you have not received your loan statement, please contact"
 #: src/Payment.js:32
 msgid "Institution number"
 msgstr "Institution number"
+
+#: src/FaqPage.js:109
+msgid "It is your responsibility to keep account information secure. Never share this information with anyone."
+msgstr "It is your responsibility to keep account information secure. Never share this information with anyone."
 
 #: src/RegisterAccountModalContent.js:106
 msgid "Last name"
@@ -212,6 +245,10 @@ msgstr "Must be logged in."
 #: src/RegisterAccountModalContent.js:32
 msgid "Must enter a valid email."
 msgstr "Must enter a valid email."
+
+#: src/FaqPage.js:103
+msgid "My credentials were stolen. What should I do?"
+msgstr "My credentials were stolen. What should I do?"
 
 #: src/Payment.js:23
 msgid "Name on card"
@@ -270,6 +307,10 @@ msgstr "Payment of $5,000 made"
 msgid "Payment sent."
 msgstr "Payment sent."
 
+#: src/FaqPage.js:135
+msgid "Should I be using Friendly Loans?"
+msgstr "Should I be using Friendly Loans?"
+
 #: src/LogInAccountModalContent.js:100
 msgid "Sign In"
 msgstr "Sign In"
@@ -298,6 +339,10 @@ msgstr "Student receiving their diploma"
 #~ msgid "This is some fresshhhhhh stuff HOME PAGE"
 #~ msgstr "This is some fresshhhhhh stuff HOME PAGE"
 
+#: src/FaqPage.js:86
+msgid "Times listed are in Atlantic Daylight Time."
+msgstr "Times listed are in Atlantic Daylight Time."
+
 #: src/AccountPage.js:40
 msgid "Total amount due"
 msgstr "Total amount due"
@@ -309,6 +354,14 @@ msgstr "Transit number"
 #: src/RegisterAccountModalContent.js:48
 msgid "Unacceptable characters used."
 msgstr "Unacceptable characters used."
+
+#: src/FaqPage.js:157
+msgid "Unfortunately we do not offer services in person."
+msgstr "Unfortunately we do not offer services in person."
+
+#: src/FaqPage.js:70
+msgid "Unfortunately, you will have to contact our customer support centre. Reach out to Customer Support Centre at:"
+msgstr "Unfortunately, you will have to contact our customer support centre. Reach out to Customer Support Centre at:"
 
 #: src/HomePage.js:10
 msgid "Welcome to Friendly Loans!"
@@ -333,6 +386,10 @@ msgstr "You will need some basic information to use Friendly Loans:"
 #: src/PaymentConf.js:15
 msgid "Your payment has been sent"
 msgstr "Your payment has been sent"
+
+#: src/FaqPage.js:114
+msgid "and local law enforcement authorities."
+msgstr "and local law enforcement authorities."
 
 #: src/Footer.js:15
 msgid "example@example.ca"
