@@ -41,9 +41,9 @@ export const HomePage = () => {
         display="block"
       />
 
-      <Box bg="#EDF6F9">
-        <Text textAlign="center" fontSize="2rem" my="2rem">
-          All in One. Manage everything you owe in one place.
+      <Box padding="2rem" bg="#EDF6F9">
+        <Text textAlign="center" fontSize="2rem">
+          KEEP IT SIMPLE. ALL IN
         </Text>
 
         <Text textAlign="center">
@@ -57,14 +57,15 @@ export const HomePage = () => {
         <Text textAlign="center">
           View your loan statements and payment history
         </Text>
+      </Box>
 
-        <Text fontSize="1.5rem" textAlign="center" my="2rem">
-          AND NO... you are not going to redirected to another website.
-        </Text>
+      <Box width="50%" bg="#e9f5db" fontSize="1.2rem" py="2rem" my="2rem" borderRadius="10px 100px / 120px;" mx="auto">
+        <Text textAlign="center" my="2rem">No Bank Information, use your Debit / Credit Card</Text>
+        <Text textAlign="center" my="2rem">No Debit / Credit Card, use your Bank Information</Text>
       </Box>
 
       <Text>
-        
+
       </Text>
     </Flex>
   )
