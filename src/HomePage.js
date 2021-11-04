@@ -54,7 +54,7 @@ export const HomePage = () => {
       </Box>
 
       <Text textAlign="center" fontSize="1.5rem" my="2rem">
-        AND NO... You will not be ridirected to another website.
+        AND NO... You will not be redirected to another website.
       </Text>
     </Flex>
   )
