@@ -38,7 +38,7 @@ const App = () => {
                 mx="auto"
                 w="100%"
                 bg="white"
-                minH="100vh"
+                minH="calc(100vh + 1px)"
                 flexDirection="column"
               >
                 <Header />
