@@ -35,18 +35,17 @@ export const AccountPage = () => {
         <Trans>History</Trans>
       </Text>
       <Divider />
-      <Stat>
+      <Stat bg="themeBlue" textColor="white" py="3rem">
         <StatLabel px="1rem">
           <Trans>Total amount due</Trans>
         </StatLabel>
-        <StatNumber px="1rem">$14503.60</StatNumber>
-        <StatHelpText px="1rem">2018-2020</StatHelpText>
+        <StatNumber px="1rem">$14236.60</StatNumber>
+        <StatHelpText px="1rem">2017-2020</StatHelpText>
         <Text px="1rem">
           <Trans>Next payment of $267 due 30/11/2021</Trans>
         </Text>
-
-        {History}
       </Stat>
+      {History}
     </Flex>
   )
 }
