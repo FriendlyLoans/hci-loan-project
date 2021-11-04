@@ -30,7 +30,7 @@ const App = () => {
               <Flex
                 maxW={{
                   sm: '100%',
-                  md: '48rem',
+                  md: '100%',
                   lg: '62rem',
                   xl: '80rem',
                   '2xl': '96rem',
