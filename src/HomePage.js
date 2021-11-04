@@ -40,6 +40,32 @@ export const HomePage = () => {
         m="auto"
         display="block"
       />
+
+      <Box bg="#EDF6F9">
+        <Text textAlign="center" fontSize="2rem" my="2rem">
+          All in One. Manage everything you owe in one place.
+        </Text>
+
+        <Text textAlign="center">
+          Friendly Loans gives you full access to:
+        </Text>
+
+        <Text textAlign="center">
+          Pay your Loans
+        </Text>
+
+        <Text textAlign="center">
+          View your loan statements and payment history
+        </Text>
+
+        <Text fontSize="1.5rem" textAlign="center" my="2rem">
+          AND NO... you are not going to redirected to another website.
+        </Text>
+      </Box>
+
+      <Text>
+        
+      </Text>
     </Flex>
   )
 }
