@@ -33,11 +33,11 @@ msgstr "(veuillez utiliser une adresse électronique sécurisée que vous utilis
 msgid "1800-IDK-SOME"
 msgstr "1800-IDK-SOME"
 
-#: src/RegisterAccountModalContent.js:78
+#: src/RegisterAccountModalContent.js:80
 msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
 msgstr "<0>Saisissez vos informations ci-dessous.</0><1><2>Courriel:</2><3/><4>{0}</4></1><5><6>Prénom:</6><7/><8>{1}</8></5><9><10>Nom de famille:</10><11/><12>{2}</12></9><13><14>Numéro de compte:</14><15/><16>{3}</16></13><17><18>Mot de passe :</18><19/><20>{4}</20></17>"
 
-#: src/LogInAccountModalContent.js:63
+#: src/LogInAccountModalContent.js:65
 msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
 msgstr "<0>Veuillez vous connecter ci-dessous.</0><1><2>Courriel:</2><3/><4>{0}</4></1><5><6>Mot de passe:</6><7/><8>{1}</8></5>"
 
@@ -58,7 +58,7 @@ msgid "Account Page"
 msgstr "Page du compte"
 
 #: src/Payment.js:33
-#: src/RegisterAccountModalContent.js:116
+#: src/RegisterAccountModalContent.js:118
 msgid "Account number"
 msgstr "numéro de compte"
 
@@ -78,7 +78,7 @@ msgstr "Ajouter des informations sur le crédit/la banque"
 #~ msgid "Add card/Bank inforamtion"
 #~ msgstr "Ajouter des informations sur la carte/la banque"
 
-#: src/RegisterAccountModalContent.js:136
+#: src/RegisterAccountModalContent.js:138
 msgid "Already have an account? <0>Click here to log in.</0>"
 msgstr "Vous avez déjà un compte ? <0>Cliquez ici pour vous connecter.</0>"
 
@@ -106,6 +106,11 @@ msgstr "Sélection de la carte"
 msgid "Card number"
 msgstr "numéro de carte"
 
+#: src/LogInAccountModalContent.js:111
+#: src/RegisterAccountModalContent.js:158
+msgid "Close"
+msgstr "Fermer"
+
 #: src/PaymentConf.js:22
 msgid "Confirm"
 msgstr "Confirmer"
@@ -126,12 +131,12 @@ msgstr "Crédit/débit"
 msgid "Do you offer in person services?"
 msgstr "Offrez-vous des services en personne?"
 
-#: src/LogInAccountModalContent.js:89
+#: src/LogInAccountModalContent.js:91
 msgid "Don't have an account? <0>Click here to register.</0>"
 msgstr "Vous n'avez pas de compte ? <0>Cliquez ici pour vous inscrire.</0>"
 
-#: src/LogInAccountModalContent.js:71
-#: src/RegisterAccountModalContent.js:86
+#: src/LogInAccountModalContent.js:73
+#: src/RegisterAccountModalContent.js:88
 msgid "Email"
 msgstr "Adresse électronique"
 
@@ -152,7 +157,7 @@ msgstr "FAQ"
 msgid "First and Last Names"
 msgstr "Prénom et nom"
 
-#: src/RegisterAccountModalContent.js:96
+#: src/RegisterAccountModalContent.js:98
 msgid "First name"
 msgstr "Prénom"
 
@@ -221,7 +226,7 @@ msgstr "Numéro de l'institution"
 msgid "It is your responsibility to keep account information secure. Never share this information with anyone."
 msgstr "Il est de votre responsabilité de préserver la sécurité des informations relatives à votre compte. Ne partagez jamais ces informations avec qui que ce soit."
 
-#: src/RegisterAccountModalContent.js:106
+#: src/RegisterAccountModalContent.js:108
 msgid "Last name"
 msgstr "Nom de famille"
 
@@ -257,6 +262,10 @@ msgstr "Nom sur la carte"
 #: src/AccountPage.js:45
 msgid "Next payment of $267 due 30/11/2021"
 msgstr "Prochain paiement de 267 $ dû le 30/11/2021"
+
+#: src/RegisterAccountModalContent.js:130
+msgid "Password"
+msgstr "Mot de passe"
 
 #: src/LogInAccountModalContent.js:34
 #: src/RegisterAccountModalContent.js:44
@@ -313,11 +322,17 @@ msgstr "Page des paiements"
 msgid "Payment sent."
 msgstr "Paiement envoyé."
 
+#: src/RegisterAccountModalContent.js:75
+msgid "Register"
+msgstr "Registre"
+
 #: src/FaqPage.js:135
 msgid "Should I be using Friendly Loans?"
 msgstr "Devrais-je utiliser les Friendly Loans ?"
 
-#: src/LogInAccountModalContent.js:100
+#: src/LogInAccountModalContent.js:60
+#: src/LogInAccountModalContent.js:102
+#: src/RegisterAccountModalContent.js:149
 msgid "Sign In"
 msgstr "S'inscrire"
 

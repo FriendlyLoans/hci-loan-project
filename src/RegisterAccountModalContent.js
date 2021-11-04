@@ -71,7 +71,9 @@ export const RegisterAccountModalContent = ({
 
   return (
     <>
-      <ModalHeader>Register</ModalHeader>
+      <ModalHeader>
+        <Trans>Register</Trans>
+      </ModalHeader>
       <ModalCloseButton />
       <form onSubmit={handleSubmit(registerSubmit)}>
         <ModalBody>
@@ -125,7 +127,7 @@ export const RegisterAccountModalContent = ({
               </FormLabel>
               <Input
                 type="password"
-                placeholder={`Password`}
+                placeholder={t`Password`}
                 {...register('password', { required: true })}
               />
               <FormErrorMessage>{errors.password?.message}</FormErrorMessage>
@@ -144,7 +146,7 @@ export const RegisterAccountModalContent = ({
 
         <ModalFooter>
           <Button ml="auto" colorScheme="teal" type="submit">
-            Sign In
+            <Trans>Sign In</Trans>
           </Button>
           <Button
             colorScheme="teal"
@@ -153,7 +155,7 @@ export const RegisterAccountModalContent = ({
             ml={3}
             mr={3}
           >
-            Close
+            <Trans>Close</Trans>
           </Button>
         </ModalFooter>
       </form>

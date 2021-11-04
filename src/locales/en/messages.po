@@ -33,7 +33,7 @@ msgstr "(please use a secure email address you use frequently)"
 msgid "1800-IDK-SOME"
 msgstr "1800-IDK-SOME"
 
-#: src/RegisterAccountModalContent.js:78
+#: src/RegisterAccountModalContent.js:80
 msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
 msgstr "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
 
@@ -41,7 +41,7 @@ msgstr "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5
 #~ msgid "<0>I forgot my password. What now?</0>"
 #~ msgstr "<0>I forgot my password. What now?</0>"
 
-#: src/LogInAccountModalContent.js:63
+#: src/LogInAccountModalContent.js:65
 msgid "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
 msgstr "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Password:</6><7/><8>{1}</8></5>"
 
@@ -70,7 +70,7 @@ msgid "Account Page"
 msgstr "Account Page"
 
 #: src/Payment.js:33
-#: src/RegisterAccountModalContent.js:116
+#: src/RegisterAccountModalContent.js:118
 msgid "Account number"
 msgstr "Account number"
 
@@ -90,7 +90,7 @@ msgstr "Add Credit/Bank information"
 #~ msgid "Add card/Bank inforamtion"
 #~ msgstr "Add card/Bank inforamtion"
 
-#: src/RegisterAccountModalContent.js:136
+#: src/RegisterAccountModalContent.js:138
 msgid "Already have an account? <0>Click here to log in.</0>"
 msgstr "Already have an account? <0>Click here to log in.</0>"
 
@@ -118,6 +118,11 @@ msgstr "Card Select"
 msgid "Card number"
 msgstr "Card number"
 
+#: src/LogInAccountModalContent.js:111
+#: src/RegisterAccountModalContent.js:158
+msgid "Close"
+msgstr "Close"
+
 #: src/PaymentConf.js:22
 msgid "Confirm"
 msgstr "Confirm"
@@ -138,12 +143,12 @@ msgstr "Credit/Debit"
 msgid "Do you offer in person services?"
 msgstr "Do you offer in person services?"
 
-#: src/LogInAccountModalContent.js:89
+#: src/LogInAccountModalContent.js:91
 msgid "Don't have an account? <0>Click here to register.</0>"
 msgstr "Don't have an account? <0>Click here to register.</0>"
 
-#: src/LogInAccountModalContent.js:71
-#: src/RegisterAccountModalContent.js:86
+#: src/LogInAccountModalContent.js:73
+#: src/RegisterAccountModalContent.js:88
 msgid "Email"
 msgstr "Email"
 
@@ -164,7 +169,7 @@ msgstr "FAQ"
 msgid "First and Last Names"
 msgstr "First and Last Names"
 
-#: src/RegisterAccountModalContent.js:96
+#: src/RegisterAccountModalContent.js:98
 msgid "First name"
 msgstr "First name"
 
@@ -233,7 +238,7 @@ msgstr "Institution number"
 msgid "It is your responsibility to keep account information secure. Never share this information with anyone."
 msgstr "It is your responsibility to keep account information secure. Never share this information with anyone."
 
-#: src/RegisterAccountModalContent.js:106
+#: src/RegisterAccountModalContent.js:108
 msgid "Last name"
 msgstr "Last name"
 
@@ -273,6 +278,10 @@ msgstr "Next payment of $267 due 30/11/2021"
 #: src/AccountPage.js:45
 #~ msgid "Next payment of (amount) due (date)"
 #~ msgstr "Next payment of (amount) due (date)"
+
+#: src/RegisterAccountModalContent.js:130
+msgid "Password"
+msgstr "Password"
 
 #: src/LogInAccountModalContent.js:34
 #: src/RegisterAccountModalContent.js:44
@@ -329,11 +338,17 @@ msgstr "Payment Page"
 msgid "Payment sent."
 msgstr "Payment sent."
 
+#: src/RegisterAccountModalContent.js:75
+msgid "Register"
+msgstr "Register"
+
 #: src/FaqPage.js:135
 msgid "Should I be using Friendly Loans?"
 msgstr "Should I be using Friendly Loans?"
 
-#: src/LogInAccountModalContent.js:100
+#: src/LogInAccountModalContent.js:60
+#: src/LogInAccountModalContent.js:102
+#: src/RegisterAccountModalContent.js:149
 msgid "Sign In"
 msgstr "Sign In"
 
