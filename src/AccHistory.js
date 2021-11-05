@@ -43,7 +43,7 @@ export const History = (
     </Thead>
     <Tbody>
       <Tr>
-        <Td>20-11-2019</Td>
+        <Td>20-1-2020</Td>
         <Td>
           <Trans>Payment</Trans>
         </Td>
@@ -61,7 +61,7 @@ export const History = (
         <Td isNumeric>14236.60</Td>
       </Tr>
       <Tr>
-        <Td>20-09-2017</Td>
+        <Td>20-10-2019</Td>
         <Td>
           <Trans>Payment Due</Trans>
         </Td>
