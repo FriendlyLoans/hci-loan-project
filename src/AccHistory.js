@@ -30,8 +30,11 @@ export const History = (
         <Th>
           <Trans>Transaction Type</Trans>
         </Th>
+        <Th>
+          <Trans>Amount Due</Trans>
+        </Th>
         <Th isNumeric>
-          <Trans>Amount</Trans>
+          <Trans>Amount Paid</Trans>
         </Th>
         <Th isNumeric>
           <Trans>Balance Remaining</Trans>
@@ -44,6 +47,7 @@ export const History = (
         <Td>
           <Trans>Payment</Trans>
         </Td>
+        <Td isNumeric>0.00</Td>
         <Td isNumeric>8502.20</Td>
         <Td isNumeric>14503.60</Td>
       </Tr>
@@ -52,22 +56,34 @@ export const History = (
         <Td>
           <Trans>Payment</Trans>
         </Td>
+        <Td isNumeric>0.00</Td>
         <Td isNumeric>267.00</Td>
         <Td isNumeric>14236.60</Td>
+      </Tr>
+      <Tr>
+        <Td>20-09-2017</Td>
+        <Td>
+          <Trans>Payment Due</Trans>
+        </Td>
+        <Td isNumeric>267.00</Td>
+        <Td isNumeric>0.00</Td>
+        <Td isNumeric>14503.60</Td>
       </Tr>
       <Tr bg="gray.200">
         <Td>10-10-2018</Td>
         <Td>
           <Trans>Payment</Trans>
         </Td>
+        <Td isNumeric>0.00</Td>
         <Td isNumeric>10004.20</Td>
         <Td isNumeric>23005.80</Td>
       </Tr>
-      <Tr bg="gray.200">
+      <Tr>
         <Td>20-09-2017</Td>
         <Td>
           <Trans>Deposit</Trans>
         </Td>
+        <Td isNumeric>0.00</Td>
         <Td isNumeric>33010</Td>
         <Td isNumeric>33010</Td>
       </Tr>
