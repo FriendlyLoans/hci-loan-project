@@ -62,8 +62,8 @@ msgstr "Numéro de compte"
 #~ msgstr "Page du compte"
 
 #: src/Payment.js:33
-#: src/PaymentPage.js:190
-#: src/PaymentPage.js:194
+#: src/PaymentPage.js:188
+#: src/PaymentPage.js:192
 #: src/RegisterAccountModalContent.js:118
 msgid "Account number"
 msgstr "numéro de compte"
@@ -116,7 +116,7 @@ msgstr "Vous avez des questions? Consultez notre page FAQ ou contactez-nous."
 msgid "Balance Remaining"
 msgstr "Solde restant"
 
-#: src/PaymentPage.js:228
+#: src/PaymentPage.js:226
 #: src/PickMethod.js:32
 msgid "Bank"
 msgstr "la banque"
@@ -165,7 +165,7 @@ msgstr "Confirmer"
 #~ msgid "Copyright © All rights reserved for Friendly Loans 2021."
 #~ msgstr "Copyright © Tous droits réservés pour Friendly Loans 2021."
 
-#: src/PaymentPage.js:225
+#: src/PaymentPage.js:223
 #: src/PickMethod.js:29
 msgid "Credit/Debit"
 msgstr "Crédit/débit"
@@ -283,8 +283,8 @@ msgid "If you have not received your loan statement, please contact"
 msgstr "Si vous n'avez pas reçu votre relevé de prêt, veuillez vous adresser à"
 
 #: src/Payment.js:32
-#: src/PaymentPage.js:177
-#: src/PaymentPage.js:181
+#: src/PaymentPage.js:175
+#: src/PaymentPage.js:179
 msgid "Institution number"
 msgstr "Numéro de l'institution"
 
@@ -407,7 +407,7 @@ msgstr "Paiement"
 msgid "Payment Due"
 msgstr "Paiement dû"
 
-#: src/PaymentPage.js:208
+#: src/PaymentPage.js:206
 msgid "Payment Page"
 msgstr "Page des paiements"
 
@@ -423,7 +423,7 @@ msgstr "Page des paiements"
 msgid "Payment sent."
 msgstr "Paiement envoyé."
 
-#: src/PaymentPage.js:150
+#: src/PaymentPage.js:149
 msgid "RBC *9999"
 msgstr ""
 
@@ -436,7 +436,7 @@ msgstr "Registre"
 msgid "Select card"
 msgstr ""
 
-#: src/PaymentPage.js:212
+#: src/PaymentPage.js:210
 msgid "Select your payment method"
 msgstr ""
 
@@ -467,8 +467,8 @@ msgid "Transaction Type"
 msgstr "Type de transaction"
 
 #: src/Payment.js:31
-#: src/PaymentPage.js:164
-#: src/PaymentPage.js:168
+#: src/PaymentPage.js:162
+#: src/PaymentPage.js:166
 msgid "Transit number"
 msgstr "Numéro de transit"
 

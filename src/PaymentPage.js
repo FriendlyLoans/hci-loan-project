@@ -146,9 +146,7 @@ export const PaymentPage = () => {
           mb="2rem"
         >
           <Select name="selectBank" placeholder={t`Select card`}>
-            <option value="bank1">
-              <Trans>RBC *9999</Trans>
-            </option>
+            <option value="bank1">{t`RBC *9999`}</option>
           </Select>
         </Flex>
       ) : (
