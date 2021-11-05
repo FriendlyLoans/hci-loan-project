@@ -5,7 +5,8 @@ import graduationImage from './images/Graduation.svg'
 
 export const HomePage = () => {
   return (
-    <Flex width="100%" flexDirection="column" grow={1}>
+    <Flex width="100%" flexWrap="wrap" flexDirection={{ base: 'column' }} grow={1}
+    >
       <Heading mx="auto" my="2rem">
         <Trans>Welcome to Friendly Loans!</Trans>
       </Heading>
@@ -71,7 +72,7 @@ export const HomePage = () => {
         </Text>
       </Box>
 
-      <Text fontSize="1.5rem" mx="auto" my="2rem">
+      <Text fontSize="1.5rem" textAlign="center" my="2rem">
         <Trans>Any questions? Refer to our FAQ page or contact us.</Trans>
       </Text>
     </Flex>
