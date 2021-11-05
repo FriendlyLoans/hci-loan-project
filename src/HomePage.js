@@ -26,11 +26,10 @@ export const HomePage = () => {
         opacity="0.8"
         maxW={{ base: '100%', sm: '90%', md: '80%', lg: '60%', xl: '50%' }}
         m="auto"
-        display="block"
       />
 
       <Box padding="2rem" bg="#EDF6F9">
-        <Text textAlign="center">
+        <Text textAlign="center" fontWeight="bold">
           <Trans>Friendly Loans gives you full access to:</Trans>
         </Text>
 
@@ -61,8 +60,10 @@ export const HomePage = () => {
           <Trans>No Debit / Credit Card, use your Bank Information</Trans>
         </Text>
       </Box>
-   
-      <Text fontSize="1.5rem" mx="auto" my="2rem">Any questions? Refer to our FAQ page or contact us.</Text>
+
+      <Text fontSize="1.5rem" mx="auto" my="2rem">
+        Any questions? Refer to our FAQ page or contact us.
+      </Text>
     </Flex>
   )
 }
