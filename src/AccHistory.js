@@ -18,7 +18,7 @@ import React from 'react'
 import { Trans } from '@lingui/macro'
 
 export const History = (
-  <Table variant="simple" mb="2rem">
+  <Table variant="simple" mb="2rem" overflowX="scroll">
     <TableCaption placement="top" fontWeight="bold" fontSize="1.5rem">
       <Trans>Account History</Trans>
     </TableCaption>
