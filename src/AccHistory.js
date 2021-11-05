@@ -84,9 +84,9 @@ export const History = (
           <Td>
             <Trans>Deposit</Trans>
           </Td>
-          <Td isNumeric>#0.00</Td>
-          <Td isNumeric>#33010</Td>
-          <Td isNumeric>#33010</Td>
+          <Td isNumeric>$0.00</Td>
+          <Td isNumeric>$33010</Td>
+          <Td isNumeric>$33010</Td>
         </Tr>
       </Tbody>
     </Table>
