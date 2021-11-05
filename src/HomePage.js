@@ -62,7 +62,7 @@ export const HomePage = () => {
         </Text>
       </Box>
    
-      <Text fontSize="1.5rem" mx="auto" my="2rem">Any questions? Refer to our FAQ page or contact us.</Text>
+      <Text fontSize="1.5rem" mx="auto" my="2rem"><Trans>Any questions? Refer to our FAQ page or contact us.</Trans></Text>
     </Flex>
   )
 }
