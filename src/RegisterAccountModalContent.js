@@ -56,11 +56,11 @@ export const RegisterAccountModalContent = ({
     reset,
   } = useForm({ resolver: yupResolver(schema) })
 
-  const registerSubmit = ({ firstName, lastName }) => {
+  const registerSubmit = () => {
     login({
       email: 'testemail@email.com',
-      firstName: firstName,
-      lastName: lastName,
+      firstName: 'FIRST',
+      lastName: 'LAST',
       loanNumber: 550,
       dateOfBirth: '1/1/1970',
     })
