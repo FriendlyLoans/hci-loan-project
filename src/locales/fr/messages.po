@@ -442,7 +442,7 @@ msgstr "Registre"
 
 #: src/PaymentPage.js:141
 msgid "Select account"
-msgstr ""
+msgstr "Sélectionnez un compte"
 
 #: src/PaymentPage.js:59
 msgid "Select card"
