@@ -23,16 +23,11 @@ export const Footer = () => {
       >
         (+1)902-749-6454
       </Text>
-      <Text
-        m="auto"
-        w="33.33%"
-        textAlign="center"
-        mb={{ base: '0.5rem', lg: 'auto' }}
-      >
+      <Text m="auto" w="33.33%" textAlign="center" order={{ base: 2, lg: 0 }}>
         Copyright &copy;{' '}
         <Trans>All rights reserved for Friendly Loans 2021.</Trans>
       </Text>
-      <Text m="auto" textAlign="right">
+      <Text m="auto" textAlign="right" mb={{ base: '0.5rem', lg: 'auto' }}>
         <a href="mailto:help@friendlyloans.ca">Help@FriendlyLoans.ca</a>
       </Text>
     </Flex>
