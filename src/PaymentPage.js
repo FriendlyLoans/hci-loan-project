@@ -40,17 +40,17 @@ export const PaymentPage = () => {
           <Box px="2rem">
             <Menu>
               <MenuButton
-                p="0.2rem"
+                p="0.3rem"
+                transition="all 0.2s"
                 borderRadius="md"
-                borderWidth="1px"
-                borderColor="black.100"
-                _hover={{ bg: 'gray.100' }}
-                _focus={{ boxShadow: 'outline' }}
+                border="1px solid black"
+                bg="themeCyan"
+                _hover={{ bg: 'themeYellow' }}
               >
                 <Trans>Card Select</Trans>
               </MenuButton>
               <MenuList>
-                <MenuItem>MyCard</MenuItem>
+                <MenuItem _hover={{ bg: 'themeYellow' }}>MyCard</MenuItem>
               </MenuList>
             </Menu>
           </Box>

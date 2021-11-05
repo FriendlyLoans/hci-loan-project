@@ -28,7 +28,14 @@ export const AccountPage = () => {
       <Heading mx="auto" my="2rem">
         <Trans>Account Page</Trans>
       </Heading>
-      <Button mx="10rem" as={RouteLink} to="/payment">
+      <Button
+        mx="10rem"
+        as={RouteLink}
+        to="/payment"
+        bg="themeCyan"
+        border="1px solid black"
+        _hover={{ bg: 'themeYellow' }}
+      >
         <Trans>Pay Here</Trans>
       </Button>
       <Text mx="auto" display="block" my="1rem">

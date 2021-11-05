@@ -9,6 +9,9 @@ export function Confirm() {
     <Button
       display="block"
       mx="auto"
+      bg="themeCyan"
+      border="1px solid black"
+      _hover={{ bg: 'themeYellow' }}
       onClick={() =>
         toast({
           title: t`Payment sent.`,
@@ -16,6 +19,7 @@ export function Confirm() {
           status: 'info',
           duration: 5000,
           position: 'top-left',
+          isClosable: true,
         })
       }
     >
