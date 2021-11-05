@@ -50,7 +50,7 @@ export const AccountPage = () => {
       {History}
 
       <Button
-        mx="10rem"
+        mx="auto"
         as={RouteLink}
         to="/payment"
         bg="themeCyan"
