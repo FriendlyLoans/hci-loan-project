@@ -9,7 +9,7 @@ export const Footer = () => {
       bg="themeBlue"
       minH="5vh"
       textColor="themeYellow"
-      mt="2rem"
+      mt="auto"
       flexWrap="wrap"
     >
       <Text m="auto">

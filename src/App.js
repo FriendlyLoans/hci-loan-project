@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ChakraProvider, Flex } from '@chakra-ui/react'
+import { Box, ChakraProvider, Flex } from '@chakra-ui/react'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import { AccountPage } from './AccountPage'
 import { FaqPage } from './FaqPage'
@@ -42,20 +42,22 @@ const App = () => {
               >
                 <Header />
 
-                <Switch>
-                  <PrivateRoute
-                    path="/account"
-                    component={AccountPage}
-                    pageName="account"
-                  />
-                  <PrivateRoute
-                    path="/payment"
-                    component={PaymentPage}
-                    pageName="payment"
-                  />
-                  <Route path="/faq" component={FaqPage} />
-                  <Route path="/" component={HomePage} />
-                </Switch>
+                <Box mb="2rem">
+                  <Switch>
+                    <PrivateRoute
+                      path="/account"
+                      component={AccountPage}
+                      pageName="account"
+                    />
+                    <PrivateRoute
+                      path="/payment"
+                      component={PaymentPage}
+                      pageName="payment"
+                    />
+                    <Route path="/faq" component={FaqPage} />
+                    <Route path="/" component={HomePage} />
+                  </Switch>
+                </Box>
                 <Footer />
               </Flex>
             </Flex>
