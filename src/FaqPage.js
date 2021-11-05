@@ -28,7 +28,7 @@ export const FaqPage = () => {
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
               >
-                <Box flex="1" textAlign="left" padding="1.5rem">
+                <Box flex="1" textAlign="left" fontSize="1.5rem" padding="1.5rem">
                   <Text>
                     <Trans>
                       What information do I need to create an account?
@@ -88,7 +88,7 @@ export const FaqPage = () => {
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
               >
-                <Box flex="1" textAlign="left" padding="1.5rem">
+                <Box flex="1" textAlign="left" fontSize="1.5rem" padding="1.5rem">
                   <Text>
                     <Trans>I forgot my password. What now?</Trans>
                   </Text>
@@ -139,7 +139,7 @@ export const FaqPage = () => {
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
               >
-                <Box flex="1" textAlign="left" padding="1.5rem">
+                <Box flex="1" textAlign="left" fontSize="1.5rem" padding="1.5rem">
                   <Text>
                     <Trans>My credentials were stolen. What should I do?</Trans>
                   </Text>
@@ -186,7 +186,7 @@ export const FaqPage = () => {
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
               >
-                <Box flex="1" textAlign="left" padding="1.5rem">
+                <Box flex="1" textAlign="left" fontSize="1.5rem" padding="1.5rem">
                   <Text>
                     <Trans>Should I be using Friendly Loans?</Trans>
                   </Text>
@@ -211,7 +211,7 @@ export const FaqPage = () => {
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
               >
-                <Box flex="1" textAlign="left" padding="1.5rem">
+                <Box flex="1" textAlign="left" fontSize="1.5rem" padding="1.5rem">
                   <Text>
                     <Trans>Do you offer in person services?</Trans>
                   </Text>
