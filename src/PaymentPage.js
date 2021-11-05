@@ -15,6 +15,8 @@ import {
   Button,
   Select,
   Tab,
+  FormLabel,
+  FormControl,
 } from '@chakra-ui/react'
 import { ChevronDownIcon } from '@chakra-ui/icons'
 
@@ -51,14 +53,17 @@ export const PaymentPage = () => {
       </RadioGroup>
 
       {currentCardState === 'existing' ? (
-        <Box px="2rem" mx="auto" mb="2rem">
-          <label htmlFor="selectCard">
-            <Trans>Select card</Trans>
-          </label>
+        <Flex
+          direction="column"
+          alignItems="center"
+          px="2rem"
+          mx="auto"
+          mb="2rem"
+        >
           <Select name="selectCard" placeholder={t`Select card`}>
             <option value="card1">VISA *9999</option>
           </Select>
-        </Box>
+        </Flex>
       ) : (
         <form>
           <Flex
@@ -67,24 +72,32 @@ export const PaymentPage = () => {
             w="min-content"
             mx="auto"
           >
-            <label htmlFor="number">Card number</label>
-            <Input
-              name="number"
-              placeholder={t`Card number`}
-              maxW="95%"
-              w="40ch"
-              mb="1rem"
-            />
-            <label htmlFor="name">Name on card</label>
-            <Input
-              name="name"
-              placeholder={t`Name on card`}
-              maxW="95%"
-              w="40ch"
-              mb="1rem"
-            />
-            <label htmlFor="cvv">CVV</label>
-            <Input name="cvv" placeholder={t`CVV`} w="10ch" mb="1rem" />
+            <FormControl id="number">
+              <FormLabel htmlFor="number">Card number</FormLabel>
+              <Input
+                name="number"
+                placeholder={t`Card number`}
+                maxW="95%"
+                w="40ch"
+                mb="1rem"
+              />
+            </FormControl>
+
+            <FormControl id="name">
+              <FormLabel htmlFor="name">Name on card</FormLabel>
+              <Input
+                name="name"
+                placeholder={t`Name on card`}
+                maxW="95%"
+                w="40ch"
+                mb="1rem"
+              />
+            </FormControl>
+
+            <FormControl id="cvv">
+              <FormLabel htmlFor="cvv">CVV</FormLabel>
+              <Input name="cvv" placeholder={t`CVV`} w="10ch" mb="1rem" />
+            </FormControl>
           </Flex>
         </form>
       )}
@@ -125,10 +138,22 @@ export const PaymentPage = () => {
 
         <Box>{currentPaymentState === 'card' ? cardPayment : bankPayment}</Box>
 
-        <Divider orientation="horizontal" />
+        <Divider orientation="horizontal" mb="2rem" />
 
-        <label htmlFor="paymentAmount">Payment amount</label>
-        <Input name="paymentAmount" placeholder="Payment amount" />
+        <Flex flexDirection="column" w="min-content" mx="auto">
+          <form>
+            <FormControl id="paymentAmount">
+              <FormLabel>Payment amount</FormLabel>
+              <Input
+                w="40ch"
+                maxW="100%"
+                name="paymentAmount"
+                placeholder="Payment amount"
+                mb="2rem"
+              />
+            </FormControl>
+          </form>
+        </Flex>
 
         <Confirm />
       </Flex>
