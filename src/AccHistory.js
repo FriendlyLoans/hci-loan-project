@@ -39,14 +39,6 @@ export const History = (
       </Tr>
     </Thead>
     <Tbody>
-      <Tr bg="gray.200">
-        <Td>10-10-2018</Td>
-        <Td>
-          <Trans>Payment</Trans>
-        </Td>
-        <Td isNumeric>10004.20</Td>
-        <Td isNumeric>23005.80</Td>
-      </Tr>
       <Tr>
         <Td>20-11-2019</Td>
         <Td>
@@ -62,6 +54,22 @@ export const History = (
         </Td>
         <Td isNumeric>267.00</Td>
         <Td isNumeric>14236.60</Td>
+      </Tr>
+      <Tr bg="gray.200">
+        <Td>10-10-2018</Td>
+        <Td>
+          <Trans>Payment</Trans>
+        </Td>
+        <Td isNumeric>10004.20</Td>
+        <Td isNumeric>23005.80</Td>
+      </Tr>
+      <Tr bg="gray.200">
+        <Td>20-09-2017</Td>
+        <Td>
+          <Trans>Deposit</Trans>
+        </Td>
+        <Td isNumeric>33010</Td>
+        <Td isNumeric>33010</Td>
       </Tr>
     </Tbody>
   </Table>
