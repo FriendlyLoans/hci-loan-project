@@ -9,11 +9,11 @@ export const HomePage = () => {
       <Heading mx="auto" my="2rem">
         <Trans>Welcome to Friendly Loans!</Trans>
       </Heading>
-      <Text mx="auto" my="2rem" display="block">
+      <Text mx="auto" my="2rem" fontSize="2rem" display="block">
         <Trans>Why Friendly Loans?</Trans>
       </Text>
 
-      <Text mx="auto">
+      <Text mx="auto" fontSize="1.25rem">
         <Trans>
           Friendly Loans is a service for all students to access their student
           loans in Nova Scotia.
@@ -29,15 +29,15 @@ export const HomePage = () => {
       />
 
       <Box padding="2rem" bg="#EDF6F9">
-        <Text textAlign="center" fontWeight="bold">
+        <Text textAlign="center" my="2rem" fontSize="2rem" fontWeight="bold">
           <Trans>Friendly Loans gives you full access to:</Trans>
         </Text>
 
-        <Text textAlign="center">
+        <Text textAlign="center" fontSize="1.25rem">
           <Trans>Pay your Loans</Trans>
         </Text>
 
-        <Text textAlign="center">
+        <Text textAlign="center" fontSize="1.25rem">
           <Trans>View your loan statements and payment history</Trans>
         </Text>
       </Box>
@@ -50,20 +50,20 @@ export const HomePage = () => {
         borderRadius="10px 100px / 120px;"
         mx="auto"
       >
-        <Text textAlign="center" my="2rem">
+        <Text textAlign="center" fontSize="2rem" my="2rem">
           <Trans>Flexibility at its best!</Trans>
         </Text>
-        <Text textAlign="center" my="2rem" fontWeight="light">
+        <Text textAlign="center" my="2rem" fontSize="1.25rem" fontWeight="light">
           <Trans>No Bank Information, use your Debit / Credit Card</Trans>
         </Text>
-        <Text textAlign="center" my="2rem" fontWeight="light">
+        <Text textAlign="center" my="2rem" fontSize="1.25rem" fontWeight="light">
           <Trans>No Debit / Credit Card, use your Bank Information</Trans>
         </Text>
       </Box>
 
       <Text fontSize="1.5rem" mx="auto" my="2rem">
         <Trans>Any questions? Refer to our FAQ page or contact us.
-      </Trans></Text>
+        </Trans></Text>
     </Flex>
   )
 }
