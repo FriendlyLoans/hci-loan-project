@@ -31,7 +31,7 @@ export const History = (
           <Th>
             <Trans>Transaction Type</Trans>
           </Th>
-          <Th>
+          <Th isNumeric>
             <Trans>Amount Due</Trans>
           </Th>
           <Th isNumeric>
@@ -48,45 +48,45 @@ export const History = (
           <Td>
             <Trans>Payment</Trans>
           </Td>
-          <Td isNumeric>0.00</Td>
-          <Td isNumeric>8502.20</Td>
-          <Td isNumeric>14503.60</Td>
+          <Td isNumeric>$0.00</Td>
+          <Td isNumeric>$8502.20</Td>
+          <Td isNumeric>$14503.60</Td>
         </Tr>
         <Tr bg="gray.200">
           <Td>20-11-2019</Td>
           <Td>
             <Trans>Payment</Trans>
           </Td>
-          <Td isNumeric>0.00</Td>
-          <Td isNumeric>267.00</Td>
-          <Td isNumeric>14236.60</Td>
+          <Td isNumeric>$0.00</Td>
+          <Td isNumeric>$267.00</Td>
+          <Td isNumeric>$14236.60</Td>
         </Tr>
         <Tr>
           <Td>20-10-2019</Td>
           <Td>
             <Trans>Payment Due</Trans>
           </Td>
-          <Td isNumeric>267.00</Td>
-          <Td isNumeric>0.00</Td>
-          <Td isNumeric>14503.60</Td>
+          <Td isNumeric>$267.00</Td>
+          <Td isNumeric>$0.00</Td>
+          <Td isNumeric>$14503.60</Td>
         </Tr>
         <Tr bg="gray.200">
           <Td>10-10-2018</Td>
           <Td>
             <Trans>Payment</Trans>
           </Td>
-          <Td isNumeric>0.00</Td>
-          <Td isNumeric>10004.20</Td>
-          <Td isNumeric>23005.80</Td>
+          <Td isNumeric>$0.00</Td>
+          <Td isNumeric>$10004.20</Td>
+          <Td isNumeric>$23005.80</Td>
         </Tr>
         <Tr>
           <Td>20-09-2017</Td>
           <Td>
             <Trans>Deposit</Trans>
           </Td>
-          <Td isNumeric>0.00</Td>
-          <Td isNumeric>33010</Td>
-          <Td isNumeric>33010</Td>
+          <Td isNumeric>#0.00</Td>
+          <Td isNumeric>#33010</Td>
+          <Td isNumeric>#33010</Td>
         </Tr>
       </Tbody>
     </Table>
