@@ -34,8 +34,8 @@ msgstr "(veuillez utiliser une adresse électronique sécurisée que vous utilis
 #~ msgstr "1800-IDK-SOME"
 
 #: src/PaymentPage.js:235
-msgid "<0/>"
-msgstr ""
+#~ msgid "<0/>"
+#~ msgstr ""
 
 #: src/RegisterAccountModalContent.js:79
 msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
@@ -88,7 +88,7 @@ msgstr "Les numéros de compte sont composés d'exactement 12 chiffres."
 #~ msgid "Add card/Bank inforamtion"
 #~ msgstr "Ajouter des informations sur la carte/la banque"
 
-#: src/Footer.js:17
+#: src/Footer.js:28
 msgid "All rights reserved for Friendly Loans 2021."
 msgstr "Tous droits réservés à Friendly Loans 2021."
 
@@ -415,7 +415,8 @@ msgstr "Paiement dû"
 msgid "Payment Page"
 msgstr "Page des paiements"
 
-#: src/PaymentPage.js:233
+#: src/PaymentPage.js:234
+#: src/PaymentPage.js:241
 msgid "Payment amount"
 msgstr "Montant du paiement"
 
