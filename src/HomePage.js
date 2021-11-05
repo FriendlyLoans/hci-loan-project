@@ -1,4 +1,4 @@
-import { Flex, Text, Heading, Box, Image } from '@chakra-ui/react'
+import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import { t, Trans } from '@lingui/macro'
 import graduationImage from './images/Graduation.svg'
@@ -53,17 +53,27 @@ export const HomePage = () => {
         <Text textAlign="center" fontSize="2rem" my="2rem">
           <Trans>Flexibility at its best!</Trans>
         </Text>
-        <Text textAlign="center" my="2rem" fontSize="1.25rem" fontWeight="light">
+        <Text
+          textAlign="center"
+          my="2rem"
+          fontSize="1.25rem"
+          fontWeight="light"
+        >
           <Trans>No Bank Information, use your Debit / Credit Card</Trans>
         </Text>
-        <Text textAlign="center" my="2rem" fontSize="1.25rem" fontWeight="light">
+        <Text
+          textAlign="center"
+          my="2rem"
+          fontSize="1.25rem"
+          fontWeight="light"
+        >
           <Trans>No Debit / Credit Card, use your Bank Information</Trans>
         </Text>
       </Box>
 
       <Text fontSize="1.5rem" mx="auto" my="2rem">
-        <Trans>Any questions? Refer to our FAQ page or contact us.
-        </Trans></Text>
+        <Trans>Any questions? Refer to our FAQ page or contact us.</Trans>
+      </Text>
     </Flex>
   )
 }

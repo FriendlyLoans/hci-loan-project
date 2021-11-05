@@ -1,18 +1,6 @@
-import {
-  Flex,
-  Text,
-  Heading,
-  Divider,
-  Button,
-  Box,
-  Textarea,
-  Input,
-  useToast,
-} from '@chakra-ui/react'
+import { Flex, Input } from '@chakra-ui/react'
 import React from 'react'
-import { Trans, t } from '@lingui/macro'
-import { Confirm } from './PaymentConf'
-import { PickMethod } from './PickMethod'
+import { t } from '@lingui/macro'
 
 export const PaymentSelect = ({ currentPaymentState }) => {
   switch (currentPaymentState) {

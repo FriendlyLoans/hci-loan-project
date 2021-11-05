@@ -1,4 +1,4 @@
-import { Flex, Button } from '@chakra-ui/react'
+import { Button, Flex } from '@chakra-ui/react'
 import { Link as RouteLink } from 'react-router-dom'
 import React from 'react'
 import { Trans } from '@lingui/macro'

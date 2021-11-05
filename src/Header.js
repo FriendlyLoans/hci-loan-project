@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button, Flex, Heading, Text } from '@chakra-ui/react'
+import { Flex, Heading, Text } from '@chakra-ui/react'
 import { LoginButton } from './LoginButton'
 import { Navigation } from './Navigation'
 import { Trans } from '@lingui/macro'

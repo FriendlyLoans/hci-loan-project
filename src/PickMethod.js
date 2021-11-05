@@ -1,17 +1,4 @@
-import {
-  Flex,
-  Text,
-  Heading,
-  Divider,
-  Center,
-  Button,
-  Box,
-  Textarea,
-  Input,
-  Radio,
-  RadioGroup,
-  Stack,
-} from '@chakra-ui/react'
+import { Radio, RadioGroup, Stack } from '@chakra-ui/react'
 import React from 'react'
 import { Trans } from '@lingui/macro'
 

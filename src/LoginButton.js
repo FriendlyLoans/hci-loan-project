@@ -6,7 +6,7 @@ import {
   ModalOverlay,
   useDisclosure,
 } from '@chakra-ui/react'
-import { Trans, t } from '@lingui/macro'
+import { Trans } from '@lingui/macro'
 import { useUser } from './UserContext'
 import { RegisterAccountModalContent } from './RegisterAccountModalContent'
 import { LogInAccountModalContent } from './LogInAccountModalContent'

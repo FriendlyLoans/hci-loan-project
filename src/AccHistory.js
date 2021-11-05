@@ -1,18 +1,12 @@
 import {
-  Flex,
-  Text,
-  Heading,
-  Button,
-  Divider,
-  Table,
-  Thead,
-  Tbody,
-  Tfoot,
-  Tr,
-  Th,
-  Td,
-  TableCaption,
   Box,
+  Table,
+  TableCaption,
+  Tbody,
+  Td,
+  Th,
+  Thead,
+  Tr,
 } from '@chakra-ui/react'
 import React from 'react'
 import { Trans } from '@lingui/macro'

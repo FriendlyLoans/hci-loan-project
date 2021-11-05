@@ -1,21 +1,13 @@
 import {
-  Flex,
-  Text,
-  Heading,
   Button,
   Divider,
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  AccordionPanel,
-  AccordionIcon,
-  Box,
+  Flex,
+  Heading,
   Stat,
+  StatHelpText,
   StatLabel,
   StatNumber,
-  StatHelpText,
-  StatArrow,
-  StatGroup,
+  Text,
 } from '@chakra-ui/react'
 import React from 'react'
 import { Link as RouteLink } from 'react-router-dom'

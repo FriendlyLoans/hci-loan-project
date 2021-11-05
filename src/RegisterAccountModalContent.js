@@ -7,7 +7,6 @@ import {
   Link,
   ModalBody,
   ModalCloseButton,
-  ModalContent,
   ModalFooter,
   ModalHeader,
   Text,

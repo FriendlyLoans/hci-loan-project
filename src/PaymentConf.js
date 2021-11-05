@@ -1,7 +1,6 @@
-import { Text, Button, useToast } from '@chakra-ui/react'
+import { Button, useToast } from '@chakra-ui/react'
 import React from 'react'
-import { Trans } from '@lingui/macro'
-import { t } from '@lingui/macro'
+import { t, Trans } from '@lingui/macro'
 
 export function Confirm() {
   const toast = useToast()

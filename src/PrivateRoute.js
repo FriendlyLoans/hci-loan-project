@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Redirect } from 'react-router-dom'
+import { Redirect, Route } from 'react-router-dom'
 import { useUser } from './UserContext'
 import { useToast } from '@chakra-ui/react'
 import { t } from '@lingui/macro'

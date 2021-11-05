@@ -1,29 +1,22 @@
 import {
-  Flex,
-  Text,
-  Heading,
-  Divider,
   Box,
-  Input,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  RadioGroup,
-  Stack,
-  Radio,
-  Button,
-  Select,
-  Tab,
-  FormLabel,
+  Divider,
+  Flex,
   FormControl,
-  NumberInputField,
+  FormLabel,
+  Heading,
+  Input,
   NumberInput,
+  NumberInputField,
+  Radio,
+  RadioGroup,
+  Select,
+  Stack,
+  Text,
 } from '@chakra-ui/react'
-import { ChevronDownIcon } from '@chakra-ui/icons'
 
 import React, { useState } from 'react'
-import { Trans, t } from '@lingui/macro'
+import { t, Trans } from '@lingui/macro'
 import { Confirm } from './PaymentConf'
 
 export const PaymentPage = () => {
