@@ -55,6 +55,7 @@ export const AccountPage = () => {
         to="/payment"
         bg="themeCyan"
         border="1px solid black"
+        w="min-content"
         _hover={{ bg: 'themeYellow' }}
       >
         <Trans>Pay Here</Trans>
