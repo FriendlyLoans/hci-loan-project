@@ -27,7 +27,6 @@ export const LocaleSwitcher = ({ ...props }) => {
       color="themeYellow"
       as="button"
       fontWeight="bold"
-      my="1rem"
       onClick={async () => {
         await dynamicActivate(i18n.locale === 'en' ? 'fr' : 'en')
       }}

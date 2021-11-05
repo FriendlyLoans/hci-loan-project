@@ -11,7 +11,7 @@ import { useUser } from './UserContext'
 import { RegisterAccountModalContent } from './RegisterAccountModalContent'
 import { LogInAccountModalContent } from './LogInAccountModalContent'
 
-export const LoginButton = () => {
+export const LoginButton = ({ ...props }) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const { logout, isLoggedIn } = useUser()
 
@@ -20,10 +20,10 @@ export const LoginButton = () => {
   return (
     <>
       <Button
+        {...props}
         outline="1px solid black"
         textColor="black"
         my="auto"
-        ml="auto"
         bg="themeCyan"
         _hover={{ bg: 'themeYellow' }}
         transition="0.25s"

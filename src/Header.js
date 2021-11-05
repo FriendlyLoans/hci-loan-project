@@ -18,26 +18,26 @@ export const Header = () => {
         bg="themeBlue"
         alignContent="center"
         px="2rem"
-        pb="2rem"
-        flexDirection="column"
+        flexDirection="row"
+        w="100%"
+        py="1rem"
       >
-        <Flex w="100%">
-          <LocaleSwitcher ml="auto" />
-        </Flex>
-
-        <Flex flexDirection="row">
-          <Heading color="themeYellow" bg="themeBlue" my="auto">
-            <Trans>Friendly Loans</Trans>
-          </Heading>
-
-          <LoginButton />
-        </Flex>
+        <Heading color="themeYellow" bg="themeBlue" mr="auto">
+          <Trans>Friendly Loans</Trans>
+        </Heading>
 
         {isLoggedIn() && (
-          <Text ml="auto" mt="1rem" color="themeYellow">
-            {welcomeString}
+          <Text my="auto" textAlign="right" color="themeYellow">
+            <Trans>
+              <strong>Hi, </strong>{' '}
+              {`${userState?.firstName} ${userState?.lastName}`}
+            </Trans>
           </Text>
         )}
+
+        <LoginButton ml="2rem" />
+
+        <LocaleSwitcher ml="2rem" />
       </Flex>
 
       <Navigation />
