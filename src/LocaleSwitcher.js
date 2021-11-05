@@ -34,7 +34,8 @@ export const LocaleSwitcher = ({ ...props }) => {
       borderRadius="md"
       padding="0.25rem"
       _hover={{
-        border: `1px solid ${theme.colors.themeYellow}`,
+        border: `1px solid ${theme.colors.themeYellow}`, 
+        transition: "0.25s"
       }}
     >
       {localeSwitcherText} <LanguageIcon />
