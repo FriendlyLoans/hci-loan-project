@@ -142,7 +142,7 @@ msgstr ""
 #: src/PaymentPage.js:73
 #: src/PaymentPage.js:77
 msgid "Card number"
-msgstr "numéro de carte"
+msgstr "Numéro de carte"
 
 #: src/LogInAccountModalContent.js:110
 #: src/RegisterAccountModalContent.js:157
