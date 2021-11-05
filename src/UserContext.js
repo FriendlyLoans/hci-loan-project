@@ -30,10 +30,10 @@ const userReducer = (state, action) => {
 
 const UserProvider = ({ children }) => {
   const [state, dispatch] = useReducer(userReducer, {
-    email: 'aaasdasd',
-    firstName: 'adawdawdawd',
-    lastName: 'adawdwadsda',
-    loanNumber: 123121231231,
+    email: undefined,
+    firstName: undefined,
+    lastName: undefined,
+    loanNumber: undefined,
     dateOfBirth: undefined,
   })
 
