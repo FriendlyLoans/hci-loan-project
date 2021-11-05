@@ -45,8 +45,8 @@ export const LogInAccountModalContent = ({
   const loginSubmit = (data) => {
     login({
       email: 'testemail@email.com',
-      firstName: 'FIRST',
-      lastName: 'LAST',
+      firstName: 'Ashley',
+      lastName: 'Furniture',
       loanNumber: 550,
       dateOfBirth: '1/1/1970',
     })

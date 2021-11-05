@@ -26,23 +26,18 @@ export const AccountPage = () => {
   return (
     <Flex minH="30rem" width="100%" flexDirection="column">
       <Heading mx="auto" my="2rem">
-        <Trans>Account Page</Trans>
+        <Trans>Your Loans</Trans>
       </Heading>
-      <Button
-        mx="10rem"
-        as={RouteLink}
-        to="/payment"
-        bg="themeCyan"
-        border="1px solid black"
-        _hover={{ bg: 'themeYellow' }}
-      >
-        <Trans>Pay Here</Trans>
-      </Button>
-      <Text mx="auto" display="block" my="1rem">
-        <Trans>History</Trans>
-      </Text>
+
       <Divider />
-      <Stat bg="themeBlue" textColor="white" py="3rem">
+      <Stat
+        bg="themeBlue"
+        textColor="white"
+        py="3rem"
+        borderWidth="6px"
+        borderStyle="solid"
+        borderColor="themeYellow"
+      >
         <StatLabel px="1rem">
           <Trans>Total amount due</Trans>
         </StatLabel>
@@ -53,6 +48,17 @@ export const AccountPage = () => {
         </Text>
       </Stat>
       {History}
+
+      <Button
+        mx="10rem"
+        as={RouteLink}
+        to="/payment"
+        bg="themeCyan"
+        border="1px solid black"
+        _hover={{ bg: 'themeYellow' }}
+      >
+        <Trans>Pay Here</Trans>
+      </Button>
     </Flex>
   )
 }

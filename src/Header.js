@@ -10,8 +10,6 @@ import { useUser } from './UserContext'
 export const Header = () => {
   const { userState, isLoggedIn } = useUser()
 
-  const welcomeString = `Hi, ${userState?.firstName} ${userState?.lastName}`
-
   return (
     <>
       <Flex
@@ -21,6 +19,7 @@ export const Header = () => {
         flexDirection="row"
         w="100%"
         py="1rem"
+        flexWrap="wrap"
       >
         <Heading color="themeYellow" bg="themeBlue" mr="auto">
           <Trans>Friendly Loans</Trans>

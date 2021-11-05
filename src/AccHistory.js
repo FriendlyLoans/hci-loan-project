@@ -18,8 +18,8 @@ import React from 'react'
 import { Trans } from '@lingui/macro'
 
 export const History = (
-  <Table variant="simple">
-    <TableCaption>
+  <Table variant="simple" mb="2rem">
+    <TableCaption placement="top" fontWeight="bold" fontSize="1.5rem">
       <Trans>Account History</Trans>
     </TableCaption>
     <Thead>
@@ -34,7 +34,7 @@ export const History = (
           <Trans>Amount</Trans>
         </Th>
         <Th isNumeric>
-          <Trans>Balance Remaing</Trans>
+          <Trans>Balance Remaining</Trans>
         </Th>
       </Tr>
     </Thead>
