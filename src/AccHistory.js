@@ -25,7 +25,7 @@ export const History = (
     <Thead>
       <Tr>
         <Th>
-          <Trans>Payment Date</Trans>
+          <Trans>Date</Trans>
         </Th>
         <Th>
           <Trans>Transaction Type</Trans>
