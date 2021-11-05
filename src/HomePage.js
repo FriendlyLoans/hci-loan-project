@@ -59,7 +59,7 @@ export const HomePage = () => {
           fontSize="1.25rem"
           fontWeight="light"
         >
-          <Trans>No Bank Information, use your Debit / Credit Card</Trans>
+          <Trans>No Bank Information? Use your Debit / Credit Card.</Trans>
         </Text>
         <Text
           textAlign="center"
@@ -67,7 +67,7 @@ export const HomePage = () => {
           fontSize="1.25rem"
           fontWeight="light"
         >
-          <Trans>No Debit / Credit Card, use your Bank Information</Trans>
+          <Trans>No Debit / Credit Card? Use your Bank Information.</Trans>
         </Text>
       </Box>
 
