@@ -61,6 +61,8 @@ export const HomePage = () => {
           <Trans>No Debit / Credit Card, use your Bank Information</Trans>
         </Text>
       </Box>
+   
+      <Text fontSize="1.5rem" mx="auto" my="2rem">Any questions? Refer to our FAQ page or contact us.</Text>
     </Flex>
   )
 }

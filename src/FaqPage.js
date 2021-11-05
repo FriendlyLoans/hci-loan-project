@@ -74,7 +74,7 @@ export const FaqPage = () => {
                   If you have not received your loan statement, please contact
                 </Trans>{' '}
                 <b>
-                  <a href="tel: 1800-IDK-SOME">(+1) 800-IDK-SOME</a>
+                  <a href="tel: 1902-749-6454">(+1)902-749-6454</a>
                 </b>
               </Text>
             </AccordionPanel>
@@ -102,11 +102,13 @@ export const FaqPage = () => {
                 centre. Reach out to Customer Support Centre at:{' '}
               </Trans>
               <Text py="2em" fontWeight="bold">
-                <a href="mailto: example@example.ca">example@example.ca</a>
+                <a href="mailto: Help@FriendlyLoans.ca">
+                  Help@FriendlyLoans.ca
+                </a>
               </Text>
 
               <Text fontWeight="bold">
-                <a href="tel: 1800-IDK-SOME">(+1) 800-IDK-SOME</a>
+                <a href="tel: 1902-749-6454">(+1)902-749-6454</a>
               </Text>
 
               <Text>
@@ -157,7 +159,7 @@ export const FaqPage = () => {
                   contact{' '}
                 </Trans>{' '}
                 <b>
-                  <a href="tel: (+1) 800-YOU-LOST">
+                  <a href="tel: 1902-749-6454">
                     <Trans>Friendly Loans Identity Theft Report Center</Trans>
                   </a>
                 </b>{' '}
@@ -169,8 +171,8 @@ export const FaqPage = () => {
               </Text>
 
               <Text fontWeight="bolded">
-                <a href="tel: 1800-YOU-LOST">
-                  <b>(+1) 800-YOU-LOST</b>
+                <a href="tel: 1902-749-6454">
+                  <b>(+1)902-749-6454</b>
                 </a>
               </Text>
             </AccordionPanel>
