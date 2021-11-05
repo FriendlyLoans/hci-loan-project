@@ -230,7 +230,7 @@ export const PaymentPage = () => {
         <Flex flexDirection="column" w="min-content" mx="auto">
           <form>
             <FormControl id="paymentAmount">
-              <FormLabel>Payment amount</FormLabel>
+              <FormLabel><Trans>Payment amount</Trans></FormLabel>
               <NumberInput>
                 <NumberInputField
                   w="40ch"
