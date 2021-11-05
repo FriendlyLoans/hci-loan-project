@@ -21,7 +21,7 @@ export const Footer = () => {
         m="auto"
         mb={{ base: '0.5rem', lg: 'auto' }}
       >
-        (+1)902-749-6454
+        (+1) 902-749-6454
       </Text>
       <Text m="auto" w="33.33%" textAlign="center" order={{ base: 2, lg: 0 }}>
         Copyright &copy;{' '}

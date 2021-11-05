@@ -70,7 +70,7 @@ msgstr "Numéro de compte"
 #: src/PaymentPage.js:185
 #: src/RegisterAccountModalContent.js:117
 msgid "Account number"
-msgstr "numéro de compte"
+msgstr "Numéro de compte"
 
 #: src/RegisterAccountModalContent.js:36
 msgid "Account number is required."
