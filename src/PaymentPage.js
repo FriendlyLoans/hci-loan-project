@@ -3,71 +3,134 @@ import {
   Text,
   Heading,
   Divider,
-  Button,
   Box,
-  Textarea,
   Input,
-  useToast,
   Menu,
   MenuButton,
   MenuList,
   MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuIcon,
-  MenuCommand,
-  MenuDivider,
+  RadioGroup,
+  Stack,
+  Radio,
+  Button,
+  Select,
+  Tab,
 } from '@chakra-ui/react'
+import { ChevronDownIcon } from '@chakra-ui/icons'
+
 import React, { useState } from 'react'
 import { Trans, t } from '@lingui/macro'
 import { Confirm } from './PaymentConf'
-import { PickMethod } from './PickMethod'
-import { PaymentSelect } from './Payment'
 
 export const PaymentPage = () => {
   const [currentPaymentState, setCurrentPaymentState] = useState('card')
+  const [currentCardState, setCurrentCardState] = useState('existing')
+
+  const cardPayment = (
+    <Flex w="100%" flexDirection="column">
+      <Text px="2rem" mx="auto">
+        <Trans>Pay with existing information or add new</Trans>
+      </Text>
+      <RadioGroup
+        value={currentCardState}
+        onChange={(e) => {
+          setCurrentCardState(e)
+        }}
+        pl="2rem"
+        mb="2rem"
+        mx="auto"
+      >
+        <Stack spacing={5} direction="row">
+          <Radio colorScheme="blue" value="existing">
+            <Trans>Existing</Trans>
+          </Radio>
+          <Radio colorScheme="blue" value="new">
+            <Trans>New</Trans>
+          </Radio>
+        </Stack>
+      </RadioGroup>
+
+      {currentCardState === 'existing' ? (
+        <Box px="2rem" mx="auto" mb="2rem">
+          <label htmlFor="selectCard">
+            <Trans>Select card</Trans>
+          </label>
+          <Select name="selectCard" placeholder={t`Select card`}>
+            <option value="card1">VISA *9999</option>
+          </Select>
+        </Box>
+      ) : (
+        <form>
+          <Flex
+            flexDirection="column"
+            alignItems="left"
+            w="min-content"
+            mx="auto"
+          >
+            <label htmlFor="number">Card number</label>
+            <Input
+              name="number"
+              placeholder={t`Card number`}
+              maxW="95%"
+              w="40ch"
+              mb="1rem"
+            />
+            <label htmlFor="name">Name on card</label>
+            <Input
+              name="name"
+              placeholder={t`Name on card`}
+              maxW="95%"
+              w="40ch"
+              mb="1rem"
+            />
+            <label htmlFor="cvv">CVV</label>
+            <Input name="cvv" placeholder={t`CVV`} w="10ch" mb="1rem" />
+          </Flex>
+        </form>
+      )}
+    </Flex>
+  )
+
+  const bankPayment = <Flex>BANK</Flex>
+
   return (
     <Flex minH="30rem" width="100%" flexDirection="column">
       <Heading mx="auto" my="2rem">
         <Trans>Payment Page</Trans>
       </Heading>
       <Flex flexDirection="column">
-        <Box>
-          <Text px="2rem">
-            <Trans>Pay with existing information</Trans>
-          </Text>
-          <Box px="2rem">
-            <Menu>
-              <MenuButton
-                p="0.3rem"
-                transition="all 0.2s"
-                borderRadius="md"
-                border="1px solid black"
-                bg="themeCyan"
-                _hover={{ bg: 'themeYellow' }}
-              >
-                <Trans>Card Select</Trans>
-              </MenuButton>
-              <MenuList>
-                <MenuItem _hover={{ bg: 'themeYellow' }}>MyCard</MenuItem>
-              </MenuList>
-            </Menu>
-          </Box>
-          <Confirm />
-        </Box>
-        <Divider py="1rem" />
-        <Box py="1rem">
-          <Text px="2rem">
-            <Trans>Add Credit/Bank information</Trans>
-          </Text>
-          <PickMethod
-            currentPaymentState={currentPaymentState}
-            setCurrentPaymentState={setCurrentPaymentState}
-          />
-          <PaymentSelect currentPaymentState={currentPaymentState} />
-          <Confirm />
-        </Box>
+        <Text textAlign="center" pl="2rem">
+          Select your payment method
+        </Text>
+        <RadioGroup
+          mx="auto"
+          value={currentPaymentState}
+          onChange={(e) => {
+            setCurrentPaymentState(e)
+          }}
+          pl="2rem"
+          mb="2rem"
+        >
+          <Stack spacing={5} direction="row">
+            <Radio colorScheme="blue" value="card">
+              <Trans>Credit/Debit</Trans>
+            </Radio>
+            <Radio colorScheme="blue" value="bank">
+              <Trans>Bank</Trans>
+            </Radio>
+          </Stack>
+        </RadioGroup>
+
+        <Divider orientation="horizontal" mb="2rem" />
+
+        <Box>{currentPaymentState === 'card' ? cardPayment : bankPayment}</Box>
+
+        <Divider orientation="horizontal" />
+
+        <label htmlFor="paymentAmount">Payment amount</label>
+        <Input name="paymentAmount" placeholder="Payment amount" />
+
+        <Confirm />
       </Flex>
     </Flex>
   )
