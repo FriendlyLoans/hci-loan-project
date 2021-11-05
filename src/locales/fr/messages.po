@@ -345,12 +345,12 @@ msgid "Next payment of $267 due 30/11/2021"
 msgstr "Prochain paiement de 267 $ dû le 30/11/2021"
 
 #: src/HomePage.js:62
-msgid "No Bank Information, use your Debit / Credit Card"
-msgstr "Pas d'informations bancaires, utilisez votre carte de débit/crédit."
+msgid "No Bank Information? Use your Debit / Credit Card."
+msgstr "Pas d'informations bancaires? Utilisez votre carte de débit/crédit."
 
 #: src/HomePage.js:70
-msgid "No Debit / Credit Card, use your Bank Information"
-msgstr "Pas de carte de débit / crédit, utilisez vos informations bancaires"
+msgid "No Debit / Credit Card? Use your Bank Information."
+msgstr "Pas de carte de débit ou de crédit? Utilisez vos informations bancaires."
 
 #: src/RegisterAccountModalContent.js:129
 msgid "Password"
