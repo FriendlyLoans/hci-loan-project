@@ -25,11 +25,7 @@ const App = () => {
       <ChakraProvider theme={theme}>
         <I18nProvider i18n={i18n}>
           <Router basename="/">
-            <Flex
-              bg="gray.100"
-              paddingLeft="calc(100vw - 100%)"
-              fontSize={{ base: '3xl', sm: '2xl', md: '2xl' }}
-            >
+            <Flex bg="gray.100" paddingLeft="calc(100vw - 100%)">
               <Flex
                 maxW={{
                   sm: '100%',

@@ -5,15 +5,15 @@ import graduationImage from './images/Graduation.svg'
 
 export const HomePage = () => {
   return (
-    <Flex minH="30rem" width="100%" flexDirection="column" grow={1}>
+    <Flex width="100%" flexDirection="column" grow={1}>
       <Heading mx="auto" my="2rem">
         <Trans>Welcome to Friendly Loans!</Trans>
       </Heading>
-      <Text mx="auto" my="2rem" display="block" fontSize="25px">
+      <Text mx="auto" my="2rem" display="block">
         <Trans>Why Friendly Loans?</Trans>
       </Text>
 
-      <Text mx="auto" fontSize="1rem">
+      <Text mx="auto">
         <Trans>
           Friendly Loans is a service for all students to access their student
           loans in Nova Scotia.
@@ -30,32 +30,36 @@ export const HomePage = () => {
       />
 
       <Box padding="2rem" bg="#EDF6F9">
-        <Text textAlign="center" fontSize="2rem" my="1.5rem">
-          <Trans>KEEP IT SIMPLE. ALL IN ONE PLACE.</Trans>
+        <Text textAlign="center">
+          <Trans>Friendly Loans gives you full access to:</Trans>
         </Text>
 
         <Text textAlign="center">
-          <Trans>
-          Friendly Loans gives you full access to:</Trans>
+          <Trans>Pay your Loans</Trans>
         </Text>
 
         <Text textAlign="center">
-          <Trans>
-          Pay your Loans
-          </Trans>
-        </Text>
-
-        <Text textAlign="center">
-          <Trans>
-          View your loan statements and payment history
-          </Trans>
+          <Trans>View your loan statements and payment history</Trans>
         </Text>
       </Box>
 
-      <Box width="60%" bg="#e9f5db" fontSize="1.2rem" py="2rem" my="2rem" borderRadius="10px 100px / 120px;" mx="auto">
-        <Text textAlign="center" my="2rem"><Trans>Flexibility at its best!</Trans></Text>
-        <Text textAlign="center" my="2rem" fontWeight="light"><Trans>No Bank Information, use your Debit / Credit Card</Trans></Text>
-        <Text textAlign="center" my="2rem" fontWeight="light"><Trans>No Debit / Credit Card, use your Bank Information</Trans></Text>
+      <Box
+        width="60%"
+        bg="#e9f5db"
+        py="2rem"
+        my="2rem"
+        borderRadius="10px 100px / 120px;"
+        mx="auto"
+      >
+        <Text textAlign="center" my="2rem">
+          <Trans>Flexibility at its best!</Trans>
+        </Text>
+        <Text textAlign="center" my="2rem" fontWeight="light">
+          <Trans>No Bank Information, use your Debit / Credit Card</Trans>
+        </Text>
+        <Text textAlign="center" my="2rem" fontWeight="light">
+          <Trans>No Debit / Credit Card, use your Bank Information</Trans>
+        </Text>
       </Box>
     </Flex>
   )
