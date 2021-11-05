@@ -53,6 +53,10 @@ msgstr "<0>Please log in below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>Passw
 #~ msgid "<0>Question 1</0>"
 #~ msgstr "<0>Question 1</0>"
 
+#: src/HomePage.js:62
+msgid "AND NO... You will not be redirected to another website."
+msgstr "AND NO... You will not be redirected to another website."
+
 #: src/Navigation.js:37
 msgid "Account"
 msgstr "Account"
@@ -107,8 +111,8 @@ msgid "Bank"
 msgstr "Bank"
 
 #: src/HomePage.js:24
-msgid "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
-msgstr "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
+#~ msgid "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
+#~ msgstr "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
 
 #: src/PaymentPage.js:50
 msgid "Card Select"
@@ -177,6 +181,10 @@ msgstr "First name"
 msgid "First name is required."
 msgstr "First name is required."
 
+#: src/HomePage.js:56
+msgid "Flexibility at its best!"
+msgstr "Flexibility at its best!"
+
 #: src/FaqPage.js:19
 msgid "Frequently Asked Questions"
 msgstr "Frequently Asked Questions"
@@ -193,6 +201,10 @@ msgstr "Friendly Loans"
 #: src/FaqPage.js:118
 msgid "Friendly Loans Identity Theft Report Center"
 msgstr "Friendly Loans Identity Theft Report Center"
+
+#: src/HomePage.js:38
+msgid "Friendly Loans gives you full access to:"
+msgstr "Friendly Loans gives you full access to:"
 
 #: src/HomePage.js:17
 msgid "Friendly Loans is a service for all students to access their student loans in Nova Scotia."
@@ -238,6 +250,10 @@ msgstr "Institution number"
 msgid "It is your responsibility to keep account information secure. Never share this information with anyone."
 msgstr "It is your responsibility to keep account information secure. Never share this information with anyone."
 
+#: src/HomePage.js:34
+msgid "KEEP IT SIMPLE. ALL IN ONE PLACE."
+msgstr "KEEP IT SIMPLE. ALL IN ONE PLACE."
+
 #: src/RegisterAccountModalContent.js:108
 msgid "Last name"
 msgstr "Last name"
@@ -279,6 +295,14 @@ msgstr "Next payment of $267 due 30/11/2021"
 #~ msgid "Next payment of (amount) due (date)"
 #~ msgstr "Next payment of (amount) due (date)"
 
+#: src/HomePage.js:57
+msgid "No Bank Information, use your Debit / Credit Card"
+msgstr "No Bank Information, use your Debit / Credit Card"
+
+#: src/HomePage.js:58
+msgid "No Debit / Credit Card, use your Bank Information"
+msgstr "No Debit / Credit Card, use your Bank Information"
+
 #: src/RegisterAccountModalContent.js:130
 msgid "Password"
 msgstr "Password"
@@ -311,6 +335,10 @@ msgstr "Pay Here"
 #: src/PaymentPage.js:38
 msgid "Pay with existing information"
 msgstr "Pay with existing information"
+
+#: src/HomePage.js:43
+msgid "Pay your Loans"
+msgstr "Pay your Loans"
 
 #: src/AccHistory.js:45
 #: src/AccHistory.js:53
@@ -352,7 +380,7 @@ msgstr "Should I be using Friendly Loans?"
 msgid "Sign In"
 msgstr "Sign In"
 
-#: src/HomePage.js:37
+#: src/HomePage.js:25
 msgid "Student receiving their diploma"
 msgstr "Student receiving their diploma"
 
@@ -403,6 +431,10 @@ msgstr "Unfortunately we do not offer services in person."
 #: src/FaqPage.js:70
 msgid "Unfortunately, you will have to contact our customer support centre. Reach out to Customer Support Centre at:"
 msgstr "Unfortunately, you will have to contact our customer support centre. Reach out to Customer Support Centre at:"
+
+#: src/HomePage.js:49
+msgid "View your loan statements and payment history"
+msgstr "View your loan statements and payment history"
 
 #: src/HomePage.js:10
 msgid "Welcome to Friendly Loans!"

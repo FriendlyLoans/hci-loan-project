@@ -30,32 +30,33 @@ export const HomePage = () => {
       />
 
       <Box padding="2rem" bg="#EDF6F9">
-        <Text textAlign="center" fontSize="2rem">
-          KEEP IT SIMPLE. ALL IN ONE PLACE.
+        <Text textAlign="center" fontSize="2rem" my="1.5rem">
+          <Trans>KEEP IT SIMPLE. ALL IN ONE PLACE.</Trans>
         </Text>
 
         <Text textAlign="center">
-          Friendly Loans gives you full access to:
+          <Trans>
+          Friendly Loans gives you full access to:</Trans>
         </Text>
 
         <Text textAlign="center">
+          <Trans>
           Pay your Loans
+          </Trans>
         </Text>
 
         <Text textAlign="center">
+          <Trans>
           View your loan statements and payment history
+          </Trans>
         </Text>
       </Box>
 
       <Box width="60%" bg="#e9f5db" fontSize="1.2rem" py="2rem" my="2rem" borderRadius="10px 100px / 120px;" mx="auto">
-        <Text textAlign="center" my="2rem">Flexibility at its best!</Text>
-        <Text textAlign="center" my="2rem" fontWeight="light">No Bank Information, use your Debit / Credit Card</Text>
-        <Text textAlign="center" my="2rem" fontWeight="light">No Debit / Credit Card, use your Bank Information</Text>
+        <Text textAlign="center" my="2rem"><Trans>Flexibility at its best!</Trans></Text>
+        <Text textAlign="center" my="2rem" fontWeight="light"><Trans>No Bank Information, use your Debit / Credit Card</Trans></Text>
+        <Text textAlign="center" my="2rem" fontWeight="light"><Trans>No Debit / Credit Card, use your Bank Information</Trans></Text>
       </Box>
-
-      <Text textAlign="center" fontSize="1.5rem" my="2rem">
-        AND NO... You will not be redirected to another website.
-      </Text>
     </Flex>
   )
 }
