@@ -1,14 +1,13 @@
 import React from 'react'
 
 import { ChakraProvider, Flex } from '@chakra-ui/react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import { AccountPage } from './AccountPage'
 import { FaqPage } from './FaqPage'
 import { HomePage } from './HomePage'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { theme } from './theme'
-import { useUser } from './UserContext'
 import { PaymentPage } from './PaymentPage'
 
 import { i18n } from '@lingui/core'
@@ -25,7 +24,7 @@ const App = () => {
     <UserProvider>
       <ChakraProvider theme={theme}>
         <I18nProvider i18n={i18n}>
-          <Router>
+          <Router basename="/">
             <Flex bg="gray.100" paddingLeft="calc(100vw - 100%)">
               <Flex
                 maxW={{
