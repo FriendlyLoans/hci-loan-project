@@ -17,11 +17,11 @@ export const Footer = () => {
     >
       <Text
         as="a"
-        href="tel: 1902-749-6454"
+        href="tel: 1-800-555-2368"
         m="auto"
         mb={{ base: '0.5rem', lg: 'auto' }}
       >
-        (+1) 902-749-6454
+        1-800-555-2368
       </Text>
       <Text m="auto" w="33.33%" textAlign="center" order={{ base: 2, lg: 0 }}>
         Copyright &copy;{' '}
