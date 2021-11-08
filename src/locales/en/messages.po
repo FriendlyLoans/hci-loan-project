@@ -38,8 +38,12 @@ msgstr "(please use a secure email address you use frequently)"
 #~ msgstr "<0/>"
 
 #: src/RegisterAccountModalContent.js:79
-msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
-msgstr "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
+#~ msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
+#~ msgstr "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:</14><15/><16>{3}</16></13><17><18>Password:</18><19/><20>{4}</20></17>"
+
+#: src/RegisterAccountModalContent.js:80
+msgid "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:<15>Located at the top right corner of the loan statement you received in the mail.</15></14><16/><17>{3}</17></13><18><19>Password:</19><20/><21>{4}</21></18>"
+msgstr "<0>Enter your information below.</0><1><2>Email:</2><3/><4>{0}</4></1><5><6>First name:</6><7/><8>{1}</8></5><9><10>Last name:</10><11/><12>{2}</12></9><13><14>Account number:<15>Located at the top right corner of the loan statement you received in the mail.</15></14><16/><17>{3}</17></13><18><19>Password:</19><20/><21>{4}</21></18>"
 
 #: src/Header.js:30
 msgid "<0>Hi, </0> {0} {1}"
@@ -84,15 +88,15 @@ msgstr "Account Number"
 #: src/Payment.js:21
 #: src/PaymentPage.js:181
 #: src/PaymentPage.js:185
-#: src/RegisterAccountModalContent.js:117
+#: src/RegisterAccountModalContent.js:119
 msgid "Account number"
 msgstr "Account number"
 
-#: src/RegisterAccountModalContent.js:36
+#: src/RegisterAccountModalContent.js:37
 msgid "Account number is required."
 msgstr "Account number is required."
 
-#: src/RegisterAccountModalContent.js:38
+#: src/RegisterAccountModalContent.js:39
 msgid "Account numbers consist of exactly 12 numbers."
 msgstr "Account numbers consist of exactly 12 numbers."
 
@@ -108,7 +112,7 @@ msgstr "Account numbers consist of exactly 12 numbers."
 msgid "All rights reserved for Friendly Loans 2021."
 msgstr "All rights reserved for Friendly Loans 2021."
 
-#: src/RegisterAccountModalContent.js:137
+#: src/RegisterAccountModalContent.js:139
 msgid "Already have an account? <0>Click here to log in.</0>"
 msgstr "Already have an account? <0>Click here to log in.</0>"
 
@@ -161,7 +165,7 @@ msgid "Card number"
 msgstr "Card number"
 
 #: src/LogInAccountModalContent.js:110
-#: src/RegisterAccountModalContent.js:157
+#: src/RegisterAccountModalContent.js:159
 msgid "Close"
 msgstr "Close"
 
@@ -207,7 +211,7 @@ msgid "Don't have an account? <0>Click here to register.</0>"
 msgstr "Don't have an account? <0>Click here to register.</0>"
 
 #: src/LogInAccountModalContent.js:72
-#: src/RegisterAccountModalContent.js:87
+#: src/RegisterAccountModalContent.js:88
 msgid "Email"
 msgstr "Email"
 
@@ -216,7 +220,7 @@ msgid "Email Address"
 msgstr "Email Address"
 
 #: src/LogInAccountModalContent.js:29
-#: src/RegisterAccountModalContent.js:30
+#: src/RegisterAccountModalContent.js:31
 msgid "Email is required."
 msgstr "Email is required."
 
@@ -233,11 +237,11 @@ msgstr "FAQ"
 msgid "First and Last Names"
 msgstr "First and Last Names"
 
-#: src/RegisterAccountModalContent.js:97
+#: src/RegisterAccountModalContent.js:98
 msgid "First name"
 msgstr "First name"
 
-#: src/RegisterAccountModalContent.js:32
+#: src/RegisterAccountModalContent.js:33
 msgid "First name is required."
 msgstr "First name is required."
 
@@ -320,11 +324,11 @@ msgstr "It is your responsibility to keep account information secure. Never shar
 #~ msgid "KEEP IT SIMPLE. ALL IN ONE PLACE."
 #~ msgstr "KEEP IT SIMPLE. ALL IN ONE PLACE."
 
-#: src/RegisterAccountModalContent.js:107
+#: src/RegisterAccountModalContent.js:108
 msgid "Last name"
 msgstr "Last name"
 
-#: src/RegisterAccountModalContent.js:33
+#: src/RegisterAccountModalContent.js:34
 msgid "Last name is required."
 msgstr "Last name is required."
 
@@ -341,7 +345,7 @@ msgid "Must be logged in."
 msgstr "Must be logged in."
 
 #: src/LogInAccountModalContent.js:30
-#: src/RegisterAccountModalContent.js:31
+#: src/RegisterAccountModalContent.js:32
 msgid "Must enter a valid email."
 msgstr "Must enter a valid email."
 
@@ -384,12 +388,12 @@ msgstr "No Bank Information? Use your Debit / Credit Card."
 msgid "No Debit / Credit Card? Use your Bank Information."
 msgstr "No Debit / Credit Card? Use your Bank Information."
 
-#: src/RegisterAccountModalContent.js:129
+#: src/RegisterAccountModalContent.js:131
 msgid "Password"
 msgstr "Password"
 
 #: src/LogInAccountModalContent.js:33
-#: src/RegisterAccountModalContent.js:43
+#: src/RegisterAccountModalContent.js:44
 msgid "Password is required."
 msgstr "Password is required."
 
@@ -397,11 +401,11 @@ msgstr "Password is required."
 msgid "Password must be at least 8 characters long."
 msgstr "Password must be at least 8 characters long."
 
-#: src/RegisterAccountModalContent.js:45
+#: src/RegisterAccountModalContent.js:46
 msgid "Passwords can be at most 24 characters long."
 msgstr "Passwords can be at most 24 characters long."
 
-#: src/RegisterAccountModalContent.js:44
+#: src/RegisterAccountModalContent.js:45
 msgid "Passwords must be at least 8 characters long."
 msgstr "Passwords must be at least 8 characters long."
 
@@ -468,7 +472,7 @@ msgstr "Payment sent."
 msgid "RBC *9999"
 msgstr "RBC *9999"
 
-#: src/RegisterAccountModalContent.js:74
+#: src/RegisterAccountModalContent.js:75
 msgid "Register"
 msgstr "Register"
 
@@ -490,7 +494,7 @@ msgstr "Should I be using Friendly Loans?"
 
 #: src/LogInAccountModalContent.js:59
 #: src/LogInAccountModalContent.js:101
-#: src/RegisterAccountModalContent.js:148
+#: src/RegisterAccountModalContent.js:150
 msgid "Sign In"
 msgstr "Sign In"
 
@@ -536,7 +540,7 @@ msgstr "Transaction Type"
 msgid "Transit number"
 msgstr "Transit number"
 
-#: src/RegisterAccountModalContent.js:47
+#: src/RegisterAccountModalContent.js:48
 msgid "Unacceptable characters used."
 msgstr "Unacceptable characters used."
 

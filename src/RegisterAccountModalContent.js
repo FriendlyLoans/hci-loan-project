@@ -112,7 +112,7 @@ export const RegisterAccountModalContent = ({
             <FormControl isInvalid={errors.accountNumber} mt="1rem">
               <FormLabel htmlFor="accountNumber">
                 <Trans>Account number:</Trans>
-                <FormHelperText>Located at the top right corner of the loan statement you received in the mail.</FormHelperText>
+                <FormHelperText><Trans>Located at the top right corner of the loan statement you received in the mail.</Trans></FormHelperText>
               </FormLabel>
               <Input
                 {...register('accountNumber', { required: true })}
