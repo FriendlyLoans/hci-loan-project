@@ -81,6 +81,7 @@ export const HomePage = () => {
           <Link
             href="https://docs.google.com/forms/d/e/1FAIpQLSfsBV4umcybq8UcPm8zgrYpW9Z7QZWcOJ81hDO6jG3qDuOeug/viewform?usp=sf_link"
             isExternal
+            fontWeight="bold"
           >
             Click here. <ExternalLinkIcon mx="2px" />
           </Link>
