@@ -164,7 +164,7 @@ export const PaymentPage = () => {
             </FormControl>
 
             <FormControl id="institution">
-              <FormLabel htmlFor="name">
+              <FormLabel htmlFor="institution">
                 <Trans>Institution number</Trans>
               </FormLabel>
               <Input
@@ -177,7 +177,7 @@ export const PaymentPage = () => {
             </FormControl>
 
             <FormControl id="account">
-              <FormLabel htmlFor="cvv">
+              <FormLabel htmlFor="account">
                 <Trans>Account number</Trans>
               </FormLabel>
               <Input
