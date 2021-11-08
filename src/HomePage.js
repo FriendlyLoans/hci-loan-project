@@ -1,11 +1,16 @@
-import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react'
+import { Box, Flex, Heading, Image, Text, Link } from '@chakra-ui/react'
 import React from 'react'
 import { t, Trans } from '@lingui/macro'
 import graduationImage from './images/Graduation.svg'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 export const HomePage = () => {
   return (
-    <Flex width="100%" flexWrap="wrap" flexDirection={{ base: 'column' }} grow={1}
+    <Flex
+      width="100%"
+      flexWrap="wrap"
+      flexDirection={{ base: 'column' }}
+      grow={1}
     >
       <Heading mx="auto" my="2rem">
         <Trans>Welcome to Friendly Loans!</Trans>
@@ -13,14 +18,12 @@ export const HomePage = () => {
       <Text mx="auto" my="2rem" fontSize="2rem" display="block">
         <Trans>Why Friendly Loans?</Trans>
       </Text>
-
       <Text textAlign="center" fontSize="1.25rem">
         <Trans>
           Friendly Loans is a service for all students to access their student
           loans in Nova Scotia.
         </Trans>
       </Text>
-
       <Image
         src={graduationImage}
         alt={t`Student receiving their diploma`}
@@ -28,7 +31,6 @@ export const HomePage = () => {
         maxW={{ base: '100%', sm: '90%', md: '80%', lg: '60%', xl: '50%' }}
         m="auto"
       />
-
       <Box padding="2rem" bg="#EDF6F9">
         <Text textAlign="center" my="2rem" fontSize="2rem" fontWeight="bold">
           <Trans>Friendly Loans gives you full access to:</Trans>
@@ -42,7 +44,6 @@ export const HomePage = () => {
           <Trans>View your loan statements and payment history</Trans>
         </Text>
       </Box>
-
       <Box
         width="60%"
         bg="#e9f5db"
@@ -71,9 +72,19 @@ export const HomePage = () => {
           <Trans>No Debit / Credit Card? Use your Bank Information.</Trans>
         </Text>
       </Box>
-
       <Text fontSize="1.5rem" textAlign="center" my="2rem">
         <Trans>Any questions? Refer to our FAQ page or contact us.</Trans>
+      </Text>
+      <Text fontSize="1.5rem" textAlign="center" my="2rem">
+        <Trans>
+          Found a bug or want to give feedback on the website?{' '}
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfsBV4umcybq8UcPm8zgrYpW9Z7QZWcOJ81hDO6jG3qDuOeug/viewform?usp=sf_link"
+            isExternal
+          >
+            Click here. <ExternalLinkIcon mx="2px" />
+          </Link>
+        </Trans>
       </Text>
     </Flex>
   )

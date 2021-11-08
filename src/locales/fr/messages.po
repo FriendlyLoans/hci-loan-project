@@ -108,7 +108,7 @@ msgstr "Montant dû"
 msgid "Amount Paid"
 msgstr "Montant payé"
 
-#: src/HomePage.js:75
+#: src/HomePage.js:76
 msgid "Any questions? Refer to our FAQ page or contact us."
 msgstr "Vous avez des questions? Consultez notre page FAQ ou contactez-nous."
 
@@ -225,9 +225,13 @@ msgstr "Prénom"
 msgid "First name is required."
 msgstr "Le prénom est obligatoire."
 
-#: src/HomePage.js:54
+#: src/HomePage.js:56
 msgid "Flexibility at its best!"
 msgstr "La flexibilité à son meilleur!"
+
+#: src/HomePage.js:79
+msgid "Found a bug or want to give feedback on the website? <0>Click here. <1/></0>"
+msgstr "Vous avez trouvé un bug ou vous voulez donner votre avis sur le site web ? <0>Cliquez ici. <1/></0>"
 
 #: src/FaqPage.js:19
 msgid "Frequently Asked Questions"
@@ -246,11 +250,11 @@ msgstr "Friendly Loans"
 msgid "Friendly Loans Identity Theft Report Center"
 msgstr "Centre de signalement des usurpations d'identité de Friendly Loans"
 
-#: src/HomePage.js:33
+#: src/HomePage.js:36
 msgid "Friendly Loans gives you full access to:"
 msgstr "Friendly Loans vous donne un accès complet à:"
 
-#: src/HomePage.js:17
+#: src/HomePage.js:22
 msgid "Friendly Loans is a service for all students to access their student loans in Nova Scotia."
 msgstr "Friendly Loans est un service permettant à tous les étudiants d'accéder à leur étudiants en Nouvelle-Écosse."
 
@@ -344,11 +348,11 @@ msgstr "Nouveau"
 msgid "Next payment of $267 due 30/11/2021"
 msgstr "Prochain paiement de 267 $ dû le 30/11/2021"
 
-#: src/HomePage.js:62
+#: src/HomePage.js:64
 msgid "No Bank Information? Use your Debit / Credit Card."
 msgstr "Pas d'informations bancaires? Utilisez votre carte de débit/crédit."
 
-#: src/HomePage.js:70
+#: src/HomePage.js:72
 msgid "No Debit / Credit Card? Use your Bank Information."
 msgstr "Pas de carte de débit ou de crédit? Utilisez vos informations bancaires."
 
@@ -393,7 +397,7 @@ msgstr "Payez avec votre compte bancaire existant ou ajoutez-en un nouveau"
 msgid "Pay with existing information or add new"
 msgstr "Payer avec les informations existantes"
 
-#: src/HomePage.js:37
+#: src/HomePage.js:40
 msgid "Pay your Loans"
 msgstr "Payez vos prêts"
 
@@ -462,7 +466,7 @@ msgstr "Devrais-je utiliser les Friendly Loans ?"
 msgid "Sign In"
 msgstr "S'inscrire"
 
-#: src/HomePage.js:25
+#: src/HomePage.js:29
 msgid "Student receiving their diploma"
 msgstr "Élève recevant son diplôme"
 
@@ -496,11 +500,11 @@ msgstr "Malheureusement, nous ne proposons pas de services en personne."
 msgid "Unfortunately, you will have to contact our customer support centre. Reach out to Customer Support Centre at:"
 msgstr "Malheureusement, vous devrez contacter notre centre de soutien à la clientèle. Contactez le centre de soutien à la clientèle au:"
 
-#: src/HomePage.js:41
+#: src/HomePage.js:44
 msgid "View your loan statements and payment history"
 msgstr "Consultez vos relevés de prêts et l'historique de vos paiements"
 
-#: src/HomePage.js:10
+#: src/HomePage.js:16
 msgid "Welcome to Friendly Loans!"
 msgstr "Bienvenue à Friendly Loans !"
 
@@ -508,7 +512,7 @@ msgstr "Bienvenue à Friendly Loans !"
 msgid "What information do I need to create an account?"
 msgstr "De quelles informations ai-je besoin pour créer un compte?"
 
-#: src/HomePage.js:13
+#: src/HomePage.js:19
 msgid "Why Friendly Loans?"
 msgstr "Pourquoi Friendly Loans?"
 
