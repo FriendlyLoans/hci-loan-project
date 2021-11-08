@@ -79,7 +79,7 @@ export const LogInAccountModalContent = ({
               </FormLabel>
               <Input
                 type="password"
-                placeholder={`Password`}
+                placeholder={t`Password`}
                 {...register('password', { required: true })}
               />
               <FormErrorMessage>{errors.password?.message}</FormErrorMessage>

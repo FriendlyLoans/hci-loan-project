@@ -132,7 +132,7 @@ msgstr "la banque"
 #: src/PaymentPage.js:99
 #: src/PaymentPage.js:101
 msgid "CVV"
-msgstr ""
+msgstr "CVV"
 
 #: src/HomePage.js:24
 #~ msgid "Canada Students loans are managed by the <0><1>National Student Loans Service Centre (NSLSC). </1> </0>"
