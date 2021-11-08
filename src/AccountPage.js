@@ -36,7 +36,7 @@ export const AccountPage = () => {
         <StatNumber px="1rem">$14236.60</StatNumber>
         <StatHelpText px="1rem">2017-2020</StatHelpText>
         <Text px="1rem">
-          <Trans>Next payment of $267 due 30/11/2021</Trans>
+          <Trans>Next payment of $267 due 30-11-2021</Trans>
         </Text>
       </Stat>
       {History}
