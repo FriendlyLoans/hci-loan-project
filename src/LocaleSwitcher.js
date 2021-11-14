@@ -10,6 +10,9 @@ const locales = {
   fr: 'Français',
 }
 
+i18n.loadLocaleData('en', { plurals: 'en' })
+i18n.loadLocaleData('fr', { plurals: 'fr' })
+
 const dynamicActivate = async (locale) => {
   const { messages } = await import(`./locales/${locale}/messages`)
   i18n.load(locale, messages)
