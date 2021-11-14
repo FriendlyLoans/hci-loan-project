@@ -15,14 +15,28 @@ import {
   Text,
 } from '@chakra-ui/react'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { t, Trans } from '@lingui/macro'
 import { Confirm } from './PaymentConf'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
 export const PaymentPage = () => {
   const [currentPaymentState, setCurrentPaymentState] = useState('card')
   const [currentCardState, setCurrentCardState] = useState('existing')
   const [currentBankState, setCurrentBankState] = useState('existing')
+
+  useEffect(async () => {
+    await fetch(
+      getActionTrackerLink('Payment Page Visited', { mode: 'no-cors' }),
+      { mode: 'no-cors' },
+    )
+  }, [])
+
+  const currentPaymentMethodString = `${currentPaymentState}-${
+    currentPaymentState === 'card' ? currentCardState : currentBankState
+  } payment`
+
+  console.log(currentPaymentMethodString)
 
   const cardPayment = (
     <Flex w="100%" flexDirection="column">
@@ -32,6 +46,9 @@ export const PaymentPage = () => {
       <RadioGroup
         value={currentCardState}
         onChange={(e) => {
+          fetch(getActionTrackerLink('Credit new/existing switcher'), {
+            mode: 'no-cors',
+          })
           setCurrentCardState(e)
         }}
         pl="2rem"
@@ -114,6 +131,9 @@ export const PaymentPage = () => {
       <RadioGroup
         value={currentBankState}
         onChange={(e) => {
+          fetch(getActionTrackerLink('Bank new/existing switcher'), {
+            mode: 'no-cors',
+          })
           setCurrentBankState(e)
         }}
         pl="2rem"
@@ -206,6 +226,9 @@ export const PaymentPage = () => {
           mx="auto"
           value={currentPaymentState}
           onChange={(e) => {
+            fetch(getActionTrackerLink('Credit/Debit switcher'), {
+              mode: 'no-cors',
+            })
             setCurrentPaymentState(e)
           }}
           pl="2rem"
@@ -247,7 +270,7 @@ export const PaymentPage = () => {
           </form>
         </Flex>
 
-        <Confirm />
+        <Confirm paymentMethod={currentPaymentMethodString} />
       </Flex>
     </Flex>
   )

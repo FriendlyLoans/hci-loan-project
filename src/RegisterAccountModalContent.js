@@ -18,6 +18,7 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import { useUser } from './UserContext'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
 export const RegisterAccountModalContent = ({
   switchToLogInModal,
@@ -58,6 +59,8 @@ export const RegisterAccountModalContent = ({
   } = useForm({ resolver: yupResolver(schema) })
 
   const registerSubmit = ({ firstName, lastName }) => {
+    fetch(getActionTrackerLink('Register - Sign In'), { mode: 'no-cors' })
+
     login({
       email: 'testemail@email.com',
       firstName: firstName,
@@ -112,7 +115,12 @@ export const RegisterAccountModalContent = ({
             <FormControl isInvalid={errors.accountNumber} mt="1rem">
               <FormLabel htmlFor="accountNumber">
                 <Trans>Account number:</Trans>
-                <FormHelperText><Trans>Located at the top right corner of the loan statement you received in the mail.</Trans></FormHelperText>
+                <FormHelperText>
+                  <Trans>
+                    Located at the top right corner of the loan statement you
+                    received in the mail.
+                  </Trans>
+                </FormHelperText>
               </FormLabel>
               <Input
                 {...register('accountNumber', { required: true })}
@@ -138,7 +146,15 @@ export const RegisterAccountModalContent = ({
           <Text mt="1rem">
             <Trans>
               Already have an account?{' '}
-              <Link onClick={switchToLogInModal} color="teal">
+              <Link
+                onClick={() => {
+                  fetch(getActionTrackerLink('Click here to log in'), {
+                    mode: 'no-cors',
+                  })
+                  switchToLogInModal()
+                }}
+                color="teal"
+              >
                 Click here to log in.
               </Link>
             </Trans>

@@ -17,6 +17,7 @@ import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import { useUser } from './UserContext'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
 export const LogInAccountModalContent = ({
   onClose,
@@ -42,6 +43,8 @@ export const LogInAccountModalContent = ({
   } = useForm({ resolver: yupResolver(schema) })
 
   const loginSubmit = (data) => {
+    fetch(getActionTrackerLink('Login - Sign In'), { mode: 'no-cors' })
+
     login({
       email: 'testemail@email.com',
       firstName: 'Ashley',
@@ -89,7 +92,15 @@ export const LogInAccountModalContent = ({
           <Text mt="1rem">
             <Trans>
               Don't have an account?{' '}
-              <Link onClick={switchToRegisterModal} color="teal">
+              <Link
+                onClick={() => {
+                  fetch(getActionTrackerLink('Click here to register'), {
+                    mode: 'no-cors',
+                  })
+                  switchToRegisterModal()
+                }}
+                color="teal"
+              >
                 Click here to register.
               </Link>
             </Trans>

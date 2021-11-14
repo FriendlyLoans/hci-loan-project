@@ -3,6 +3,7 @@ import { Link as RouteLink } from 'react-router-dom'
 import React from 'react'
 import { Trans } from '@lingui/macro'
 import { useUser } from './UserContext'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
 export const Navigation = () => {
   const { isLoggedIn } = useUser()
@@ -18,6 +19,9 @@ export const Navigation = () => {
         to="/"
         borderBottomRadius="0"
         bg="themeCyan"
+        onClick={() => {
+          fetch(getActionTrackerLink('Home button'), { mode: 'no-cors' })
+        }}
       >
         <Trans>Home</Trans>
       </Button>
@@ -33,6 +37,9 @@ export const Navigation = () => {
           to="/account"
           borderBottomRadius="0"
           bg="themeCyan"
+          onClick={() => {
+            fetch(getActionTrackerLink('Account'), { mode: 'no-cors' })
+          }}
         >
           <Trans>Account</Trans>
         </Button>
@@ -47,6 +54,9 @@ export const Navigation = () => {
         to="/faq"
         borderBottomRadius="0"
         bg="themeCyan"
+        onClick={() => {
+          fetch(getActionTrackerLink('FAQ'), { mode: 'no-cors' })
+        }}
       >
         <Trans>FAQ</Trans>
       </Button>

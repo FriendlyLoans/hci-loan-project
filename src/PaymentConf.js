@@ -1,8 +1,9 @@
 import { Button, useToast } from '@chakra-ui/react'
 import React from 'react'
 import { t, Trans } from '@lingui/macro'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
-export function Confirm() {
+export function Confirm({ paymentMethod }) {
   const toast = useToast()
   return (
     <Button
@@ -11,7 +12,8 @@ export function Confirm() {
       bg="themeCyan"
       border="1px solid black"
       _hover={{ bg: 'themeYellow' }}
-      onClick={() =>
+      onClick={() => {
+        fetch(getActionTrackerLink(paymentMethod), { mode: 'no-cors' })
         toast({
           title: t`Payment sent.`,
           description: t`Your payment has been sent`,
@@ -20,7 +22,7 @@ export function Confirm() {
           position: 'top-left',
           isClosable: true,
         })
-      }
+      }}
     >
       <Trans>Confirm</Trans>
     </Button>

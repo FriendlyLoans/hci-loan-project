@@ -9,10 +9,15 @@ import {
   Heading,
   Text,
 } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Trans } from '@lingui/macro'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
 export const FaqPage = () => {
+  useEffect(async () => {
+    await fetch(getActionTrackerLink('FAQ Page Visited'), { mode: 'no-cors' })
+  }, [])
+
   return (
     <Flex minH="30rem" width="100%" flexDirection="column">
       <Heading mx="auto" my="2rem" height="5rem">
@@ -27,6 +32,9 @@ export const FaqPage = () => {
                 _hover={{ bg: '#E0FBFC' }}
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
+                onClick={() => {
+                  fetch(getActionTrackerLink('FAQ q1'), { mode: 'no-cors' })
+                }}
               >
                 <Box
                   flex="1"
@@ -92,6 +100,9 @@ export const FaqPage = () => {
                 _hover={{ bg: '#E0FBFC' }}
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
+                onClick={() => {
+                  fetch(getActionTrackerLink('FAQ q2'), { mode: 'no-cors' })
+                }}
               >
                 <Box
                   flex="1"
@@ -148,6 +159,9 @@ export const FaqPage = () => {
                 _hover={{ bg: '#E0FBFC' }}
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
+                onClick={() => {
+                  fetch(getActionTrackerLink('FAQ q3'), { mode: 'no-cors' })
+                }}
               >
                 <Box
                   flex="1"
@@ -200,6 +214,9 @@ export const FaqPage = () => {
                 _hover={{ bg: '#E0FBFC' }}
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
+                onClick={() => {
+                  fetch(getActionTrackerLink('FAQ q4'), { mode: 'no-cors' })
+                }}
               >
                 <Box
                   flex="1"
@@ -230,6 +247,9 @@ export const FaqPage = () => {
                 _hover={{ bg: '#E0FBFC' }}
                 transition="0.5s"
                 _expanded={{ bg: '#E0FBFC', color: 'black' }}
+                onClick={() => {
+                  fetch(getActionTrackerLink('FAQ q5'), { mode: 'no-cors' })
+                }}
               >
                 <Box
                   flex="1"

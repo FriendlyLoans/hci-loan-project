@@ -1,10 +1,15 @@
 import { Box, Flex, Heading, Image, Text, Link } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { t, Trans } from '@lingui/macro'
 import graduationImage from './images/Graduation.svg'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
 export const HomePage = () => {
+  useEffect(async () => {
+    await fetch(getActionTrackerLink('Home Page Visited'), { mode: 'no-cors' })
+  }, [])
+
   return (
     <Flex
       width="100%"
@@ -82,6 +87,9 @@ export const HomePage = () => {
             href="https://docs.google.com/forms/d/e/1FAIpQLSfsBV4umcybq8UcPm8zgrYpW9Z7QZWcOJ81hDO6jG3qDuOeug/viewform?usp=sf_link"
             isExternal
             fontWeight="bold"
+            onClick={() => {
+              fetch(getActionTrackerLink('Survey button'), { mode: 'no-cors' })
+            }}
           >
             Click here. <ExternalLinkIcon mx="2px" />
           </Link>

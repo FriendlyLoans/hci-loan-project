@@ -10,6 +10,7 @@ import { Trans } from '@lingui/macro'
 import { useUser } from './UserContext'
 import { RegisterAccountModalContent } from './RegisterAccountModalContent'
 import { LogInAccountModalContent } from './LogInAccountModalContent'
+import { getActionTrackerLink } from './getActionTrackerLink'
 
 export const LoginButton = ({ ...props }) => {
   const { isOpen, onOpen, onClose } = useDisclosure()
@@ -27,14 +28,21 @@ export const LoginButton = ({ ...props }) => {
         bg="themeCyan"
         _hover={{ bg: 'themeYellow' }}
         transition="0.25s"
-        onClick={
-          isLoggedIn()
-            ? logout
-            : () => {
-                setCurrentModalState('login')
-                onOpen()
-              }
-        }
+        onClick={() => {
+          if (isLoggedIn()) {
+            fetch(getActionTrackerLink('Logout'), { mode: 'no-cors' })
+
+            logout()
+            return
+          }
+
+          fetch(getActionTrackerLink('Login/Create Account'), {
+            mode: 'no-cors',
+          })
+
+          setCurrentModalState('login')
+          onOpen()
+        }}
       >
         {isLoggedIn() ? (
           <Trans>Log out</Trans>
