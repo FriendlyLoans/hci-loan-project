@@ -77,7 +77,7 @@ export const HomePage = () => {
       </Text>
       <Text fontSize="1.5rem" textAlign="center" my="2rem">
         <Trans>
-          Found a bug or want to give feedback on the website?{' '}
+          Want to give feedback on the website through our user survey?{' '}
           <Link
             href="https://docs.google.com/forms/d/e/1FAIpQLSfsBV4umcybq8UcPm8zgrYpW9Z7QZWcOJ81hDO6jG3qDuOeug/viewform?usp=sf_link"
             isExternal
