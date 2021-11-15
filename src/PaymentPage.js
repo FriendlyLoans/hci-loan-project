@@ -36,8 +36,6 @@ export const PaymentPage = () => {
     currentPaymentState === 'card' ? currentCardState : currentBankState
   } payment`
 
-  console.log(currentPaymentMethodString)
-
   const cardPayment = (
     <Flex w="100%" flexDirection="column">
       <Text px="2rem" mx="auto">
