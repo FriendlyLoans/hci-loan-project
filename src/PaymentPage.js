@@ -82,6 +82,7 @@ export const PaymentPage = () => {
             alignItems="left"
             w="min-content"
             mx="auto"
+            mb="2rem"
           >
             <FormControl id="number">
               <FormLabel htmlFor="number">
@@ -167,6 +168,7 @@ export const PaymentPage = () => {
             alignItems="left"
             w="min-content"
             mx="auto"
+            mb="2rem"
           >
             <FormControl id="transit">
               <FormLabel htmlFor="transit">
