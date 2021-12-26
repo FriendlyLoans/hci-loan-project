@@ -163,7 +163,7 @@ export const RegisterAccountModalContent = ({
 
         <ModalFooter>
           <Button ml="auto" colorScheme="teal" type="submit">
-            <Trans>Sign In</Trans>
+            <Trans>Sign Up</Trans>
           </Button>
           <Button
             colorScheme="teal"
